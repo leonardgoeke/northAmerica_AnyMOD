@@ -1,0 +1,3 @@
+region_1,region_2,carrier_1,technology_1,technology_4,timestep_1,parameter,value
+canada,canada_,,res,resHydroLarge,all,capaConvUp,300
+usa,washington,,res,resHydroLarge,all,capaConvUp,70

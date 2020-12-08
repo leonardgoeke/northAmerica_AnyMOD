@@ -1,0 +1,3 @@
+region_1,region_2,timestep_1,technology_1,parameter,value,comments
+usa,washington,2030,d,emissionUp,400,"sets an upper limit on emissions in million tons from technologies d (=non-ee power generation incl. CHP) for 2030 and washington; if region_2 is left empty value, would apply for entire us; if technology_1 is left empty, value would apply across all technologies and so on"
+,,2030,,emissionPrc,20,"specifies an emission price in € or $ per ton; applies for all region in 2030, because respective columns are kept empty"

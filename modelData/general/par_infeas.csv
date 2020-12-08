@@ -1,0 +1,8 @@
+carrier_1,parameter,value
+power,costLss,2000
+mobilityFreight,costLss,2000
+mobilityPassenger,costLss,2000
+heatHigh,costLss,2000
+heatLow,costLss,2000
+mobilityFreight,costCrt,2000
+mobilityPassenger,costCrt,2000

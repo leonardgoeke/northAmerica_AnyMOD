@@ -1,0 +1,6 @@
+region_1,region_2,timestep_1,carrier_1,technology_1,technology_3,parameter,value,comments
+usa,washington,2030,power,res,,genShareLow,0.95,"sets a lower limit on the share of total generation of carrier_1 generated from technology_1 for region and timestep (i.e. at least 60% of power generation in washington state in 2030 has to be provided from res technologies); if region_2 is left empty value, would apply for entire us"
+usa,washington,2030,heatLow,,hltElec,genShareFix,0.5,fixes the share of electrification in low temperature heating in 2030 in washington state …
+usa,washington,2030,heatHigh,,hhtElec,genShareFix,0.5,fixes the share of electrification in high temperature heating in 2030 in washington state …
+usa,washington,2030,mobilityFreight,,frtRoadElec,genShareFix,0.2,"fixes the share of electrification in freight transport in 2030 in washington state …; can lead to infeasibility, if specified share is higher than the share of freight transport on roads overall => check totalShare column in par_modalSplits"
+usa,washington,2030,mobilityPassenger,,psngRoadElec,genShareUp,0.5,"sets an upper limit of electrification in passenger transport in 2030 in washington state … ; can lead to infeasibility, if specified share is higher than the share of passenger transport on roads overall => check totalShare column in par_modalSplits"

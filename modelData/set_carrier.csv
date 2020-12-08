@@ -1,0 +1,15 @@
+carrier_1,timestep_dispatch,timestep_expansion,region_dispatch,region_expansion,carrier_equality
+biomass,2,1,2,2,yes
+hardcoal,2,1,2,2,yes
+hydrogen,2,1,2,2,yes
+heatHigh,2,1,2,2,yes
+heatLow,2,1,2,2,yes
+gasNatural,2,1,2,2,yes
+nuclear,2,1,2,2,yes
+oil,2,1,2,2,yes
+power,2,1,2,2,yes
+mobilityFreight,1,1,2,2,yes
+mobilityPassenger,2,1,2,2,yes
+lignite,2,1,2,2,yes
+gasBio,2,1,2,2,yes
+gasSynth,2,1,2,2,yes

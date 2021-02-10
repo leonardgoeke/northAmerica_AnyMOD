@@ -1,12 +1,12 @@
-technology_1,technology_4,mode,carrier_1,parameter,value,comment
-chp,,,heatLow,ratioEnerGenFix,0.3,applies ratio of power and heat output for all heating technologies
-x,xFuelCell,onlyPower,power,ratioEnerGenFix,1,
-x,xFuelCell,someHeat,power,ratioEnerGenFix,0.6,
-x,xMethanation,useBiomass,biomass,ratioEnerUseFix,1,
-x,xMethanation,useBiomass,hydrogen,ratioEnerUseFix,0,
-x,xMethanation,useHydrogen,biomass,ratioEnerUseFix,0,
-x,xMethanation,useHydrogen,hydrogen,ratioEnerUseFix,1,
-,,useOil,oil,ratioEnerUseFix,1,applies for all transport technologies with the respective modes
-,,useOil,biomass,ratioEnerUseFix,0,
-,,useBiomass,oil,ratioEnerUseFix,0,
-,,useBiomass,biomass,ratioEnerUseFix,1,
+technology_1,technology_2,technology_4,mode,carrier_1,parameter,value
+d,chp,,,heatLow,ratioEnerGenFix,0.3
+x,,xFuelCell,onlyPower,power,ratioEnerGenFix,1
+x,,xFuelCell,someHeat,power,ratioEnerGenFix,0.6
+x,,xMethanation,useBiomass,biomass,ratioEnerUseFix,1
+x,,xMethanation,useBiomass,hydrogen,ratioEnerUseFix,0
+x,,xMethanation,useHydrogen,biomass,ratioEnerUseFix,0
+x,,xMethanation,useHydrogen,hydrogen,ratioEnerUseFix,1
+,,,useOil,oil,ratioEnerUseFix,1
+,,,useOil,biomass,ratioEnerUseFix,0
+,,,useBiomass,oil,ratioEnerUseFix,0
+,,,useBiomass,biomass,ratioEnerUseFix,1

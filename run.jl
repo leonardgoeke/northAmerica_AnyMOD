@@ -1,5 +1,7 @@
 using AnyMOD, Gurobi
 
+# ! this branch requires specific AnyMOD version to support energy shares defined in 'par_setShare', version is installed using 'add https://github.com/leonardgoeke/AnyMOD.jl#dev_share'
+
 # initialize a model object, first two arguments are the input and output directory
 # (objName specifies a model name, shortExp specifies the distance of years (e.g. 2015, 2020 ...), decomm = :none deactivates endogenous decommissioning) 
 modelObj = anyModel("modelData","results", objName = "naEMF", shortExp = 5, decomm = :none)

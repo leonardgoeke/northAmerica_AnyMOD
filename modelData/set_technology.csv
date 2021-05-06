@@ -46,7 +46,7 @@ p,,,pBiomass,biomass,power,,,,mature
 p,,,pBiomassCcs,biomass,power,,,,mature
 p,,,pGas,gasNatural; gasBio; gasSynth,power,,,,mature
 p,,,pHardcoal,hardcoal,power,,,,mature
-p,,,pLignite,lignite,power,,,,mature
+p,,,pLignite,lignite,power,,,,stock
 p,,,pNuclear,nuclear,power,,,,mature
 p,,,pOil,oil,power,,,,mature
 psngAir,psngAirRe,,psngAirBio,biomass,mobilityPassenger,,,,mature
@@ -60,8 +60,8 @@ psngRoad,psngRoadFossil,,psngRoadIce,oil; biomass,mobilityPassenger,,,useOil; us
 psngRoad,psngRoadFossil,,psngRoadPhev,power; oil; biomass,mobilityPassenger,,,useOil; useBiomass,mature
 res,solar,,resCsp,,power,,,,mature
 res,,,resGeothermal,,power,,,,mature
-res,,,resHydroLarge,,power,,,,mature
-res,,,resHydroSmall,,power,,,,mature
+res,,,resHydroLarge,,power,,,,stock
+res,,,resHydroSmall,,power,,,,stock
 res,,,resOcean,,power,,,,mature
 res,solar,,resPvUtilityAvg,,power,,,,mature
 res,solar,,resPvUtilityInf,,power,,,,mature

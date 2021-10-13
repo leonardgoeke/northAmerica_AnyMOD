@@ -7,7 +7,7 @@ hydrogen,arizona,california,costVarExc,0.9,capaExcResi,100,expExcFix,0
 hydrogen,arizona,colorado,costVarExc,0.83,capaExcResi,100,expExcFix,0
 hydrogen,arizona,nevada,costVarExc,0.83,capaExcResi,100,expExcFix,0
 hydrogen,arizona,newMexico,costVarExc,0.54,capaExcResi,100,expExcFix,0
-hydrogen,arizona,noroeste ,costVarExc,0.44,capaExcResi,100,expExcFix,0
+hydrogen,arizona,noroeste,costVarExc,0.44,capaExcResi,100,expExcFix,0
 hydrogen,arizona,utah,costVarExc,0.72,capaExcResi,100,expExcFix,0
 hydrogen,arkansas,louisiana,costVarExc,0.43,capaExcResi,100,expExcFix,0
 hydrogen,arkansas,mississippi,costVarExc,0.3,capaExcResi,100,expExcFix,0
@@ -17,8 +17,8 @@ hydrogen,arkansas,tennessee,costVarExc,0.46,capaExcResi,100,expExcFix,0
 hydrogen,arkansas,texas,costVarExc,0.63,capaExcResi,100,expExcFix,0
 hydrogen,bajaCalifornia,bajaCaliforniaSur,costVarExc,0.63,capaExcResi,100,expExcFix,0
 hydrogen,bajaCalifornia,california,costVarExc,0.18,capaExcResi,100,expExcFix,0
-hydrogen,bajaCalifornia,noroeste ,costVarExc,0.06,capaExcResi,100,expExcFix,0
-hydrogen,bajaCaliforniaSur,noroeste ,costVarExc,0.19,capaExcResi,100,expExcFix,0
+hydrogen,bajaCalifornia,noroeste,costVarExc,0.06,capaExcResi,100,expExcFix,0
+hydrogen,bajaCaliforniaSur,noroeste,costVarExc,0.19,capaExcResi,100,expExcFix,0
 hydrogen,california,nevada,costVarExc,0.14,capaExcResi,100,expExcFix,0
 hydrogen,california,oregon,costVarExc,0.64,capaExcResi,100,expExcFix,0
 hydrogen,canada_,idaho,costVarExc,0.09,capaExcResi,100,expExcFix,0
@@ -120,8 +120,8 @@ hydrogen,noreste,norte,costVarExc,0.06,capaExcResi,100,expExcFix,0
 hydrogen,noreste,occidental,costVarExc,0.19,capaExcResi,100,expExcFix,0
 hydrogen,noreste,oriental,costVarExc,0.36,capaExcResi,100,expExcFix,0
 hydrogen,noreste,texas,costVarExc,0.32,capaExcResi,100,expExcFix,0
-hydrogen,noroeste ,norte,costVarExc,0.18,capaExcResi,100,expExcFix,0
-hydrogen,noroeste ,occidental,costVarExc,0.22,capaExcResi,100,expExcFix,0
+hydrogen,noroeste,norte,costVarExc,0.18,capaExcResi,100,expExcFix,0
+hydrogen,noroeste,occidental,costVarExc,0.22,capaExcResi,100,expExcFix,0
 hydrogen,norte,occidental,costVarExc,0.25,capaExcResi,100,expExcFix,0
 hydrogen,norte,texas,costVarExc,0.75,capaExcResi,100,expExcFix,0
 hydrogen,northCarolina,southCarolina,costVarExc,0.26,capaExcResi,100,expExcFix,0

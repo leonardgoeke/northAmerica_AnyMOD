@@ -1,4 +1,4 @@
-region_1,region_2,carrier_1,timestep_1,timestep_2,parameter,value
+region_1,region_2,carrier_1,timestep_2,timestep_3,parameter,value
 mexico,bajaCalifornia,power,2015,q1n,dem,1.86
 mexico,bajaCalifornia,power,2020,q1n,dem,2.1
 mexico,bajaCalifornia,power,2025,q1n,dem,2.37
@@ -639,134 +639,134 @@ mexico,norte,power,2035,q4a,dem,2
 mexico,norte,power,2040,q4a,dem,2.26
 mexico,norte,power,2045,q4a,dem,2.54
 mexico,norte,power,2050,q4a,dem,2.87
-mexico,noroeste ,power,2015,q1n,dem,2.71
-mexico,noroeste ,power,2020,q1n,dem,3.05
-mexico,noroeste ,power,2025,q1n,dem,3.44
-mexico,noroeste ,power,2030,q1n,dem,3.88
-mexico,noroeste ,power,2035,q1n,dem,4.38
-mexico,noroeste ,power,2040,q1n,dem,4.93
-mexico,noroeste ,power,2045,q1n,dem,5.56
-mexico,noroeste ,power,2050,q1n,dem,6.27
-mexico,noroeste ,power,2015,q1m,dem,0.79
-mexico,noroeste ,power,2020,q1m,dem,0.89
-mexico,noroeste ,power,2025,q1m,dem,1
-mexico,noroeste ,power,2030,q1m,dem,1.13
-mexico,noroeste ,power,2035,q1m,dem,1.27
-mexico,noroeste ,power,2040,q1m,dem,1.43
-mexico,noroeste ,power,2045,q1m,dem,1.62
-mexico,noroeste ,power,2050,q1m,dem,1.82
-mexico,noroeste ,power,2015,q1p,dem,2.42
-mexico,noroeste ,power,2020,q1p,dem,2.72
-mexico,noroeste ,power,2025,q1p,dem,3.07
-mexico,noroeste ,power,2030,q1p,dem,3.46
-mexico,noroeste ,power,2035,q1p,dem,3.9
-mexico,noroeste ,power,2040,q1p,dem,4.4
-mexico,noroeste ,power,2045,q1p,dem,4.96
-mexico,noroeste ,power,2050,q1p,dem,5.6
-mexico,noroeste ,power,2015,q1a,dem,1.28
-mexico,noroeste ,power,2020,q1a,dem,1.44
-mexico,noroeste ,power,2025,q1a,dem,1.62
-mexico,noroeste ,power,2030,q1a,dem,1.83
-mexico,noroeste ,power,2035,q1a,dem,2.07
-mexico,noroeste ,power,2040,q1a,dem,2.33
-mexico,noroeste ,power,2045,q1a,dem,2.63
-mexico,noroeste ,power,2050,q1a,dem,2.96
-mexico,noroeste ,power,2015,q2n,dem,4.19
-mexico,noroeste ,power,2020,q2n,dem,4.73
-mexico,noroeste ,power,2025,q2n,dem,5.33
-mexico,noroeste ,power,2030,q2n,dem,6.01
-mexico,noroeste ,power,2035,q2n,dem,6.77
-mexico,noroeste ,power,2040,q2n,dem,7.64
-mexico,noroeste ,power,2045,q2n,dem,8.61
-mexico,noroeste ,power,2050,q2n,dem,9.71
-mexico,noroeste ,power,2015,q2m,dem,1.22
-mexico,noroeste ,power,2020,q2m,dem,1.38
-mexico,noroeste ,power,2025,q2m,dem,1.56
-mexico,noroeste ,power,2030,q2m,dem,1.76
-mexico,noroeste ,power,2035,q2m,dem,1.98
-mexico,noroeste ,power,2040,q2m,dem,2.23
-mexico,noroeste ,power,2045,q2m,dem,2.52
-mexico,noroeste ,power,2050,q2m,dem,2.84
-mexico,noroeste ,power,2015,q2p,dem,2.94
-mexico,noroeste ,power,2020,q2p,dem,3.32
-mexico,noroeste ,power,2025,q2p,dem,3.74
-mexico,noroeste ,power,2030,q2p,dem,4.22
-mexico,noroeste ,power,2035,q2p,dem,4.75
-mexico,noroeste ,power,2040,q2p,dem,5.36
-mexico,noroeste ,power,2045,q2p,dem,6.04
-mexico,noroeste ,power,2050,q2p,dem,6.82
-mexico,noroeste ,power,2015,q2a,dem,1.94
-mexico,noroeste ,power,2020,q2a,dem,2.19
-mexico,noroeste ,power,2025,q2a,dem,2.47
-mexico,noroeste ,power,2030,q2a,dem,2.78
-mexico,noroeste ,power,2035,q2a,dem,3.14
-mexico,noroeste ,power,2040,q2a,dem,3.54
-mexico,noroeste ,power,2045,q2a,dem,3.99
-mexico,noroeste ,power,2050,q2a,dem,4.5
-mexico,noroeste ,power,2015,q3n,dem,4.95
-mexico,noroeste ,power,2020,q3n,dem,5.59
-mexico,noroeste ,power,2025,q3n,dem,6.3
-mexico,noroeste ,power,2030,q3n,dem,7.1
-mexico,noroeste ,power,2035,q3n,dem,8.01
-mexico,noroeste ,power,2040,q3n,dem,9.03
-mexico,noroeste ,power,2045,q3n,dem,10.18
-mexico,noroeste ,power,2050,q3n,dem,11.48
-mexico,noroeste ,power,2015,q3m,dem,1.47
-mexico,noroeste ,power,2020,q3m,dem,1.66
-mexico,noroeste ,power,2025,q3m,dem,1.87
-mexico,noroeste ,power,2030,q3m,dem,2.11
-mexico,noroeste ,power,2035,q3m,dem,2.38
-mexico,noroeste ,power,2040,q3m,dem,2.68
-mexico,noroeste ,power,2045,q3m,dem,3.02
-mexico,noroeste ,power,2050,q3m,dem,3.41
-mexico,noroeste ,power,2015,q3p,dem,3.81
-mexico,noroeste ,power,2020,q3p,dem,4.3
-mexico,noroeste ,power,2025,q3p,dem,4.85
-mexico,noroeste ,power,2030,q3p,dem,5.47
-mexico,noroeste ,power,2035,q3p,dem,6.16
-mexico,noroeste ,power,2040,q3p,dem,6.95
-mexico,noroeste ,power,2045,q3p,dem,7.84
-mexico,noroeste ,power,2050,q3p,dem,8.83
-mexico,noroeste ,power,2015,q3a,dem,2.24
-mexico,noroeste ,power,2020,q3a,dem,2.52
-mexico,noroeste ,power,2025,q3a,dem,2.85
-mexico,noroeste ,power,2030,q3a,dem,3.21
-mexico,noroeste ,power,2035,q3a,dem,3.62
-mexico,noroeste ,power,2040,q3a,dem,4.08
-mexico,noroeste ,power,2045,q3a,dem,4.6
-mexico,noroeste ,power,2050,q3a,dem,5.19
-mexico,noroeste ,power,2015,q4n,dem,4.53
-mexico,noroeste ,power,2020,q4n,dem,5.11
-mexico,noroeste ,power,2025,q4n,dem,5.76
-mexico,noroeste ,power,2030,q4n,dem,6.5
-mexico,noroeste ,power,2035,q4n,dem,7.33
-mexico,noroeste ,power,2040,q4n,dem,8.26
-mexico,noroeste ,power,2045,q4n,dem,9.32
-mexico,noroeste ,power,2050,q4n,dem,10.5
-mexico,noroeste ,power,2015,q4m,dem,0.97
-mexico,noroeste ,power,2020,q4m,dem,1.1
-mexico,noroeste ,power,2025,q4m,dem,1.24
-mexico,noroeste ,power,2030,q4m,dem,1.4
-mexico,noroeste ,power,2035,q4m,dem,1.57
-mexico,noroeste ,power,2040,q4m,dem,1.78
-mexico,noroeste ,power,2045,q4m,dem,2
-mexico,noroeste ,power,2050,q4m,dem,2.26
-mexico,noroeste ,power,2015,q4p,dem,2.88
-mexico,noroeste ,power,2020,q4p,dem,3.25
-mexico,noroeste ,power,2025,q4p,dem,3.67
-mexico,noroeste ,power,2030,q4p,dem,4.13
-mexico,noroeste ,power,2035,q4p,dem,4.66
-mexico,noroeste ,power,2040,q4p,dem,5.26
-mexico,noroeste ,power,2045,q4p,dem,5.93
-mexico,noroeste ,power,2050,q4p,dem,6.68
-mexico,noroeste ,power,2015,q4a,dem,1.18
-mexico,noroeste ,power,2020,q4a,dem,1.33
-mexico,noroeste ,power,2025,q4a,dem,1.5
-mexico,noroeste ,power,2030,q4a,dem,1.69
-mexico,noroeste ,power,2035,q4a,dem,1.91
-mexico,noroeste ,power,2040,q4a,dem,2.15
-mexico,noroeste ,power,2045,q4a,dem,2.42
-mexico,noroeste ,power,2050,q4a,dem,2.73
+mexico,noroeste,power,2015,q1n,dem,2.71
+mexico,noroeste,power,2020,q1n,dem,3.05
+mexico,noroeste,power,2025,q1n,dem,3.44
+mexico,noroeste,power,2030,q1n,dem,3.88
+mexico,noroeste,power,2035,q1n,dem,4.38
+mexico,noroeste,power,2040,q1n,dem,4.93
+mexico,noroeste,power,2045,q1n,dem,5.56
+mexico,noroeste,power,2050,q1n,dem,6.27
+mexico,noroeste,power,2015,q1m,dem,0.79
+mexico,noroeste,power,2020,q1m,dem,0.89
+mexico,noroeste,power,2025,q1m,dem,1
+mexico,noroeste,power,2030,q1m,dem,1.13
+mexico,noroeste,power,2035,q1m,dem,1.27
+mexico,noroeste,power,2040,q1m,dem,1.43
+mexico,noroeste,power,2045,q1m,dem,1.62
+mexico,noroeste,power,2050,q1m,dem,1.82
+mexico,noroeste,power,2015,q1p,dem,2.42
+mexico,noroeste,power,2020,q1p,dem,2.72
+mexico,noroeste,power,2025,q1p,dem,3.07
+mexico,noroeste,power,2030,q1p,dem,3.46
+mexico,noroeste,power,2035,q1p,dem,3.9
+mexico,noroeste,power,2040,q1p,dem,4.4
+mexico,noroeste,power,2045,q1p,dem,4.96
+mexico,noroeste,power,2050,q1p,dem,5.6
+mexico,noroeste,power,2015,q1a,dem,1.28
+mexico,noroeste,power,2020,q1a,dem,1.44
+mexico,noroeste,power,2025,q1a,dem,1.62
+mexico,noroeste,power,2030,q1a,dem,1.83
+mexico,noroeste,power,2035,q1a,dem,2.07
+mexico,noroeste,power,2040,q1a,dem,2.33
+mexico,noroeste,power,2045,q1a,dem,2.63
+mexico,noroeste,power,2050,q1a,dem,2.96
+mexico,noroeste,power,2015,q2n,dem,4.19
+mexico,noroeste,power,2020,q2n,dem,4.73
+mexico,noroeste,power,2025,q2n,dem,5.33
+mexico,noroeste,power,2030,q2n,dem,6.01
+mexico,noroeste,power,2035,q2n,dem,6.77
+mexico,noroeste,power,2040,q2n,dem,7.64
+mexico,noroeste,power,2045,q2n,dem,8.61
+mexico,noroeste,power,2050,q2n,dem,9.71
+mexico,noroeste,power,2015,q2m,dem,1.22
+mexico,noroeste,power,2020,q2m,dem,1.38
+mexico,noroeste,power,2025,q2m,dem,1.56
+mexico,noroeste,power,2030,q2m,dem,1.76
+mexico,noroeste,power,2035,q2m,dem,1.98
+mexico,noroeste,power,2040,q2m,dem,2.23
+mexico,noroeste,power,2045,q2m,dem,2.52
+mexico,noroeste,power,2050,q2m,dem,2.84
+mexico,noroeste,power,2015,q2p,dem,2.94
+mexico,noroeste,power,2020,q2p,dem,3.32
+mexico,noroeste,power,2025,q2p,dem,3.74
+mexico,noroeste,power,2030,q2p,dem,4.22
+mexico,noroeste,power,2035,q2p,dem,4.75
+mexico,noroeste,power,2040,q2p,dem,5.36
+mexico,noroeste,power,2045,q2p,dem,6.04
+mexico,noroeste,power,2050,q2p,dem,6.82
+mexico,noroeste,power,2015,q2a,dem,1.94
+mexico,noroeste,power,2020,q2a,dem,2.19
+mexico,noroeste,power,2025,q2a,dem,2.47
+mexico,noroeste,power,2030,q2a,dem,2.78
+mexico,noroeste,power,2035,q2a,dem,3.14
+mexico,noroeste,power,2040,q2a,dem,3.54
+mexico,noroeste,power,2045,q2a,dem,3.99
+mexico,noroeste,power,2050,q2a,dem,4.5
+mexico,noroeste,power,2015,q3n,dem,4.95
+mexico,noroeste,power,2020,q3n,dem,5.59
+mexico,noroeste,power,2025,q3n,dem,6.3
+mexico,noroeste,power,2030,q3n,dem,7.1
+mexico,noroeste,power,2035,q3n,dem,8.01
+mexico,noroeste,power,2040,q3n,dem,9.03
+mexico,noroeste,power,2045,q3n,dem,10.18
+mexico,noroeste,power,2050,q3n,dem,11.48
+mexico,noroeste,power,2015,q3m,dem,1.47
+mexico,noroeste,power,2020,q3m,dem,1.66
+mexico,noroeste,power,2025,q3m,dem,1.87
+mexico,noroeste,power,2030,q3m,dem,2.11
+mexico,noroeste,power,2035,q3m,dem,2.38
+mexico,noroeste,power,2040,q3m,dem,2.68
+mexico,noroeste,power,2045,q3m,dem,3.02
+mexico,noroeste,power,2050,q3m,dem,3.41
+mexico,noroeste,power,2015,q3p,dem,3.81
+mexico,noroeste,power,2020,q3p,dem,4.3
+mexico,noroeste,power,2025,q3p,dem,4.85
+mexico,noroeste,power,2030,q3p,dem,5.47
+mexico,noroeste,power,2035,q3p,dem,6.16
+mexico,noroeste,power,2040,q3p,dem,6.95
+mexico,noroeste,power,2045,q3p,dem,7.84
+mexico,noroeste,power,2050,q3p,dem,8.83
+mexico,noroeste,power,2015,q3a,dem,2.24
+mexico,noroeste,power,2020,q3a,dem,2.52
+mexico,noroeste,power,2025,q3a,dem,2.85
+mexico,noroeste,power,2030,q3a,dem,3.21
+mexico,noroeste,power,2035,q3a,dem,3.62
+mexico,noroeste,power,2040,q3a,dem,4.08
+mexico,noroeste,power,2045,q3a,dem,4.6
+mexico,noroeste,power,2050,q3a,dem,5.19
+mexico,noroeste,power,2015,q4n,dem,4.53
+mexico,noroeste,power,2020,q4n,dem,5.11
+mexico,noroeste,power,2025,q4n,dem,5.76
+mexico,noroeste,power,2030,q4n,dem,6.5
+mexico,noroeste,power,2035,q4n,dem,7.33
+mexico,noroeste,power,2040,q4n,dem,8.26
+mexico,noroeste,power,2045,q4n,dem,9.32
+mexico,noroeste,power,2050,q4n,dem,10.5
+mexico,noroeste,power,2015,q4m,dem,0.97
+mexico,noroeste,power,2020,q4m,dem,1.1
+mexico,noroeste,power,2025,q4m,dem,1.24
+mexico,noroeste,power,2030,q4m,dem,1.4
+mexico,noroeste,power,2035,q4m,dem,1.57
+mexico,noroeste,power,2040,q4m,dem,1.78
+mexico,noroeste,power,2045,q4m,dem,2
+mexico,noroeste,power,2050,q4m,dem,2.26
+mexico,noroeste,power,2015,q4p,dem,2.88
+mexico,noroeste,power,2020,q4p,dem,3.25
+mexico,noroeste,power,2025,q4p,dem,3.67
+mexico,noroeste,power,2030,q4p,dem,4.13
+mexico,noroeste,power,2035,q4p,dem,4.66
+mexico,noroeste,power,2040,q4p,dem,5.26
+mexico,noroeste,power,2045,q4p,dem,5.93
+mexico,noroeste,power,2050,q4p,dem,6.68
+mexico,noroeste,power,2015,q4a,dem,1.18
+mexico,noroeste,power,2020,q4a,dem,1.33
+mexico,noroeste,power,2025,q4a,dem,1.5
+mexico,noroeste,power,2030,q4a,dem,1.69
+mexico,noroeste,power,2035,q4a,dem,1.91
+mexico,noroeste,power,2040,q4a,dem,2.15
+mexico,noroeste,power,2045,q4a,dem,2.42
+mexico,noroeste,power,2050,q4a,dem,2.73
 mexico,occidental,power,2015,q1n,dem,10.45
 mexico,occidental,power,2020,q1n,dem,11.78
 mexico,occidental,power,2025,q1n,dem,13.29
@@ -21247,390 +21247,390 @@ mexico,noreste,mobilityPassenger,2035,q4a,dem,0.56
 mexico,noreste,mobilityPassenger,2040,q4a,dem,0.62
 mexico,noreste,mobilityPassenger,2045,q4a,dem,0.68
 mexico,noreste,mobilityPassenger,2050,q4a,dem,0.75
-mexico,noroeste ,heatHigh,2015,q1n,dem,2.43
-mexico,noroeste ,heatHigh,2020,q1n,dem,2.72
-mexico,noroeste ,heatHigh,2025,q1n,dem,3.05
-mexico,noroeste ,heatHigh,2030,q1n,dem,3.41
-mexico,noroeste ,heatHigh,2035,q1n,dem,3.82
-mexico,noroeste ,heatHigh,2040,q1n,dem,4.29
-mexico,noroeste ,heatHigh,2045,q1n,dem,4.8
-mexico,noroeste ,heatHigh,2050,q1n,dem,5.38
-mexico,noroeste ,heatHigh,2015,q1m,dem,1.13
-mexico,noroeste ,heatHigh,2020,q1m,dem,1.26
-mexico,noroeste ,heatHigh,2025,q1m,dem,1.42
-mexico,noroeste ,heatHigh,2030,q1m,dem,1.59
-mexico,noroeste ,heatHigh,2035,q1m,dem,1.78
-mexico,noroeste ,heatHigh,2040,q1m,dem,1.99
-mexico,noroeste ,heatHigh,2045,q1m,dem,2.23
-mexico,noroeste ,heatHigh,2050,q1m,dem,2.5
-mexico,noroeste ,heatHigh,2015,q1p,dem,3.41
-mexico,noroeste ,heatHigh,2020,q1p,dem,3.82
-mexico,noroeste ,heatHigh,2025,q1p,dem,4.28
-mexico,noroeste ,heatHigh,2030,q1p,dem,4.79
-mexico,noroeste ,heatHigh,2035,q1p,dem,5.37
-mexico,noroeste ,heatHigh,2040,q1p,dem,6.01
-mexico,noroeste ,heatHigh,2045,q1p,dem,6.74
-mexico,noroeste ,heatHigh,2050,q1p,dem,7.55
-mexico,noroeste ,heatHigh,2015,q1a,dem,1.38
-mexico,noroeste ,heatHigh,2020,q1a,dem,1.55
-mexico,noroeste ,heatHigh,2025,q1a,dem,1.73
-mexico,noroeste ,heatHigh,2030,q1a,dem,1.94
-mexico,noroeste ,heatHigh,2035,q1a,dem,2.17
-mexico,noroeste ,heatHigh,2040,q1a,dem,2.44
-mexico,noroeste ,heatHigh,2045,q1a,dem,2.73
-mexico,noroeste ,heatHigh,2050,q1a,dem,3.06
-mexico,noroeste ,heatHigh,2015,q2n,dem,2.3
-mexico,noroeste ,heatHigh,2020,q2n,dem,2.58
-mexico,noroeste ,heatHigh,2025,q2n,dem,2.89
-mexico,noroeste ,heatHigh,2030,q2n,dem,3.23
-mexico,noroeste ,heatHigh,2035,q2n,dem,3.62
-mexico,noroeste ,heatHigh,2040,q2n,dem,4.06
-mexico,noroeste ,heatHigh,2045,q2n,dem,4.55
-mexico,noroeste ,heatHigh,2050,q2n,dem,5.1
-mexico,noroeste ,heatHigh,2015,q2m,dem,1.13
-mexico,noroeste ,heatHigh,2020,q2m,dem,1.26
-mexico,noroeste ,heatHigh,2025,q2m,dem,1.42
-mexico,noroeste ,heatHigh,2030,q2m,dem,1.59
-mexico,noroeste ,heatHigh,2035,q2m,dem,1.78
-mexico,noroeste ,heatHigh,2040,q2m,dem,1.99
-mexico,noroeste ,heatHigh,2045,q2m,dem,2.23
-mexico,noroeste ,heatHigh,2050,q2m,dem,2.5
-mexico,noroeste ,heatHigh,2015,q2p,dem,3.41
-mexico,noroeste ,heatHigh,2020,q2p,dem,3.82
-mexico,noroeste ,heatHigh,2025,q2p,dem,4.28
-mexico,noroeste ,heatHigh,2030,q2p,dem,4.79
-mexico,noroeste ,heatHigh,2035,q2p,dem,5.37
-mexico,noroeste ,heatHigh,2040,q2p,dem,6.01
-mexico,noroeste ,heatHigh,2045,q2p,dem,6.74
-mexico,noroeste ,heatHigh,2050,q2p,dem,7.55
-mexico,noroeste ,heatHigh,2015,q2a,dem,1.58
-mexico,noroeste ,heatHigh,2020,q2a,dem,1.77
-mexico,noroeste ,heatHigh,2025,q2a,dem,1.98
-mexico,noroeste ,heatHigh,2030,q2a,dem,2.22
-mexico,noroeste ,heatHigh,2035,q2a,dem,2.49
-mexico,noroeste ,heatHigh,2040,q2a,dem,2.78
-mexico,noroeste ,heatHigh,2045,q2a,dem,3.12
-mexico,noroeste ,heatHigh,2050,q2a,dem,3.5
-mexico,noroeste ,heatHigh,2015,q3n,dem,2.43
-mexico,noroeste ,heatHigh,2020,q3n,dem,2.72
-mexico,noroeste ,heatHigh,2025,q3n,dem,3.05
-mexico,noroeste ,heatHigh,2030,q3n,dem,3.41
-mexico,noroeste ,heatHigh,2035,q3n,dem,3.82
-mexico,noroeste ,heatHigh,2040,q3n,dem,4.29
-mexico,noroeste ,heatHigh,2045,q3n,dem,4.8
-mexico,noroeste ,heatHigh,2050,q3n,dem,5.38
-mexico,noroeste ,heatHigh,2015,q3m,dem,1.13
-mexico,noroeste ,heatHigh,2020,q3m,dem,1.26
-mexico,noroeste ,heatHigh,2025,q3m,dem,1.42
-mexico,noroeste ,heatHigh,2030,q3m,dem,1.59
-mexico,noroeste ,heatHigh,2035,q3m,dem,1.78
-mexico,noroeste ,heatHigh,2040,q3m,dem,1.99
-mexico,noroeste ,heatHigh,2045,q3m,dem,2.23
-mexico,noroeste ,heatHigh,2050,q3m,dem,2.5
-mexico,noroeste ,heatHigh,2015,q3p,dem,3.41
-mexico,noroeste ,heatHigh,2020,q3p,dem,3.82
-mexico,noroeste ,heatHigh,2025,q3p,dem,4.28
-mexico,noroeste ,heatHigh,2030,q3p,dem,4.79
-mexico,noroeste ,heatHigh,2035,q3p,dem,5.37
-mexico,noroeste ,heatHigh,2040,q3p,dem,6.01
-mexico,noroeste ,heatHigh,2045,q3p,dem,6.74
-mexico,noroeste ,heatHigh,2050,q3p,dem,7.55
-mexico,noroeste ,heatHigh,2015,q3a,dem,1.38
-mexico,noroeste ,heatHigh,2020,q3a,dem,1.55
-mexico,noroeste ,heatHigh,2025,q3a,dem,1.73
-mexico,noroeste ,heatHigh,2030,q3a,dem,1.94
-mexico,noroeste ,heatHigh,2035,q3a,dem,2.17
-mexico,noroeste ,heatHigh,2040,q3a,dem,2.44
-mexico,noroeste ,heatHigh,2045,q3a,dem,2.73
-mexico,noroeste ,heatHigh,2050,q3a,dem,3.06
-mexico,noroeste ,heatHigh,2015,q4n,dem,2.55
-mexico,noroeste ,heatHigh,2020,q4n,dem,2.86
-mexico,noroeste ,heatHigh,2025,q4n,dem,3.21
-mexico,noroeste ,heatHigh,2030,q4n,dem,3.59
-mexico,noroeste ,heatHigh,2035,q4n,dem,4.03
-mexico,noroeste ,heatHigh,2040,q4n,dem,4.51
-mexico,noroeste ,heatHigh,2045,q4n,dem,5.05
-mexico,noroeste ,heatHigh,2050,q4n,dem,5.66
-mexico,noroeste ,heatHigh,2015,q4m,dem,1.13
-mexico,noroeste ,heatHigh,2020,q4m,dem,1.26
-mexico,noroeste ,heatHigh,2025,q4m,dem,1.42
-mexico,noroeste ,heatHigh,2030,q4m,dem,1.59
-mexico,noroeste ,heatHigh,2035,q4m,dem,1.78
-mexico,noroeste ,heatHigh,2040,q4m,dem,1.99
-mexico,noroeste ,heatHigh,2045,q4m,dem,2.23
-mexico,noroeste ,heatHigh,2050,q4m,dem,2.5
-mexico,noroeste ,heatHigh,2015,q4p,dem,3.41
-mexico,noroeste ,heatHigh,2020,q4p,dem,3.82
-mexico,noroeste ,heatHigh,2025,q4p,dem,4.28
-mexico,noroeste ,heatHigh,2030,q4p,dem,4.79
-mexico,noroeste ,heatHigh,2035,q4p,dem,5.37
-mexico,noroeste ,heatHigh,2040,q4p,dem,6.01
-mexico,noroeste ,heatHigh,2045,q4p,dem,6.74
-mexico,noroeste ,heatHigh,2050,q4p,dem,7.55
-mexico,noroeste ,heatHigh,2015,q4a,dem,1.18
-mexico,noroeste ,heatHigh,2020,q4a,dem,1.33
-mexico,noroeste ,heatHigh,2025,q4a,dem,1.48
-mexico,noroeste ,heatHigh,2030,q4a,dem,1.66
-mexico,noroeste ,heatHigh,2035,q4a,dem,1.86
-mexico,noroeste ,heatHigh,2040,q4a,dem,2.09
-mexico,noroeste ,heatHigh,2045,q4a,dem,2.34
-mexico,noroeste ,heatHigh,2050,q4a,dem,2.62
-mexico,noroeste ,heatLow,2015,q1n,dem,0
-mexico,noroeste ,heatLow,2020,q1n,dem,0
-mexico,noroeste ,heatLow,2025,q1n,dem,0
-mexico,noroeste ,heatLow,2030,q1n,dem,0
-mexico,noroeste ,heatLow,2035,q1n,dem,0
-mexico,noroeste ,heatLow,2040,q1n,dem,0
-mexico,noroeste ,heatLow,2045,q1n,dem,0
-mexico,noroeste ,heatLow,2050,q1n,dem,0
-mexico,noroeste ,heatLow,2015,q1m,dem,0
-mexico,noroeste ,heatLow,2020,q1m,dem,0
-mexico,noroeste ,heatLow,2025,q1m,dem,0
-mexico,noroeste ,heatLow,2030,q1m,dem,0
-mexico,noroeste ,heatLow,2035,q1m,dem,0
-mexico,noroeste ,heatLow,2040,q1m,dem,0
-mexico,noroeste ,heatLow,2045,q1m,dem,0
-mexico,noroeste ,heatLow,2050,q1m,dem,0
-mexico,noroeste ,heatLow,2015,q1p,dem,0
-mexico,noroeste ,heatLow,2020,q1p,dem,0
-mexico,noroeste ,heatLow,2025,q1p,dem,0
-mexico,noroeste ,heatLow,2030,q1p,dem,0
-mexico,noroeste ,heatLow,2035,q1p,dem,0
-mexico,noroeste ,heatLow,2040,q1p,dem,0
-mexico,noroeste ,heatLow,2045,q1p,dem,0
-mexico,noroeste ,heatLow,2050,q1p,dem,0
-mexico,noroeste ,heatLow,2015,q1a,dem,0
-mexico,noroeste ,heatLow,2020,q1a,dem,0
-mexico,noroeste ,heatLow,2025,q1a,dem,0
-mexico,noroeste ,heatLow,2030,q1a,dem,0
-mexico,noroeste ,heatLow,2035,q1a,dem,0
-mexico,noroeste ,heatLow,2040,q1a,dem,0
-mexico,noroeste ,heatLow,2045,q1a,dem,0
-mexico,noroeste ,heatLow,2050,q1a,dem,0
-mexico,noroeste ,heatLow,2015,q2n,dem,0
-mexico,noroeste ,heatLow,2020,q2n,dem,0
-mexico,noroeste ,heatLow,2025,q2n,dem,0
-mexico,noroeste ,heatLow,2030,q2n,dem,0
-mexico,noroeste ,heatLow,2035,q2n,dem,0
-mexico,noroeste ,heatLow,2040,q2n,dem,0
-mexico,noroeste ,heatLow,2045,q2n,dem,0
-mexico,noroeste ,heatLow,2050,q2n,dem,0
-mexico,noroeste ,heatLow,2015,q2m,dem,0
-mexico,noroeste ,heatLow,2020,q2m,dem,0
-mexico,noroeste ,heatLow,2025,q2m,dem,0
-mexico,noroeste ,heatLow,2030,q2m,dem,0
-mexico,noroeste ,heatLow,2035,q2m,dem,0
-mexico,noroeste ,heatLow,2040,q2m,dem,0
-mexico,noroeste ,heatLow,2045,q2m,dem,0
-mexico,noroeste ,heatLow,2050,q2m,dem,0
-mexico,noroeste ,heatLow,2015,q2p,dem,0
-mexico,noroeste ,heatLow,2020,q2p,dem,0
-mexico,noroeste ,heatLow,2025,q2p,dem,0
-mexico,noroeste ,heatLow,2030,q2p,dem,0
-mexico,noroeste ,heatLow,2035,q2p,dem,0
-mexico,noroeste ,heatLow,2040,q2p,dem,0
-mexico,noroeste ,heatLow,2045,q2p,dem,0
-mexico,noroeste ,heatLow,2050,q2p,dem,0
-mexico,noroeste ,heatLow,2015,q2a,dem,0
-mexico,noroeste ,heatLow,2020,q2a,dem,0
-mexico,noroeste ,heatLow,2025,q2a,dem,0
-mexico,noroeste ,heatLow,2030,q2a,dem,0
-mexico,noroeste ,heatLow,2035,q2a,dem,0
-mexico,noroeste ,heatLow,2040,q2a,dem,0
-mexico,noroeste ,heatLow,2045,q2a,dem,0
-mexico,noroeste ,heatLow,2050,q2a,dem,0
-mexico,noroeste ,heatLow,2015,q3n,dem,0
-mexico,noroeste ,heatLow,2020,q3n,dem,0
-mexico,noroeste ,heatLow,2025,q3n,dem,0
-mexico,noroeste ,heatLow,2030,q3n,dem,0
-mexico,noroeste ,heatLow,2035,q3n,dem,0
-mexico,noroeste ,heatLow,2040,q3n,dem,0
-mexico,noroeste ,heatLow,2045,q3n,dem,0
-mexico,noroeste ,heatLow,2050,q3n,dem,0
-mexico,noroeste ,heatLow,2015,q3m,dem,0
-mexico,noroeste ,heatLow,2020,q3m,dem,0
-mexico,noroeste ,heatLow,2025,q3m,dem,0
-mexico,noroeste ,heatLow,2030,q3m,dem,0
-mexico,noroeste ,heatLow,2035,q3m,dem,0
-mexico,noroeste ,heatLow,2040,q3m,dem,0
-mexico,noroeste ,heatLow,2045,q3m,dem,0
-mexico,noroeste ,heatLow,2050,q3m,dem,0
-mexico,noroeste ,heatLow,2015,q3p,dem,0
-mexico,noroeste ,heatLow,2020,q3p,dem,0
-mexico,noroeste ,heatLow,2025,q3p,dem,0
-mexico,noroeste ,heatLow,2030,q3p,dem,0
-mexico,noroeste ,heatLow,2035,q3p,dem,0
-mexico,noroeste ,heatLow,2040,q3p,dem,0
-mexico,noroeste ,heatLow,2045,q3p,dem,0
-mexico,noroeste ,heatLow,2050,q3p,dem,0
-mexico,noroeste ,heatLow,2015,q3a,dem,0
-mexico,noroeste ,heatLow,2020,q3a,dem,0
-mexico,noroeste ,heatLow,2025,q3a,dem,0
-mexico,noroeste ,heatLow,2030,q3a,dem,0
-mexico,noroeste ,heatLow,2035,q3a,dem,0
-mexico,noroeste ,heatLow,2040,q3a,dem,0
-mexico,noroeste ,heatLow,2045,q3a,dem,0
-mexico,noroeste ,heatLow,2050,q3a,dem,0
-mexico,noroeste ,heatLow,2015,q4n,dem,0
-mexico,noroeste ,heatLow,2020,q4n,dem,0
-mexico,noroeste ,heatLow,2025,q4n,dem,0
-mexico,noroeste ,heatLow,2030,q4n,dem,0
-mexico,noroeste ,heatLow,2035,q4n,dem,0
-mexico,noroeste ,heatLow,2040,q4n,dem,0
-mexico,noroeste ,heatLow,2045,q4n,dem,0
-mexico,noroeste ,heatLow,2050,q4n,dem,0
-mexico,noroeste ,heatLow,2015,q4m,dem,0
-mexico,noroeste ,heatLow,2020,q4m,dem,0
-mexico,noroeste ,heatLow,2025,q4m,dem,0
-mexico,noroeste ,heatLow,2030,q4m,dem,0
-mexico,noroeste ,heatLow,2035,q4m,dem,0
-mexico,noroeste ,heatLow,2040,q4m,dem,0
-mexico,noroeste ,heatLow,2045,q4m,dem,0
-mexico,noroeste ,heatLow,2050,q4m,dem,0
-mexico,noroeste ,heatLow,2015,q4p,dem,0
-mexico,noroeste ,heatLow,2020,q4p,dem,0
-mexico,noroeste ,heatLow,2025,q4p,dem,0
-mexico,noroeste ,heatLow,2030,q4p,dem,0
-mexico,noroeste ,heatLow,2035,q4p,dem,0
-mexico,noroeste ,heatLow,2040,q4p,dem,0
-mexico,noroeste ,heatLow,2045,q4p,dem,0
-mexico,noroeste ,heatLow,2050,q4p,dem,0
-mexico,noroeste ,heatLow,2015,q4a,dem,0
-mexico,noroeste ,heatLow,2020,q4a,dem,0
-mexico,noroeste ,heatLow,2025,q4a,dem,0
-mexico,noroeste ,heatLow,2030,q4a,dem,0
-mexico,noroeste ,heatLow,2035,q4a,dem,0
-mexico,noroeste ,heatLow,2040,q4a,dem,0
-mexico,noroeste ,heatLow,2045,q4a,dem,0
-mexico,noroeste ,heatLow,2050,q4a,dem,0
-mexico,noroeste ,mobilityPassenger,2015,q1n,dem,0.63
-mexico,noroeste ,mobilityPassenger,2020,q1n,dem,0.71
-mexico,noroeste ,mobilityPassenger,2025,q1n,dem,0.78
-mexico,noroeste ,mobilityPassenger,2030,q1n,dem,0.85
-mexico,noroeste ,mobilityPassenger,2035,q1n,dem,0.94
-mexico,noroeste ,mobilityPassenger,2040,q1n,dem,1.03
-mexico,noroeste ,mobilityPassenger,2045,q1n,dem,1.13
-mexico,noroeste ,mobilityPassenger,2050,q1n,dem,1.24
-mexico,noroeste ,mobilityPassenger,2015,q1m,dem,0.87
-mexico,noroeste ,mobilityPassenger,2020,q1m,dem,0.98
-mexico,noroeste ,mobilityPassenger,2025,q1m,dem,1.08
-mexico,noroeste ,mobilityPassenger,2030,q1m,dem,1.18
-mexico,noroeste ,mobilityPassenger,2035,q1m,dem,1.3
-mexico,noroeste ,mobilityPassenger,2040,q1m,dem,1.43
-mexico,noroeste ,mobilityPassenger,2045,q1m,dem,1.57
-mexico,noroeste ,mobilityPassenger,2050,q1m,dem,1.72
-mexico,noroeste ,mobilityPassenger,2015,q1p,dem,1.04
-mexico,noroeste ,mobilityPassenger,2020,q1p,dem,1.18
-mexico,noroeste ,mobilityPassenger,2025,q1p,dem,1.29
-mexico,noroeste ,mobilityPassenger,2030,q1p,dem,1.42
-mexico,noroeste ,mobilityPassenger,2035,q1p,dem,1.56
-mexico,noroeste ,mobilityPassenger,2040,q1p,dem,1.71
-mexico,noroeste ,mobilityPassenger,2045,q1p,dem,1.88
-mexico,noroeste ,mobilityPassenger,2050,q1p,dem,2.07
-mexico,noroeste ,mobilityPassenger,2015,q1a,dem,0.72
-mexico,noroeste ,mobilityPassenger,2020,q1a,dem,0.81
-mexico,noroeste ,mobilityPassenger,2025,q1a,dem,0.9
-mexico,noroeste ,mobilityPassenger,2030,q1a,dem,0.98
-mexico,noroeste ,mobilityPassenger,2035,q1a,dem,1.08
-mexico,noroeste ,mobilityPassenger,2040,q1a,dem,1.19
-mexico,noroeste ,mobilityPassenger,2045,q1a,dem,1.3
-mexico,noroeste ,mobilityPassenger,2050,q1a,dem,1.43
-mexico,noroeste ,mobilityPassenger,2015,q2n,dem,0.26
-mexico,noroeste ,mobilityPassenger,2020,q2n,dem,0.29
-mexico,noroeste ,mobilityPassenger,2025,q2n,dem,0.32
-mexico,noroeste ,mobilityPassenger,2030,q2n,dem,0.36
-mexico,noroeste ,mobilityPassenger,2035,q2n,dem,0.39
-mexico,noroeste ,mobilityPassenger,2040,q2n,dem,0.43
-mexico,noroeste ,mobilityPassenger,2045,q2n,dem,0.47
-mexico,noroeste ,mobilityPassenger,2050,q2n,dem,0.52
-mexico,noroeste ,mobilityPassenger,2015,q2m,dem,0.61
-mexico,noroeste ,mobilityPassenger,2020,q2m,dem,0.69
-mexico,noroeste ,mobilityPassenger,2025,q2m,dem,0.75
-mexico,noroeste ,mobilityPassenger,2030,q2m,dem,0.83
-mexico,noroeste ,mobilityPassenger,2035,q2m,dem,0.91
-mexico,noroeste ,mobilityPassenger,2040,q2m,dem,1
-mexico,noroeste ,mobilityPassenger,2045,q2m,dem,1.1
-mexico,noroeste ,mobilityPassenger,2050,q2m,dem,1.21
-mexico,noroeste ,mobilityPassenger,2015,q2p,dem,1
-mexico,noroeste ,mobilityPassenger,2020,q2p,dem,1.13
-mexico,noroeste ,mobilityPassenger,2025,q2p,dem,1.24
-mexico,noroeste ,mobilityPassenger,2030,q2p,dem,1.36
-mexico,noroeste ,mobilityPassenger,2035,q2p,dem,1.5
-mexico,noroeste ,mobilityPassenger,2040,q2p,dem,1.64
-mexico,noroeste ,mobilityPassenger,2045,q2p,dem,1.8
-mexico,noroeste ,mobilityPassenger,2050,q2p,dem,1.98
-mexico,noroeste ,mobilityPassenger,2015,q2a,dem,0.72
-mexico,noroeste ,mobilityPassenger,2020,q2a,dem,0.81
-mexico,noroeste ,mobilityPassenger,2025,q2a,dem,0.89
-mexico,noroeste ,mobilityPassenger,2030,q2a,dem,0.98
-mexico,noroeste ,mobilityPassenger,2035,q2a,dem,1.07
-mexico,noroeste ,mobilityPassenger,2040,q2a,dem,1.18
-mexico,noroeste ,mobilityPassenger,2045,q2a,dem,1.3
-mexico,noroeste ,mobilityPassenger,2050,q2a,dem,1.43
-mexico,noroeste ,mobilityPassenger,2015,q3n,dem,0.29
-mexico,noroeste ,mobilityPassenger,2020,q3n,dem,0.33
-mexico,noroeste ,mobilityPassenger,2025,q3n,dem,0.36
-mexico,noroeste ,mobilityPassenger,2030,q3n,dem,0.39
-mexico,noroeste ,mobilityPassenger,2035,q3n,dem,0.43
-mexico,noroeste ,mobilityPassenger,2040,q3n,dem,0.48
-mexico,noroeste ,mobilityPassenger,2045,q3n,dem,0.52
-mexico,noroeste ,mobilityPassenger,2050,q3n,dem,0.57
-mexico,noroeste ,mobilityPassenger,2015,q3m,dem,0.61
-mexico,noroeste ,mobilityPassenger,2020,q3m,dem,0.69
-mexico,noroeste ,mobilityPassenger,2025,q3m,dem,0.75
-mexico,noroeste ,mobilityPassenger,2030,q3m,dem,0.83
-mexico,noroeste ,mobilityPassenger,2035,q3m,dem,0.91
-mexico,noroeste ,mobilityPassenger,2040,q3m,dem,1
-mexico,noroeste ,mobilityPassenger,2045,q3m,dem,1.1
-mexico,noroeste ,mobilityPassenger,2050,q3m,dem,1.21
-mexico,noroeste ,mobilityPassenger,2015,q3p,dem,1.06
-mexico,noroeste ,mobilityPassenger,2020,q3p,dem,1.2
-mexico,noroeste ,mobilityPassenger,2025,q3p,dem,1.31
-mexico,noroeste ,mobilityPassenger,2030,q3p,dem,1.44
-mexico,noroeste ,mobilityPassenger,2035,q3p,dem,1.58
-mexico,noroeste ,mobilityPassenger,2040,q3p,dem,1.74
-mexico,noroeste ,mobilityPassenger,2045,q3p,dem,1.91
-mexico,noroeste ,mobilityPassenger,2050,q3p,dem,2.1
-mexico,noroeste ,mobilityPassenger,2015,q3a,dem,0.71
-mexico,noroeste ,mobilityPassenger,2020,q3a,dem,0.8
-mexico,noroeste ,mobilityPassenger,2025,q3a,dem,0.88
-mexico,noroeste ,mobilityPassenger,2030,q3a,dem,0.97
-mexico,noroeste ,mobilityPassenger,2035,q3a,dem,1.06
-mexico,noroeste ,mobilityPassenger,2040,q3a,dem,1.17
-mexico,noroeste ,mobilityPassenger,2045,q3a,dem,1.28
-mexico,noroeste ,mobilityPassenger,2050,q3a,dem,1.41
-mexico,noroeste ,mobilityPassenger,2015,q4n,dem,0.84
-mexico,noroeste ,mobilityPassenger,2020,q4n,dem,0.95
-mexico,noroeste ,mobilityPassenger,2025,q4n,dem,1.04
-mexico,noroeste ,mobilityPassenger,2030,q4n,dem,1.15
-mexico,noroeste ,mobilityPassenger,2035,q4n,dem,1.26
-mexico,noroeste ,mobilityPassenger,2040,q4n,dem,1.38
-mexico,noroeste ,mobilityPassenger,2045,q4n,dem,1.52
-mexico,noroeste ,mobilityPassenger,2050,q4n,dem,1.67
-mexico,noroeste ,mobilityPassenger,2015,q4m,dem,0.6
-mexico,noroeste ,mobilityPassenger,2020,q4m,dem,0.67
-mexico,noroeste ,mobilityPassenger,2025,q4m,dem,0.74
-mexico,noroeste ,mobilityPassenger,2030,q4m,dem,0.81
-mexico,noroeste ,mobilityPassenger,2035,q4m,dem,0.89
-mexico,noroeste ,mobilityPassenger,2040,q4m,dem,0.98
-mexico,noroeste ,mobilityPassenger,2045,q4m,dem,1.08
-mexico,noroeste ,mobilityPassenger,2050,q4m,dem,1.18
-mexico,noroeste ,mobilityPassenger,2015,q4p,dem,1.34
-mexico,noroeste ,mobilityPassenger,2020,q4p,dem,1.52
-mexico,noroeste ,mobilityPassenger,2025,q4p,dem,1.67
-mexico,noroeste ,mobilityPassenger,2030,q4p,dem,1.83
-mexico,noroeste ,mobilityPassenger,2035,q4p,dem,2.01
-mexico,noroeste ,mobilityPassenger,2040,q4p,dem,2.21
-mexico,noroeste ,mobilityPassenger,2045,q4p,dem,2.43
-mexico,noroeste ,mobilityPassenger,2050,q4p,dem,2.67
-mexico,noroeste ,mobilityPassenger,2015,q4a,dem,0.38
-mexico,noroeste ,mobilityPassenger,2020,q4a,dem,0.43
-mexico,noroeste ,mobilityPassenger,2025,q4a,dem,0.47
-mexico,noroeste ,mobilityPassenger,2030,q4a,dem,0.52
-mexico,noroeste ,mobilityPassenger,2035,q4a,dem,0.57
-mexico,noroeste ,mobilityPassenger,2040,q4a,dem,0.63
-mexico,noroeste ,mobilityPassenger,2045,q4a,dem,0.69
-mexico,noroeste ,mobilityPassenger,2050,q4a,dem,0.76
+mexico,noroeste,heatHigh,2015,q1n,dem,2.43
+mexico,noroeste,heatHigh,2020,q1n,dem,2.72
+mexico,noroeste,heatHigh,2025,q1n,dem,3.05
+mexico,noroeste,heatHigh,2030,q1n,dem,3.41
+mexico,noroeste,heatHigh,2035,q1n,dem,3.82
+mexico,noroeste,heatHigh,2040,q1n,dem,4.29
+mexico,noroeste,heatHigh,2045,q1n,dem,4.8
+mexico,noroeste,heatHigh,2050,q1n,dem,5.38
+mexico,noroeste,heatHigh,2015,q1m,dem,1.13
+mexico,noroeste,heatHigh,2020,q1m,dem,1.26
+mexico,noroeste,heatHigh,2025,q1m,dem,1.42
+mexico,noroeste,heatHigh,2030,q1m,dem,1.59
+mexico,noroeste,heatHigh,2035,q1m,dem,1.78
+mexico,noroeste,heatHigh,2040,q1m,dem,1.99
+mexico,noroeste,heatHigh,2045,q1m,dem,2.23
+mexico,noroeste,heatHigh,2050,q1m,dem,2.5
+mexico,noroeste,heatHigh,2015,q1p,dem,3.41
+mexico,noroeste,heatHigh,2020,q1p,dem,3.82
+mexico,noroeste,heatHigh,2025,q1p,dem,4.28
+mexico,noroeste,heatHigh,2030,q1p,dem,4.79
+mexico,noroeste,heatHigh,2035,q1p,dem,5.37
+mexico,noroeste,heatHigh,2040,q1p,dem,6.01
+mexico,noroeste,heatHigh,2045,q1p,dem,6.74
+mexico,noroeste,heatHigh,2050,q1p,dem,7.55
+mexico,noroeste,heatHigh,2015,q1a,dem,1.38
+mexico,noroeste,heatHigh,2020,q1a,dem,1.55
+mexico,noroeste,heatHigh,2025,q1a,dem,1.73
+mexico,noroeste,heatHigh,2030,q1a,dem,1.94
+mexico,noroeste,heatHigh,2035,q1a,dem,2.17
+mexico,noroeste,heatHigh,2040,q1a,dem,2.44
+mexico,noroeste,heatHigh,2045,q1a,dem,2.73
+mexico,noroeste,heatHigh,2050,q1a,dem,3.06
+mexico,noroeste,heatHigh,2015,q2n,dem,2.3
+mexico,noroeste,heatHigh,2020,q2n,dem,2.58
+mexico,noroeste,heatHigh,2025,q2n,dem,2.89
+mexico,noroeste,heatHigh,2030,q2n,dem,3.23
+mexico,noroeste,heatHigh,2035,q2n,dem,3.62
+mexico,noroeste,heatHigh,2040,q2n,dem,4.06
+mexico,noroeste,heatHigh,2045,q2n,dem,4.55
+mexico,noroeste,heatHigh,2050,q2n,dem,5.1
+mexico,noroeste,heatHigh,2015,q2m,dem,1.13
+mexico,noroeste,heatHigh,2020,q2m,dem,1.26
+mexico,noroeste,heatHigh,2025,q2m,dem,1.42
+mexico,noroeste,heatHigh,2030,q2m,dem,1.59
+mexico,noroeste,heatHigh,2035,q2m,dem,1.78
+mexico,noroeste,heatHigh,2040,q2m,dem,1.99
+mexico,noroeste,heatHigh,2045,q2m,dem,2.23
+mexico,noroeste,heatHigh,2050,q2m,dem,2.5
+mexico,noroeste,heatHigh,2015,q2p,dem,3.41
+mexico,noroeste,heatHigh,2020,q2p,dem,3.82
+mexico,noroeste,heatHigh,2025,q2p,dem,4.28
+mexico,noroeste,heatHigh,2030,q2p,dem,4.79
+mexico,noroeste,heatHigh,2035,q2p,dem,5.37
+mexico,noroeste,heatHigh,2040,q2p,dem,6.01
+mexico,noroeste,heatHigh,2045,q2p,dem,6.74
+mexico,noroeste,heatHigh,2050,q2p,dem,7.55
+mexico,noroeste,heatHigh,2015,q2a,dem,1.58
+mexico,noroeste,heatHigh,2020,q2a,dem,1.77
+mexico,noroeste,heatHigh,2025,q2a,dem,1.98
+mexico,noroeste,heatHigh,2030,q2a,dem,2.22
+mexico,noroeste,heatHigh,2035,q2a,dem,2.49
+mexico,noroeste,heatHigh,2040,q2a,dem,2.78
+mexico,noroeste,heatHigh,2045,q2a,dem,3.12
+mexico,noroeste,heatHigh,2050,q2a,dem,3.5
+mexico,noroeste,heatHigh,2015,q3n,dem,2.43
+mexico,noroeste,heatHigh,2020,q3n,dem,2.72
+mexico,noroeste,heatHigh,2025,q3n,dem,3.05
+mexico,noroeste,heatHigh,2030,q3n,dem,3.41
+mexico,noroeste,heatHigh,2035,q3n,dem,3.82
+mexico,noroeste,heatHigh,2040,q3n,dem,4.29
+mexico,noroeste,heatHigh,2045,q3n,dem,4.8
+mexico,noroeste,heatHigh,2050,q3n,dem,5.38
+mexico,noroeste,heatHigh,2015,q3m,dem,1.13
+mexico,noroeste,heatHigh,2020,q3m,dem,1.26
+mexico,noroeste,heatHigh,2025,q3m,dem,1.42
+mexico,noroeste,heatHigh,2030,q3m,dem,1.59
+mexico,noroeste,heatHigh,2035,q3m,dem,1.78
+mexico,noroeste,heatHigh,2040,q3m,dem,1.99
+mexico,noroeste,heatHigh,2045,q3m,dem,2.23
+mexico,noroeste,heatHigh,2050,q3m,dem,2.5
+mexico,noroeste,heatHigh,2015,q3p,dem,3.41
+mexico,noroeste,heatHigh,2020,q3p,dem,3.82
+mexico,noroeste,heatHigh,2025,q3p,dem,4.28
+mexico,noroeste,heatHigh,2030,q3p,dem,4.79
+mexico,noroeste,heatHigh,2035,q3p,dem,5.37
+mexico,noroeste,heatHigh,2040,q3p,dem,6.01
+mexico,noroeste,heatHigh,2045,q3p,dem,6.74
+mexico,noroeste,heatHigh,2050,q3p,dem,7.55
+mexico,noroeste,heatHigh,2015,q3a,dem,1.38
+mexico,noroeste,heatHigh,2020,q3a,dem,1.55
+mexico,noroeste,heatHigh,2025,q3a,dem,1.73
+mexico,noroeste,heatHigh,2030,q3a,dem,1.94
+mexico,noroeste,heatHigh,2035,q3a,dem,2.17
+mexico,noroeste,heatHigh,2040,q3a,dem,2.44
+mexico,noroeste,heatHigh,2045,q3a,dem,2.73
+mexico,noroeste,heatHigh,2050,q3a,dem,3.06
+mexico,noroeste,heatHigh,2015,q4n,dem,2.55
+mexico,noroeste,heatHigh,2020,q4n,dem,2.86
+mexico,noroeste,heatHigh,2025,q4n,dem,3.21
+mexico,noroeste,heatHigh,2030,q4n,dem,3.59
+mexico,noroeste,heatHigh,2035,q4n,dem,4.03
+mexico,noroeste,heatHigh,2040,q4n,dem,4.51
+mexico,noroeste,heatHigh,2045,q4n,dem,5.05
+mexico,noroeste,heatHigh,2050,q4n,dem,5.66
+mexico,noroeste,heatHigh,2015,q4m,dem,1.13
+mexico,noroeste,heatHigh,2020,q4m,dem,1.26
+mexico,noroeste,heatHigh,2025,q4m,dem,1.42
+mexico,noroeste,heatHigh,2030,q4m,dem,1.59
+mexico,noroeste,heatHigh,2035,q4m,dem,1.78
+mexico,noroeste,heatHigh,2040,q4m,dem,1.99
+mexico,noroeste,heatHigh,2045,q4m,dem,2.23
+mexico,noroeste,heatHigh,2050,q4m,dem,2.5
+mexico,noroeste,heatHigh,2015,q4p,dem,3.41
+mexico,noroeste,heatHigh,2020,q4p,dem,3.82
+mexico,noroeste,heatHigh,2025,q4p,dem,4.28
+mexico,noroeste,heatHigh,2030,q4p,dem,4.79
+mexico,noroeste,heatHigh,2035,q4p,dem,5.37
+mexico,noroeste,heatHigh,2040,q4p,dem,6.01
+mexico,noroeste,heatHigh,2045,q4p,dem,6.74
+mexico,noroeste,heatHigh,2050,q4p,dem,7.55
+mexico,noroeste,heatHigh,2015,q4a,dem,1.18
+mexico,noroeste,heatHigh,2020,q4a,dem,1.33
+mexico,noroeste,heatHigh,2025,q4a,dem,1.48
+mexico,noroeste,heatHigh,2030,q4a,dem,1.66
+mexico,noroeste,heatHigh,2035,q4a,dem,1.86
+mexico,noroeste,heatHigh,2040,q4a,dem,2.09
+mexico,noroeste,heatHigh,2045,q4a,dem,2.34
+mexico,noroeste,heatHigh,2050,q4a,dem,2.62
+mexico,noroeste,heatLow,2015,q1n,dem,0
+mexico,noroeste,heatLow,2020,q1n,dem,0
+mexico,noroeste,heatLow,2025,q1n,dem,0
+mexico,noroeste,heatLow,2030,q1n,dem,0
+mexico,noroeste,heatLow,2035,q1n,dem,0
+mexico,noroeste,heatLow,2040,q1n,dem,0
+mexico,noroeste,heatLow,2045,q1n,dem,0
+mexico,noroeste,heatLow,2050,q1n,dem,0
+mexico,noroeste,heatLow,2015,q1m,dem,0
+mexico,noroeste,heatLow,2020,q1m,dem,0
+mexico,noroeste,heatLow,2025,q1m,dem,0
+mexico,noroeste,heatLow,2030,q1m,dem,0
+mexico,noroeste,heatLow,2035,q1m,dem,0
+mexico,noroeste,heatLow,2040,q1m,dem,0
+mexico,noroeste,heatLow,2045,q1m,dem,0
+mexico,noroeste,heatLow,2050,q1m,dem,0
+mexico,noroeste,heatLow,2015,q1p,dem,0
+mexico,noroeste,heatLow,2020,q1p,dem,0
+mexico,noroeste,heatLow,2025,q1p,dem,0
+mexico,noroeste,heatLow,2030,q1p,dem,0
+mexico,noroeste,heatLow,2035,q1p,dem,0
+mexico,noroeste,heatLow,2040,q1p,dem,0
+mexico,noroeste,heatLow,2045,q1p,dem,0
+mexico,noroeste,heatLow,2050,q1p,dem,0
+mexico,noroeste,heatLow,2015,q1a,dem,0
+mexico,noroeste,heatLow,2020,q1a,dem,0
+mexico,noroeste,heatLow,2025,q1a,dem,0
+mexico,noroeste,heatLow,2030,q1a,dem,0
+mexico,noroeste,heatLow,2035,q1a,dem,0
+mexico,noroeste,heatLow,2040,q1a,dem,0
+mexico,noroeste,heatLow,2045,q1a,dem,0
+mexico,noroeste,heatLow,2050,q1a,dem,0
+mexico,noroeste,heatLow,2015,q2n,dem,0
+mexico,noroeste,heatLow,2020,q2n,dem,0
+mexico,noroeste,heatLow,2025,q2n,dem,0
+mexico,noroeste,heatLow,2030,q2n,dem,0
+mexico,noroeste,heatLow,2035,q2n,dem,0
+mexico,noroeste,heatLow,2040,q2n,dem,0
+mexico,noroeste,heatLow,2045,q2n,dem,0
+mexico,noroeste,heatLow,2050,q2n,dem,0
+mexico,noroeste,heatLow,2015,q2m,dem,0
+mexico,noroeste,heatLow,2020,q2m,dem,0
+mexico,noroeste,heatLow,2025,q2m,dem,0
+mexico,noroeste,heatLow,2030,q2m,dem,0
+mexico,noroeste,heatLow,2035,q2m,dem,0
+mexico,noroeste,heatLow,2040,q2m,dem,0
+mexico,noroeste,heatLow,2045,q2m,dem,0
+mexico,noroeste,heatLow,2050,q2m,dem,0
+mexico,noroeste,heatLow,2015,q2p,dem,0
+mexico,noroeste,heatLow,2020,q2p,dem,0
+mexico,noroeste,heatLow,2025,q2p,dem,0
+mexico,noroeste,heatLow,2030,q2p,dem,0
+mexico,noroeste,heatLow,2035,q2p,dem,0
+mexico,noroeste,heatLow,2040,q2p,dem,0
+mexico,noroeste,heatLow,2045,q2p,dem,0
+mexico,noroeste,heatLow,2050,q2p,dem,0
+mexico,noroeste,heatLow,2015,q2a,dem,0
+mexico,noroeste,heatLow,2020,q2a,dem,0
+mexico,noroeste,heatLow,2025,q2a,dem,0
+mexico,noroeste,heatLow,2030,q2a,dem,0
+mexico,noroeste,heatLow,2035,q2a,dem,0
+mexico,noroeste,heatLow,2040,q2a,dem,0
+mexico,noroeste,heatLow,2045,q2a,dem,0
+mexico,noroeste,heatLow,2050,q2a,dem,0
+mexico,noroeste,heatLow,2015,q3n,dem,0
+mexico,noroeste,heatLow,2020,q3n,dem,0
+mexico,noroeste,heatLow,2025,q3n,dem,0
+mexico,noroeste,heatLow,2030,q3n,dem,0
+mexico,noroeste,heatLow,2035,q3n,dem,0
+mexico,noroeste,heatLow,2040,q3n,dem,0
+mexico,noroeste,heatLow,2045,q3n,dem,0
+mexico,noroeste,heatLow,2050,q3n,dem,0
+mexico,noroeste,heatLow,2015,q3m,dem,0
+mexico,noroeste,heatLow,2020,q3m,dem,0
+mexico,noroeste,heatLow,2025,q3m,dem,0
+mexico,noroeste,heatLow,2030,q3m,dem,0
+mexico,noroeste,heatLow,2035,q3m,dem,0
+mexico,noroeste,heatLow,2040,q3m,dem,0
+mexico,noroeste,heatLow,2045,q3m,dem,0
+mexico,noroeste,heatLow,2050,q3m,dem,0
+mexico,noroeste,heatLow,2015,q3p,dem,0
+mexico,noroeste,heatLow,2020,q3p,dem,0
+mexico,noroeste,heatLow,2025,q3p,dem,0
+mexico,noroeste,heatLow,2030,q3p,dem,0
+mexico,noroeste,heatLow,2035,q3p,dem,0
+mexico,noroeste,heatLow,2040,q3p,dem,0
+mexico,noroeste,heatLow,2045,q3p,dem,0
+mexico,noroeste,heatLow,2050,q3p,dem,0
+mexico,noroeste,heatLow,2015,q3a,dem,0
+mexico,noroeste,heatLow,2020,q3a,dem,0
+mexico,noroeste,heatLow,2025,q3a,dem,0
+mexico,noroeste,heatLow,2030,q3a,dem,0
+mexico,noroeste,heatLow,2035,q3a,dem,0
+mexico,noroeste,heatLow,2040,q3a,dem,0
+mexico,noroeste,heatLow,2045,q3a,dem,0
+mexico,noroeste,heatLow,2050,q3a,dem,0
+mexico,noroeste,heatLow,2015,q4n,dem,0
+mexico,noroeste,heatLow,2020,q4n,dem,0
+mexico,noroeste,heatLow,2025,q4n,dem,0
+mexico,noroeste,heatLow,2030,q4n,dem,0
+mexico,noroeste,heatLow,2035,q4n,dem,0
+mexico,noroeste,heatLow,2040,q4n,dem,0
+mexico,noroeste,heatLow,2045,q4n,dem,0
+mexico,noroeste,heatLow,2050,q4n,dem,0
+mexico,noroeste,heatLow,2015,q4m,dem,0
+mexico,noroeste,heatLow,2020,q4m,dem,0
+mexico,noroeste,heatLow,2025,q4m,dem,0
+mexico,noroeste,heatLow,2030,q4m,dem,0
+mexico,noroeste,heatLow,2035,q4m,dem,0
+mexico,noroeste,heatLow,2040,q4m,dem,0
+mexico,noroeste,heatLow,2045,q4m,dem,0
+mexico,noroeste,heatLow,2050,q4m,dem,0
+mexico,noroeste,heatLow,2015,q4p,dem,0
+mexico,noroeste,heatLow,2020,q4p,dem,0
+mexico,noroeste,heatLow,2025,q4p,dem,0
+mexico,noroeste,heatLow,2030,q4p,dem,0
+mexico,noroeste,heatLow,2035,q4p,dem,0
+mexico,noroeste,heatLow,2040,q4p,dem,0
+mexico,noroeste,heatLow,2045,q4p,dem,0
+mexico,noroeste,heatLow,2050,q4p,dem,0
+mexico,noroeste,heatLow,2015,q4a,dem,0
+mexico,noroeste,heatLow,2020,q4a,dem,0
+mexico,noroeste,heatLow,2025,q4a,dem,0
+mexico,noroeste,heatLow,2030,q4a,dem,0
+mexico,noroeste,heatLow,2035,q4a,dem,0
+mexico,noroeste,heatLow,2040,q4a,dem,0
+mexico,noroeste,heatLow,2045,q4a,dem,0
+mexico,noroeste,heatLow,2050,q4a,dem,0
+mexico,noroeste,mobilityPassenger,2015,q1n,dem,0.63
+mexico,noroeste,mobilityPassenger,2020,q1n,dem,0.71
+mexico,noroeste,mobilityPassenger,2025,q1n,dem,0.78
+mexico,noroeste,mobilityPassenger,2030,q1n,dem,0.85
+mexico,noroeste,mobilityPassenger,2035,q1n,dem,0.94
+mexico,noroeste,mobilityPassenger,2040,q1n,dem,1.03
+mexico,noroeste,mobilityPassenger,2045,q1n,dem,1.13
+mexico,noroeste,mobilityPassenger,2050,q1n,dem,1.24
+mexico,noroeste,mobilityPassenger,2015,q1m,dem,0.87
+mexico,noroeste,mobilityPassenger,2020,q1m,dem,0.98
+mexico,noroeste,mobilityPassenger,2025,q1m,dem,1.08
+mexico,noroeste,mobilityPassenger,2030,q1m,dem,1.18
+mexico,noroeste,mobilityPassenger,2035,q1m,dem,1.3
+mexico,noroeste,mobilityPassenger,2040,q1m,dem,1.43
+mexico,noroeste,mobilityPassenger,2045,q1m,dem,1.57
+mexico,noroeste,mobilityPassenger,2050,q1m,dem,1.72
+mexico,noroeste,mobilityPassenger,2015,q1p,dem,1.04
+mexico,noroeste,mobilityPassenger,2020,q1p,dem,1.18
+mexico,noroeste,mobilityPassenger,2025,q1p,dem,1.29
+mexico,noroeste,mobilityPassenger,2030,q1p,dem,1.42
+mexico,noroeste,mobilityPassenger,2035,q1p,dem,1.56
+mexico,noroeste,mobilityPassenger,2040,q1p,dem,1.71
+mexico,noroeste,mobilityPassenger,2045,q1p,dem,1.88
+mexico,noroeste,mobilityPassenger,2050,q1p,dem,2.07
+mexico,noroeste,mobilityPassenger,2015,q1a,dem,0.72
+mexico,noroeste,mobilityPassenger,2020,q1a,dem,0.81
+mexico,noroeste,mobilityPassenger,2025,q1a,dem,0.9
+mexico,noroeste,mobilityPassenger,2030,q1a,dem,0.98
+mexico,noroeste,mobilityPassenger,2035,q1a,dem,1.08
+mexico,noroeste,mobilityPassenger,2040,q1a,dem,1.19
+mexico,noroeste,mobilityPassenger,2045,q1a,dem,1.3
+mexico,noroeste,mobilityPassenger,2050,q1a,dem,1.43
+mexico,noroeste,mobilityPassenger,2015,q2n,dem,0.26
+mexico,noroeste,mobilityPassenger,2020,q2n,dem,0.29
+mexico,noroeste,mobilityPassenger,2025,q2n,dem,0.32
+mexico,noroeste,mobilityPassenger,2030,q2n,dem,0.36
+mexico,noroeste,mobilityPassenger,2035,q2n,dem,0.39
+mexico,noroeste,mobilityPassenger,2040,q2n,dem,0.43
+mexico,noroeste,mobilityPassenger,2045,q2n,dem,0.47
+mexico,noroeste,mobilityPassenger,2050,q2n,dem,0.52
+mexico,noroeste,mobilityPassenger,2015,q2m,dem,0.61
+mexico,noroeste,mobilityPassenger,2020,q2m,dem,0.69
+mexico,noroeste,mobilityPassenger,2025,q2m,dem,0.75
+mexico,noroeste,mobilityPassenger,2030,q2m,dem,0.83
+mexico,noroeste,mobilityPassenger,2035,q2m,dem,0.91
+mexico,noroeste,mobilityPassenger,2040,q2m,dem,1
+mexico,noroeste,mobilityPassenger,2045,q2m,dem,1.1
+mexico,noroeste,mobilityPassenger,2050,q2m,dem,1.21
+mexico,noroeste,mobilityPassenger,2015,q2p,dem,1
+mexico,noroeste,mobilityPassenger,2020,q2p,dem,1.13
+mexico,noroeste,mobilityPassenger,2025,q2p,dem,1.24
+mexico,noroeste,mobilityPassenger,2030,q2p,dem,1.36
+mexico,noroeste,mobilityPassenger,2035,q2p,dem,1.5
+mexico,noroeste,mobilityPassenger,2040,q2p,dem,1.64
+mexico,noroeste,mobilityPassenger,2045,q2p,dem,1.8
+mexico,noroeste,mobilityPassenger,2050,q2p,dem,1.98
+mexico,noroeste,mobilityPassenger,2015,q2a,dem,0.72
+mexico,noroeste,mobilityPassenger,2020,q2a,dem,0.81
+mexico,noroeste,mobilityPassenger,2025,q2a,dem,0.89
+mexico,noroeste,mobilityPassenger,2030,q2a,dem,0.98
+mexico,noroeste,mobilityPassenger,2035,q2a,dem,1.07
+mexico,noroeste,mobilityPassenger,2040,q2a,dem,1.18
+mexico,noroeste,mobilityPassenger,2045,q2a,dem,1.3
+mexico,noroeste,mobilityPassenger,2050,q2a,dem,1.43
+mexico,noroeste,mobilityPassenger,2015,q3n,dem,0.29
+mexico,noroeste,mobilityPassenger,2020,q3n,dem,0.33
+mexico,noroeste,mobilityPassenger,2025,q3n,dem,0.36
+mexico,noroeste,mobilityPassenger,2030,q3n,dem,0.39
+mexico,noroeste,mobilityPassenger,2035,q3n,dem,0.43
+mexico,noroeste,mobilityPassenger,2040,q3n,dem,0.48
+mexico,noroeste,mobilityPassenger,2045,q3n,dem,0.52
+mexico,noroeste,mobilityPassenger,2050,q3n,dem,0.57
+mexico,noroeste,mobilityPassenger,2015,q3m,dem,0.61
+mexico,noroeste,mobilityPassenger,2020,q3m,dem,0.69
+mexico,noroeste,mobilityPassenger,2025,q3m,dem,0.75
+mexico,noroeste,mobilityPassenger,2030,q3m,dem,0.83
+mexico,noroeste,mobilityPassenger,2035,q3m,dem,0.91
+mexico,noroeste,mobilityPassenger,2040,q3m,dem,1
+mexico,noroeste,mobilityPassenger,2045,q3m,dem,1.1
+mexico,noroeste,mobilityPassenger,2050,q3m,dem,1.21
+mexico,noroeste,mobilityPassenger,2015,q3p,dem,1.06
+mexico,noroeste,mobilityPassenger,2020,q3p,dem,1.2
+mexico,noroeste,mobilityPassenger,2025,q3p,dem,1.31
+mexico,noroeste,mobilityPassenger,2030,q3p,dem,1.44
+mexico,noroeste,mobilityPassenger,2035,q3p,dem,1.58
+mexico,noroeste,mobilityPassenger,2040,q3p,dem,1.74
+mexico,noroeste,mobilityPassenger,2045,q3p,dem,1.91
+mexico,noroeste,mobilityPassenger,2050,q3p,dem,2.1
+mexico,noroeste,mobilityPassenger,2015,q3a,dem,0.71
+mexico,noroeste,mobilityPassenger,2020,q3a,dem,0.8
+mexico,noroeste,mobilityPassenger,2025,q3a,dem,0.88
+mexico,noroeste,mobilityPassenger,2030,q3a,dem,0.97
+mexico,noroeste,mobilityPassenger,2035,q3a,dem,1.06
+mexico,noroeste,mobilityPassenger,2040,q3a,dem,1.17
+mexico,noroeste,mobilityPassenger,2045,q3a,dem,1.28
+mexico,noroeste,mobilityPassenger,2050,q3a,dem,1.41
+mexico,noroeste,mobilityPassenger,2015,q4n,dem,0.84
+mexico,noroeste,mobilityPassenger,2020,q4n,dem,0.95
+mexico,noroeste,mobilityPassenger,2025,q4n,dem,1.04
+mexico,noroeste,mobilityPassenger,2030,q4n,dem,1.15
+mexico,noroeste,mobilityPassenger,2035,q4n,dem,1.26
+mexico,noroeste,mobilityPassenger,2040,q4n,dem,1.38
+mexico,noroeste,mobilityPassenger,2045,q4n,dem,1.52
+mexico,noroeste,mobilityPassenger,2050,q4n,dem,1.67
+mexico,noroeste,mobilityPassenger,2015,q4m,dem,0.6
+mexico,noroeste,mobilityPassenger,2020,q4m,dem,0.67
+mexico,noroeste,mobilityPassenger,2025,q4m,dem,0.74
+mexico,noroeste,mobilityPassenger,2030,q4m,dem,0.81
+mexico,noroeste,mobilityPassenger,2035,q4m,dem,0.89
+mexico,noroeste,mobilityPassenger,2040,q4m,dem,0.98
+mexico,noroeste,mobilityPassenger,2045,q4m,dem,1.08
+mexico,noroeste,mobilityPassenger,2050,q4m,dem,1.18
+mexico,noroeste,mobilityPassenger,2015,q4p,dem,1.34
+mexico,noroeste,mobilityPassenger,2020,q4p,dem,1.52
+mexico,noroeste,mobilityPassenger,2025,q4p,dem,1.67
+mexico,noroeste,mobilityPassenger,2030,q4p,dem,1.83
+mexico,noroeste,mobilityPassenger,2035,q4p,dem,2.01
+mexico,noroeste,mobilityPassenger,2040,q4p,dem,2.21
+mexico,noroeste,mobilityPassenger,2045,q4p,dem,2.43
+mexico,noroeste,mobilityPassenger,2050,q4p,dem,2.67
+mexico,noroeste,mobilityPassenger,2015,q4a,dem,0.38
+mexico,noroeste,mobilityPassenger,2020,q4a,dem,0.43
+mexico,noroeste,mobilityPassenger,2025,q4a,dem,0.47
+mexico,noroeste,mobilityPassenger,2030,q4a,dem,0.52
+mexico,noroeste,mobilityPassenger,2035,q4a,dem,0.57
+mexico,noroeste,mobilityPassenger,2040,q4a,dem,0.63
+mexico,noroeste,mobilityPassenger,2045,q4a,dem,0.69
+mexico,noroeste,mobilityPassenger,2050,q4a,dem,0.76
 mexico,norte,heatHigh,2015,q1n,dem,4.55
 mexico,norte,heatHigh,2020,q1n,dem,5.1
 mexico,norte,heatHigh,2025,q1n,dem,5.71

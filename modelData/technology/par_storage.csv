@@ -1,4 +1,4 @@
-timestep_1,technology_4,parameter_1,value_1,parameter_2,value_2
+timestep_2,technology_4,parameter_1,value_1,parameter_2,value_2
 ,dBatteryLi-ion,effStIn,0.95,effStOut,0.95
 ,dGasH2,effStIn,0.99,effStOut,0.99
 ,dGasMethane,effStIn,0.99,effStOut,0.99

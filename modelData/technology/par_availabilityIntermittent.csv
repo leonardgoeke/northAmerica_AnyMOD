@@ -1,4 +1,4 @@
-region_1,region_2,technology_1,technology_2,timestep_2,parameter,value
+region_1,region_2,technology_1,technology_2,timestep_3,parameter,value
 mexico,bajaCalifornia,res,solar,q1n,avaConv,0
 mexico,bajaCalifornia,res,solar,q1m,avaConv,0.073625926
 mexico,bajaCalifornia,res,solar,q1p,avaConv,0.583268056
@@ -63,22 +63,22 @@ mexico,noreste,res,solar,q4n,avaConv,0
 mexico,noreste,res,solar,q4m,avaConv,0.067021978
 mexico,noreste,res,solar,q4p,avaConv,0.509103022
 mexico,noreste,res,solar,q4a,avaConv,0.053720588
-mexico,noroeste ,res,solar,q1n,avaConv,0
-mexico,noroeste ,res,solar,q1m,avaConv,0.054948148
-mexico,noroeste ,res,solar,q1p,avaConv,0.596147222
-mexico,noroeste ,res,solar,q1a,avaConv,0.080283333
-mexico,noroeste ,res,solar,q2n,avaConv,0
-mexico,noroeste ,res,solar,q2m,avaConv,0.08662963
-mexico,noroeste ,res,solar,q2p,avaConv,0.564226389
-mexico,noroeste ,res,solar,q2a,avaConv,0.111908333
-mexico,noroeste ,res,solar,q3n,avaConv,0
-mexico,noroeste ,res,solar,q3m,avaConv,0.066395604
-mexico,noroeste ,res,solar,q3p,avaConv,0.481898352
-mexico,noroeste ,res,solar,q3a,avaConv,0.09025
-mexico,noroeste ,res,solar,q4n,avaConv,0
-mexico,noroeste ,res,solar,q4m,avaConv,0.137952381
-mexico,noroeste ,res,solar,q4p,avaConv,0.518024725
-mexico,noroeste ,res,solar,q4a,avaConv,0.011659341
+mexico,noroeste,res,solar,q1n,avaConv,0
+mexico,noroeste,res,solar,q1m,avaConv,0.054948148
+mexico,noroeste,res,solar,q1p,avaConv,0.596147222
+mexico,noroeste,res,solar,q1a,avaConv,0.080283333
+mexico,noroeste,res,solar,q2n,avaConv,0
+mexico,noroeste,res,solar,q2m,avaConv,0.08662963
+mexico,noroeste,res,solar,q2p,avaConv,0.564226389
+mexico,noroeste,res,solar,q2a,avaConv,0.111908333
+mexico,noroeste,res,solar,q3n,avaConv,0
+mexico,noroeste,res,solar,q3m,avaConv,0.066395604
+mexico,noroeste,res,solar,q3p,avaConv,0.481898352
+mexico,noroeste,res,solar,q3a,avaConv,0.09025
+mexico,noroeste,res,solar,q4n,avaConv,0
+mexico,noroeste,res,solar,q4m,avaConv,0.137952381
+mexico,noroeste,res,solar,q4p,avaConv,0.518024725
+mexico,noroeste,res,solar,q4a,avaConv,0.011659341
 mexico,norte,res,solar,q1n,avaConv,0
 mexico,norte,res,solar,q1m,avaConv,0.088922222
 mexico,norte,res,solar,q1p,avaConv,0.639944444
@@ -207,22 +207,22 @@ mexico,noreste,res,wind,q4n,avaConv,0.281260154
 mexico,noreste,res,wind,q4m,avaConv,0.2376337
 mexico,noreste,res,wind,q4p,avaConv,0.274203297
 mexico,noreste,res,wind,q4a,avaConv,0.335158088
-mexico,noroeste ,res,wind,q1n,avaConv,0.160046914
-mexico,noroeste ,res,wind,q1m,avaConv,0.134262963
-mexico,noroeste ,res,wind,q1p,avaConv,0.285254167
-mexico,noroeste ,res,wind,q1a,avaConv,0.257022222
-mexico,noroeste ,res,wind,q2n,avaConv,0.150229913
-mexico,noroeste ,res,wind,q2m,avaConv,0.100566667
-mexico,noroeste ,res,wind,q2p,avaConv,0.330095833
-mexico,noroeste ,res,wind,q2a,avaConv,0.403246537
-mexico,noroeste ,res,wind,q3n,avaConv,0.064796093
-mexico,noroeste ,res,wind,q3m,avaConv,0.064553114
-mexico,noroeste ,res,wind,q3p,avaConv,0.064603022
-mexico,noroeste ,res,wind,q3a,avaConv,0.046228022
-mexico,noroeste ,res,wind,q4n,avaConv,0.135589462
-mexico,noroeste ,res,wind,q4m,avaConv,0.115058608
-mexico,noroeste ,res,wind,q4p,avaConv,0.207519231
-mexico,noroeste ,res,wind,q4a,avaConv,0.149856618
+mexico,noroeste,res,wind,q1n,avaConv,0.160046914
+mexico,noroeste,res,wind,q1m,avaConv,0.134262963
+mexico,noroeste,res,wind,q1p,avaConv,0.285254167
+mexico,noroeste,res,wind,q1a,avaConv,0.257022222
+mexico,noroeste,res,wind,q2n,avaConv,0.150229913
+mexico,noroeste,res,wind,q2m,avaConv,0.100566667
+mexico,noroeste,res,wind,q2p,avaConv,0.330095833
+mexico,noroeste,res,wind,q2a,avaConv,0.403246537
+mexico,noroeste,res,wind,q3n,avaConv,0.064796093
+mexico,noroeste,res,wind,q3m,avaConv,0.064553114
+mexico,noroeste,res,wind,q3p,avaConv,0.064603022
+mexico,noroeste,res,wind,q3a,avaConv,0.046228022
+mexico,noroeste,res,wind,q4n,avaConv,0.135589462
+mexico,noroeste,res,wind,q4m,avaConv,0.115058608
+mexico,noroeste,res,wind,q4p,avaConv,0.207519231
+mexico,noroeste,res,wind,q4a,avaConv,0.149856618
 mexico,norte,res,wind,q1n,avaConv,0.36932963
 mexico,norte,res,wind,q1m,avaConv,0.213807407
 mexico,norte,res,wind,q1p,avaConv,0.220654167

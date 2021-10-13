@@ -1,4 +1,4 @@
-region_1,region_2,carrier_1,timestep_1,parameter,value
+region_1,region_2,carrier_1,timestep_2,parameter,value
 mexico,bajaCalifornia,biomass,2015,useUp,2359.3
 mexico,bajaCalifornia,biomass,2020,useUp,2567.12
 mexico,bajaCalifornia,biomass,2025,useUp,2774.95
@@ -31,14 +31,14 @@ mexico,noreste,biomass,2035,useUp,21034.3
 mexico,noreste,biomass,2040,useUp,22404.4
 mexico,noreste,biomass,2045,useUp,23774.51
 mexico,noreste,biomass,2050,useUp,25144.61
-mexico,noroeste ,biomass,2015,useUp,5242.88
-mexico,noroeste ,biomass,2020,useUp,5704.71
-mexico,noroeste ,biomass,2025,useUp,6166.55
-mexico,noroeste ,biomass,2030,useUp,6628.38
-mexico,noroeste ,biomass,2035,useUp,7090.21
-mexico,noroeste ,biomass,2040,useUp,7552.05
-mexico,noroeste ,biomass,2045,useUp,8013.88
-mexico,noroeste ,biomass,2050,useUp,8475.71
+mexico,noroeste,biomass,2015,useUp,5242.88
+mexico,noroeste,biomass,2020,useUp,5704.71
+mexico,noroeste,biomass,2025,useUp,6166.55
+mexico,noroeste,biomass,2030,useUp,6628.38
+mexico,noroeste,biomass,2035,useUp,7090.21
+mexico,noroeste,biomass,2040,useUp,7552.05
+mexico,noroeste,biomass,2045,useUp,8013.88
+mexico,noroeste,biomass,2050,useUp,8475.71
 mexico,norte,biomass,2015,useUp,15903.41
 mexico,norte,biomass,2020,useUp,17304.3
 mexico,norte,biomass,2025,useUp,18705.19

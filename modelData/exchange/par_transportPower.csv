@@ -1,4 +1,4 @@
-timestep_1,carrier_1,region_2,region_2,parameter_1,value_1,parameter_2,value_2
+timestep_2,carrier_1,region_2,region_2,parameter_1,value_1,parameter_2,value_2
 all,power,alabama,florida,capaExcResiDir,1.15,costExpExc,222.9
 all,power,alabama,georgia,capaExcResiDir,6.7,costExpExc,222.9
 all,power,alabama,mississippi,capaExcResiDir,4.93,costExpExc,222.9
@@ -18,14 +18,14 @@ all,power,california,arizona,capaExcResiDir,2.95,costExpExc,222.9
 all,power,california,bajaCalifornia,capaExcResiDir,0.41,costExpExc,222.9
 all,power,california,nevada,capaExcResiDir,2.7,costExpExc,222.9
 all,power,california,oregon,capaExcResiDir,7.14,costExpExc,222.9
-all,power,canada_,maine,capaExcResiDir,7,costExpExc,222.9
-all,power,canada_,michigan,capaExcResiDir,1.14,costExpExc,222.9
-all,power,canada_,minnesota,capaExcResiDir,2.2,costExpExc,222.9
-all,power,canada_,montana,capaExcResiDir,0.4,costExpExc,222.9
-all,power,canada_,newYork,capaExcResiDir,3.8,costExpExc,222.9
-all,power,canada_,northDakota,capaExcResiDir,0.44,costExpExc,222.9
-all,power,canada_,vermont,capaExcResiDir,7,costExpExc,222.9
-all,power,canada_,washington,capaExcResiDir,2.3,costExpExc,222.9
+all,power,canada_,maine,capaExcResiDir,2.333333333,costExpExc,222.9
+all,power,canada_,michigan,capaExcResiDir,0.38,costExpExc,222.9
+all,power,canada_,minnesota,capaExcResiDir,0.733333333,costExpExc,222.9
+all,power,canada_,montana,capaExcResiDir,0.133333333,costExpExc,222.9
+all,power,canada_,newYork,capaExcResiDir,1.266666667,costExpExc,222.9
+all,power,canada_,northDakota,capaExcResiDir,0.146666667,costExpExc,222.9
+all,power,canada_,vermont,capaExcResiDir,2.333333333,costExpExc,222.9
+all,power,canada_,washington,capaExcResiDir,0.766666667,costExpExc,222.9
 all,power,central,occidental,capaExcResiDir,4.2,costExpExc,222.9
 all,power,central,oriental,capaExcResiDir,7,costExpExc,222.9
 all,power,colorado,kansas,capaExcResiDir,0.21,costExpExc,222.9
@@ -141,9 +141,9 @@ all,power,newYork,newJersey,capaExcResiDir,1.15,costExpExc,222.9
 all,power,newYork,pennsylvania,capaExcResiDir,0.85,costExpExc,222.9
 all,power,newYork,vermont,capaExcResiDir,0.24,costExpExc,222.9
 all,power,noreste,norte,capaExcResiDir,2.5,costExpExc,222.9
-all,power,noroeste ,norte,capaExcResiDir,0.6,costExpExc,222.9
+all,power,noroeste,norte,capaExcResiDir,0.6,costExpExc,222.9
 all,power,norte,noreste,capaExcResiDir,1.45,costExpExc,222.9
-all,power,norte,noroeste ,capaExcResiDir,0.92,costExpExc,222.9
+all,power,norte,noroeste,capaExcResiDir,0.92,costExpExc,222.9
 all,power,northCarolina,georgia,capaExcResiDir,0.05,costExpExc,222.9
 all,power,northCarolina,southCarolina,capaExcResiDir,8.68,costExpExc,222.9
 all,power,northCarolina,tennessee,capaExcResiDir,3.6,costExpExc,222.9
@@ -154,7 +154,7 @@ all,power,northDakota,montana,capaExcResiDir,0.61,costExpExc,222.9
 all,power,northDakota,southDakota,capaExcResiDir,2.26,costExpExc,222.9
 all,power,occidental,central,capaExcResiDir,4.2,costExpExc,222.9
 all,power,occidental,noreste,capaExcResiDir,2.25,costExpExc,222.9
-all,power,occidental,noroeste ,capaExcResiDir,1.38,costExpExc,222.9
+all,power,occidental,noroeste,capaExcResiDir,1.38,costExpExc,222.9
 all,power,occidental,norte,capaExcResiDir,1.56,costExpExc,222.9
 all,power,ohio,indiana,capaExcResiDir,7.06,costExpExc,222.9
 all,power,ohio,kentucky,capaExcResiDir,0.27,costExpExc,222.9
@@ -236,9 +236,9 @@ all,power,wyoming,southDakota,capaExcResiDir,2.49,costExpExc,222.9
 all,power,wyoming,utah,capaExcResiDir,1.91,costExpExc,222.9
 all,power,arizona,colorado,capaExcResi,0,costExpExc,222.9
 all,power,bajaCalifornia,bajaCaliforniaSur,capaExcResi,0,costExpExc,222.9
-all,power,bajaCalifornia,noroeste ,capaExcResi,0,costExpExc,222.9
+all,power,bajaCalifornia,noroeste,capaExcResi,0,costExpExc,222.9
 all,power,bajaCaliforniaSur,bajaCalifornia,capaExcResi,0,costExpExc,222.9
-all,power,bajaCaliforniaSur,noroeste ,capaExcResi,0,costExpExc,222.9
+all,power,bajaCaliforniaSur,noroeste,capaExcResi,0,costExpExc,222.9
 all,power,canada_,idaho,capaExcResi,0,costExpExc,222.9
 all,power,canada_,newHampshire,capaExcResi,0,costExpExc,222.9
 all,power,canada_,ohio,capaExcResi,0,costExpExc,222.9
@@ -256,8 +256,8 @@ all,power,nebraska,colorado,capaExcResi,0,costExpExc,222.9
 all,power,newHampshire,canada_,capaExcResi,0,costExpExc,222.9
 all,power,newMexico,oklahoma,capaExcResi,0,costExpExc,222.9
 all,power,newYork,rhodeIsland,capaExcResi,0,costExpExc,222.9
-all,power,noroeste ,bajaCalifornia,capaExcResi,0,costExpExc,222.9
-all,power,noroeste ,bajaCaliforniaSur,capaExcResi,0,costExpExc,222.9
+all,power,noroeste,bajaCalifornia,capaExcResi,0,costExpExc,222.9
+all,power,noroeste,bajaCaliforniaSur,capaExcResi,0,costExpExc,222.9
 all,power,ohio,canada_,capaExcResi,0,costExpExc,222.9
 all,power,oklahoma,colorado,capaExcResi,0,costExpExc,222.9
 all,power,oklahoma,newMexico,capaExcResi,0,costExpExc,222.9

@@ -1,5 +1,5 @@
 technology_4,parameter,value
-chpBiomass,lifeConv,31
+chpBiomass_,lifeConv,31
 chpHardcoal,lifeConv,31
 chpLignite,lifeConv,31
 chpGas,lifeConv,31
@@ -38,7 +38,7 @@ hltHeatpump,lifeConv,31
 hltOil,lifeConv,21
 hltPvRooftopCommercial,lifeConv,21
 hltPvRooftopResidential,lifeConv,21
-pBiomass,lifeConv,31
+pBiomass_,lifeConv,31
 pHardcoal,lifeConv,31
 pLignite,lifeConv,31
 pGas,lifeConv,31
@@ -75,3 +75,4 @@ xMethanation,lifeConv,11
 chpBiomassCcs,lifeConv,31
 pBiomassCcs,lifeConv,31
 chpOil,lifeConv,31
+pHydrogen,lifeConv,31

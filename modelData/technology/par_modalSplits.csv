@@ -1,4 +1,4 @@
-region_2,carrier_1,timestep_1,technology_1,technology_2,parameter,value
+region_2,carrier_1,timestep_2,technology_1,technology_2,parameter,value
 alabama,mobilityFreight,2015,frtRail,,genLow,23301.6
 alabama,mobilityFreight,2020,frtRail,,genLow,25404
 alabama,mobilityFreight,2025,frtRail,,genLow,28032
@@ -287,14 +287,14 @@ noreste,mobilityFreight,2035,frtRail,,genLow,1051.2
 noreste,mobilityFreight,2040,frtRail,,genLow,1226.4
 noreste,mobilityFreight,2045,frtRail,,genLow,1226.4
 noreste,mobilityFreight,2050,frtRail,,genLow,1401.6
-noroeste ,mobilityFreight,2015,frtRail,,genLow,876
-noroeste ,mobilityFreight,2020,frtRail,,genLow,1051.2
-noroeste ,mobilityFreight,2025,frtRail,,genLow,1226.4
-noroeste ,mobilityFreight,2030,frtRail,,genLow,1401.6
-noroeste ,mobilityFreight,2035,frtRail,,genLow,1576.8
-noroeste ,mobilityFreight,2040,frtRail,,genLow,1752
-noroeste ,mobilityFreight,2045,frtRail,,genLow,2102.4
-noroeste ,mobilityFreight,2050,frtRail,,genLow,2277.6
+noroeste,mobilityFreight,2015,frtRail,,genLow,876
+noroeste,mobilityFreight,2020,frtRail,,genLow,1051.2
+noroeste,mobilityFreight,2025,frtRail,,genLow,1226.4
+noroeste,mobilityFreight,2030,frtRail,,genLow,1401.6
+noroeste,mobilityFreight,2035,frtRail,,genLow,1576.8
+noroeste,mobilityFreight,2040,frtRail,,genLow,1752
+noroeste,mobilityFreight,2045,frtRail,,genLow,2102.4
+noroeste,mobilityFreight,2050,frtRail,,genLow,2277.6
 norte,mobilityFreight,2015,frtRail,,genLow,1927.2
 norte,mobilityFreight,2020,frtRail,,genLow,2102.4
 norte,mobilityFreight,2025,frtRail,,genLow,2452.8
@@ -759,14 +759,14 @@ noreste,mobilityFreight,2035,frtRoad,,genLow,13840.8
 noreste,mobilityFreight,2040,frtRoad,,genLow,15592.8
 noreste,mobilityFreight,2045,frtRoad,,genLow,17520
 noreste,mobilityFreight,2050,frtRoad,,genLow,19797.6
-noroeste ,mobilityFreight,2015,frtRoad,,genLow,3679.2
-noroeste ,mobilityFreight,2020,frtRoad,,genLow,4204.8
-noroeste ,mobilityFreight,2025,frtRoad,,genLow,4555.2
-noroeste ,mobilityFreight,2030,frtRoad,,genLow,5256
-noroeste ,mobilityFreight,2035,frtRoad,,genLow,5956.8
-noroeste ,mobilityFreight,2040,frtRoad,,genLow,6657.6
-noroeste ,mobilityFreight,2045,frtRoad,,genLow,7533.6
-noroeste ,mobilityFreight,2050,frtRoad,,genLow,8584.8
+noroeste,mobilityFreight,2015,frtRoad,,genLow,3679.2
+noroeste,mobilityFreight,2020,frtRoad,,genLow,4204.8
+noroeste,mobilityFreight,2025,frtRoad,,genLow,4555.2
+noroeste,mobilityFreight,2030,frtRoad,,genLow,5256
+noroeste,mobilityFreight,2035,frtRoad,,genLow,5956.8
+noroeste,mobilityFreight,2040,frtRoad,,genLow,6657.6
+noroeste,mobilityFreight,2045,frtRoad,,genLow,7533.6
+noroeste,mobilityFreight,2050,frtRoad,,genLow,8584.8
 norte,mobilityFreight,2015,frtRoad,,genLow,3854.4
 norte,mobilityFreight,2020,frtRoad,,genLow,4380
 norte,mobilityFreight,2025,frtRoad,,genLow,4905.6
@@ -1231,14 +1231,14 @@ noreste,mobilityFreight,2035,frtShip,,genLow,1226.4
 noreste,mobilityFreight,2040,frtShip,,genLow,1401.6
 noreste,mobilityFreight,2045,frtShip,,genLow,1576.8
 noreste,mobilityFreight,2050,frtShip,,genLow,1752
-noroeste ,mobilityFreight,2015,frtShip,,genLow,350.4
-noroeste ,mobilityFreight,2020,frtShip,,genLow,350.4
-noroeste ,mobilityFreight,2025,frtShip,,genLow,350.4
-noroeste ,mobilityFreight,2030,frtShip,,genLow,350.4
-noroeste ,mobilityFreight,2035,frtShip,,genLow,525.6
-noroeste ,mobilityFreight,2040,frtShip,,genLow,525.6
-noroeste ,mobilityFreight,2045,frtShip,,genLow,700.8
-noroeste ,mobilityFreight,2050,frtShip,,genLow,700.8
+noroeste,mobilityFreight,2015,frtShip,,genLow,350.4
+noroeste,mobilityFreight,2020,frtShip,,genLow,350.4
+noroeste,mobilityFreight,2025,frtShip,,genLow,350.4
+noroeste,mobilityFreight,2030,frtShip,,genLow,350.4
+noroeste,mobilityFreight,2035,frtShip,,genLow,525.6
+noroeste,mobilityFreight,2040,frtShip,,genLow,525.6
+noroeste,mobilityFreight,2045,frtShip,,genLow,700.8
+noroeste,mobilityFreight,2050,frtShip,,genLow,700.8
 norte,mobilityFreight,2015,frtShip,,genLow,350.4
 norte,mobilityFreight,2020,frtShip,,genLow,350.4
 norte,mobilityFreight,2025,frtShip,,genLow,350.4
@@ -1703,14 +1703,14 @@ noreste,mobilityPassenger,2035,psngAir,,genLow,2365.2
 noreste,mobilityPassenger,2040,psngAir,,genLow,2540.4
 noreste,mobilityPassenger,2045,psngAir,,genLow,2803.2
 noreste,mobilityPassenger,2050,psngAir,,genLow,3153.6
-noroeste ,mobilityPassenger,2015,psngAir,,genLow,1226.4
-noroeste ,mobilityPassenger,2020,psngAir,,genLow,1314
-noroeste ,mobilityPassenger,2025,psngAir,,genLow,1489.2
-noroeste ,mobilityPassenger,2030,psngAir,,genLow,1664.4
-noroeste ,mobilityPassenger,2035,psngAir,,genLow,1752
-noroeste ,mobilityPassenger,2040,psngAir,,genLow,2014.8
-noroeste ,mobilityPassenger,2045,psngAir,,genLow,2190
-noroeste ,mobilityPassenger,2050,psngAir,,genLow,2365.2
+noroeste,mobilityPassenger,2015,psngAir,,genLow,1226.4
+noroeste,mobilityPassenger,2020,psngAir,,genLow,1314
+noroeste,mobilityPassenger,2025,psngAir,,genLow,1489.2
+noroeste,mobilityPassenger,2030,psngAir,,genLow,1664.4
+noroeste,mobilityPassenger,2035,psngAir,,genLow,1752
+noroeste,mobilityPassenger,2040,psngAir,,genLow,2014.8
+noroeste,mobilityPassenger,2045,psngAir,,genLow,2190
+noroeste,mobilityPassenger,2050,psngAir,,genLow,2365.2
 norte,mobilityPassenger,2015,psngAir,,genLow,963.6
 norte,mobilityPassenger,2020,psngAir,,genLow,1051.2
 norte,mobilityPassenger,2025,psngAir,,genLow,1138.8
@@ -2175,14 +2175,14 @@ noreste,mobilityPassenger,2035,psngRail,,genLow,0
 noreste,mobilityPassenger,2040,psngRail,,genLow,0
 noreste,mobilityPassenger,2045,psngRail,,genLow,0
 noreste,mobilityPassenger,2050,psngRail,,genLow,0
-noroeste ,mobilityPassenger,2015,psngRail,,genLow,0
-noroeste ,mobilityPassenger,2020,psngRail,,genLow,0
-noroeste ,mobilityPassenger,2025,psngRail,,genLow,0
-noroeste ,mobilityPassenger,2030,psngRail,,genLow,0
-noroeste ,mobilityPassenger,2035,psngRail,,genLow,0
-noroeste ,mobilityPassenger,2040,psngRail,,genLow,0
-noroeste ,mobilityPassenger,2045,psngRail,,genLow,87.6
-noroeste ,mobilityPassenger,2050,psngRail,,genLow,87.6
+noroeste,mobilityPassenger,2015,psngRail,,genLow,0
+noroeste,mobilityPassenger,2020,psngRail,,genLow,0
+noroeste,mobilityPassenger,2025,psngRail,,genLow,0
+noroeste,mobilityPassenger,2030,psngRail,,genLow,0
+noroeste,mobilityPassenger,2035,psngRail,,genLow,0
+noroeste,mobilityPassenger,2040,psngRail,,genLow,0
+noroeste,mobilityPassenger,2045,psngRail,,genLow,87.6
+noroeste,mobilityPassenger,2050,psngRail,,genLow,87.6
 norte,mobilityPassenger,2015,psngRail,,genLow,0
 norte,mobilityPassenger,2020,psngRail,,genLow,87.6
 norte,mobilityPassenger,2025,psngRail,,genLow,87.6
@@ -2647,14 +2647,14 @@ noreste,mobilityPassenger,2035,psngRoad,,genLow,6920.4
 noreste,mobilityPassenger,2040,psngRoad,,genLow,7621.2
 noreste,mobilityPassenger,2045,psngRoad,,genLow,8322
 noreste,mobilityPassenger,2050,psngRoad,,genLow,9198
-noroeste ,mobilityPassenger,2015,psngRoad,,genLow,5080.8
-noroeste ,mobilityPassenger,2020,psngRoad,,genLow,5694
-noroeste ,mobilityPassenger,2025,psngRoad,,genLow,6307.2
-noroeste ,mobilityPassenger,2030,psngRoad,,genLow,6920.4
-noroeste ,mobilityPassenger,2035,psngRoad,,genLow,7621.2
-noroeste ,mobilityPassenger,2040,psngRoad,,genLow,8322
-noroeste ,mobilityPassenger,2045,psngRoad,,genLow,9198
-noroeste ,mobilityPassenger,2050,psngRoad,,genLow,10074
+noroeste,mobilityPassenger,2015,psngRoad,,genLow,5080.8
+noroeste,mobilityPassenger,2020,psngRoad,,genLow,5694
+noroeste,mobilityPassenger,2025,psngRoad,,genLow,6307.2
+noroeste,mobilityPassenger,2030,psngRoad,,genLow,6920.4
+noroeste,mobilityPassenger,2035,psngRoad,,genLow,7621.2
+noroeste,mobilityPassenger,2040,psngRoad,,genLow,8322
+noroeste,mobilityPassenger,2045,psngRoad,,genLow,9198
+noroeste,mobilityPassenger,2050,psngRoad,,genLow,10074
 norte,mobilityPassenger,2015,psngRoad,,genLow,5869.2
 norte,mobilityPassenger,2020,psngRoad,,genLow,6657.6
 norte,mobilityPassenger,2025,psngRoad,,genLow,7358.4
@@ -3119,14 +3119,14 @@ noreste,mobilityFreight,2035,frtRail,frtRailFossil,genLow,0
 noreste,mobilityFreight,2040,frtRail,frtRailFossil,genLow,0
 noreste,mobilityFreight,2045,frtRail,frtRailFossil,genLow,0
 noreste,mobilityFreight,2050,frtRail,frtRailFossil,genLow,0
-noroeste ,mobilityFreight,2015,frtRail,frtRailFossil,genLow,0
-noroeste ,mobilityFreight,2020,frtRail,frtRailFossil,genLow,0
-noroeste ,mobilityFreight,2025,frtRail,frtRailFossil,genLow,0
-noroeste ,mobilityFreight,2030,frtRail,frtRailFossil,genLow,0
-noroeste ,mobilityFreight,2035,frtRail,frtRailFossil,genLow,0
-noroeste ,mobilityFreight,2040,frtRail,frtRailFossil,genLow,0
-noroeste ,mobilityFreight,2045,frtRail,frtRailFossil,genLow,0
-noroeste ,mobilityFreight,2050,frtRail,frtRailFossil,genLow,0
+noroeste,mobilityFreight,2015,frtRail,frtRailFossil,genLow,0
+noroeste,mobilityFreight,2020,frtRail,frtRailFossil,genLow,0
+noroeste,mobilityFreight,2025,frtRail,frtRailFossil,genLow,0
+noroeste,mobilityFreight,2030,frtRail,frtRailFossil,genLow,0
+noroeste,mobilityFreight,2035,frtRail,frtRailFossil,genLow,0
+noroeste,mobilityFreight,2040,frtRail,frtRailFossil,genLow,0
+noroeste,mobilityFreight,2045,frtRail,frtRailFossil,genLow,0
+noroeste,mobilityFreight,2050,frtRail,frtRailFossil,genLow,0
 norte,mobilityFreight,2015,frtRail,frtRailFossil,genLow,0
 norte,mobilityFreight,2020,frtRail,frtRailFossil,genLow,0
 norte,mobilityFreight,2025,frtRail,frtRailFossil,genLow,0
@@ -3591,14 +3591,14 @@ noreste,mobilityFreight,2035,frtRail,frtRailRe,genLow,0
 noreste,mobilityFreight,2040,frtRail,frtRailRe,genLow,350.4
 noreste,mobilityFreight,2045,frtRail,frtRailRe,genLow,525.6
 noreste,mobilityFreight,2050,frtRail,frtRailRe,genLow,876
-noroeste ,mobilityFreight,2015,frtRail,frtRailRe,genLow,0
-noroeste ,mobilityFreight,2020,frtRail,frtRailRe,genLow,0
-noroeste ,mobilityFreight,2025,frtRail,frtRailRe,genLow,0
-noroeste ,mobilityFreight,2030,frtRail,frtRailRe,genLow,0
-noroeste ,mobilityFreight,2035,frtRail,frtRailRe,genLow,175.2
-noroeste ,mobilityFreight,2040,frtRail,frtRailRe,genLow,700.8
-noroeste ,mobilityFreight,2045,frtRail,frtRailRe,genLow,1051.2
-noroeste ,mobilityFreight,2050,frtRail,frtRailRe,genLow,1401.6
+noroeste,mobilityFreight,2015,frtRail,frtRailRe,genLow,0
+noroeste,mobilityFreight,2020,frtRail,frtRailRe,genLow,0
+noroeste,mobilityFreight,2025,frtRail,frtRailRe,genLow,0
+noroeste,mobilityFreight,2030,frtRail,frtRailRe,genLow,0
+noroeste,mobilityFreight,2035,frtRail,frtRailRe,genLow,175.2
+noroeste,mobilityFreight,2040,frtRail,frtRailRe,genLow,700.8
+noroeste,mobilityFreight,2045,frtRail,frtRailRe,genLow,1051.2
+noroeste,mobilityFreight,2050,frtRail,frtRailRe,genLow,1401.6
 norte,mobilityFreight,2015,frtRail,frtRailRe,genLow,0
 norte,mobilityFreight,2020,frtRail,frtRailRe,genLow,0
 norte,mobilityFreight,2025,frtRail,frtRailRe,genLow,0
@@ -4063,14 +4063,14 @@ noreste,mobilityFreight,2035,frtRoad,frtRoadFossil,genLow,8234.4
 noreste,mobilityFreight,2040,frtRoad,frtRoadFossil,genLow,7708.8
 noreste,mobilityFreight,2045,frtRoad,frtRoadFossil,genLow,6132
 noreste,mobilityFreight,2050,frtRoad,frtRoadFossil,genLow,3854.4
-noroeste ,mobilityFreight,2015,frtRoad,frtRoadFossil,genLow,3504
-noroeste ,mobilityFreight,2020,frtRoad,frtRoadFossil,genLow,3679.2
-noroeste ,mobilityFreight,2025,frtRoad,frtRoadFossil,genLow,3679.2
-noroeste ,mobilityFreight,2030,frtRoad,frtRoadFossil,genLow,3679.2
-noroeste ,mobilityFreight,2035,frtRoad,frtRoadFossil,genLow,3504
-noroeste ,mobilityFreight,2040,frtRoad,frtRoadFossil,genLow,3328.8
-noroeste ,mobilityFreight,2045,frtRoad,frtRoadFossil,genLow,2628
-noroeste ,mobilityFreight,2050,frtRoad,frtRoadFossil,genLow,1576.8
+noroeste,mobilityFreight,2015,frtRoad,frtRoadFossil,genLow,3504
+noroeste,mobilityFreight,2020,frtRoad,frtRoadFossil,genLow,3679.2
+noroeste,mobilityFreight,2025,frtRoad,frtRoadFossil,genLow,3679.2
+noroeste,mobilityFreight,2030,frtRoad,frtRoadFossil,genLow,3679.2
+noroeste,mobilityFreight,2035,frtRoad,frtRoadFossil,genLow,3504
+noroeste,mobilityFreight,2040,frtRoad,frtRoadFossil,genLow,3328.8
+noroeste,mobilityFreight,2045,frtRoad,frtRoadFossil,genLow,2628
+noroeste,mobilityFreight,2050,frtRoad,frtRoadFossil,genLow,1576.8
 norte,mobilityFreight,2015,frtRoad,frtRoadFossil,genLow,3679.2
 norte,mobilityFreight,2020,frtRoad,frtRoadFossil,genLow,3854.4
 norte,mobilityFreight,2025,frtRoad,frtRoadFossil,genLow,3854.4
@@ -4535,14 +4535,14 @@ noreste,mobilityFreight,2035,frtRoad,frtRoadRe,genLow,1927.2
 noreste,mobilityFreight,2040,frtRoad,frtRoadRe,genLow,2978.4
 noreste,mobilityFreight,2045,frtRoad,frtRoadRe,genLow,7008
 noreste,mobilityFreight,2050,frtRoad,frtRoadRe,genLow,9811.2
-noroeste ,mobilityFreight,2015,frtRoad,frtRoadRe,genLow,0
-noroeste ,mobilityFreight,2020,frtRoad,frtRoadRe,genLow,0
-noroeste ,mobilityFreight,2025,frtRoad,frtRoadRe,genLow,175.2
-noroeste ,mobilityFreight,2030,frtRoad,frtRoadRe,genLow,525.6
-noroeste ,mobilityFreight,2035,frtRoad,frtRoadRe,genLow,876
-noroeste ,mobilityFreight,2040,frtRoad,frtRoadRe,genLow,1226.4
-noroeste ,mobilityFreight,2045,frtRoad,frtRoadRe,genLow,2978.4
-noroeste ,mobilityFreight,2050,frtRoad,frtRoadRe,genLow,4204.8
+noroeste,mobilityFreight,2015,frtRoad,frtRoadRe,genLow,0
+noroeste,mobilityFreight,2020,frtRoad,frtRoadRe,genLow,0
+noroeste,mobilityFreight,2025,frtRoad,frtRoadRe,genLow,175.2
+noroeste,mobilityFreight,2030,frtRoad,frtRoadRe,genLow,525.6
+noroeste,mobilityFreight,2035,frtRoad,frtRoadRe,genLow,876
+noroeste,mobilityFreight,2040,frtRoad,frtRoadRe,genLow,1226.4
+noroeste,mobilityFreight,2045,frtRoad,frtRoadRe,genLow,2978.4
+noroeste,mobilityFreight,2050,frtRoad,frtRoadRe,genLow,4204.8
 norte,mobilityFreight,2015,frtRoad,frtRoadRe,genLow,0
 norte,mobilityFreight,2020,frtRoad,frtRoadRe,genLow,0
 norte,mobilityFreight,2025,frtRoad,frtRoadRe,genLow,175.2
@@ -5007,14 +5007,14 @@ noreste,mobilityFreight,2035,frtShip,frtShipFossil,genLow,700.8
 noreste,mobilityFreight,2040,frtShip,frtShipFossil,genLow,525.6
 noreste,mobilityFreight,2045,frtShip,frtShipFossil,genLow,525.6
 noreste,mobilityFreight,2050,frtShip,frtShipFossil,genLow,525.6
-noroeste ,mobilityFreight,2015,frtShip,frtShipFossil,genLow,175.2
-noroeste ,mobilityFreight,2020,frtShip,frtShipFossil,genLow,350.4
-noroeste ,mobilityFreight,2025,frtShip,frtShipFossil,genLow,350.4
-noroeste ,mobilityFreight,2030,frtShip,frtShipFossil,genLow,350.4
-noroeste ,mobilityFreight,2035,frtShip,frtShipFossil,genLow,175.2
-noroeste ,mobilityFreight,2040,frtShip,frtShipFossil,genLow,175.2
-noroeste ,mobilityFreight,2045,frtShip,frtShipFossil,genLow,175.2
-noroeste ,mobilityFreight,2050,frtShip,frtShipFossil,genLow,175.2
+noroeste,mobilityFreight,2015,frtShip,frtShipFossil,genLow,175.2
+noroeste,mobilityFreight,2020,frtShip,frtShipFossil,genLow,350.4
+noroeste,mobilityFreight,2025,frtShip,frtShipFossil,genLow,350.4
+noroeste,mobilityFreight,2030,frtShip,frtShipFossil,genLow,350.4
+noroeste,mobilityFreight,2035,frtShip,frtShipFossil,genLow,175.2
+noroeste,mobilityFreight,2040,frtShip,frtShipFossil,genLow,175.2
+noroeste,mobilityFreight,2045,frtShip,frtShipFossil,genLow,175.2
+noroeste,mobilityFreight,2050,frtShip,frtShipFossil,genLow,175.2
 norte,mobilityFreight,2015,frtShip,frtShipFossil,genLow,350.4
 norte,mobilityFreight,2020,frtShip,frtShipFossil,genLow,350.4
 norte,mobilityFreight,2025,frtShip,frtShipFossil,genLow,350.4
@@ -5479,14 +5479,14 @@ noreste,mobilityFreight,2035,frtShip,frtShipRe,genLow,0
 noreste,mobilityFreight,2040,frtShip,frtShipRe,genLow,0
 noreste,mobilityFreight,2045,frtShip,frtShipRe,genLow,175.2
 noreste,mobilityFreight,2050,frtShip,frtShipRe,genLow,525.6
-noroeste ,mobilityFreight,2015,frtShip,frtShipRe,genLow,0
-noroeste ,mobilityFreight,2020,frtShip,frtShipRe,genLow,0
-noroeste ,mobilityFreight,2025,frtShip,frtShipRe,genLow,0
-noroeste ,mobilityFreight,2030,frtShip,frtShipRe,genLow,0
-noroeste ,mobilityFreight,2035,frtShip,frtShipRe,genLow,0
-noroeste ,mobilityFreight,2040,frtShip,frtShipRe,genLow,0
-noroeste ,mobilityFreight,2045,frtShip,frtShipRe,genLow,0
-noroeste ,mobilityFreight,2050,frtShip,frtShipRe,genLow,175.2
+noroeste,mobilityFreight,2015,frtShip,frtShipRe,genLow,0
+noroeste,mobilityFreight,2020,frtShip,frtShipRe,genLow,0
+noroeste,mobilityFreight,2025,frtShip,frtShipRe,genLow,0
+noroeste,mobilityFreight,2030,frtShip,frtShipRe,genLow,0
+noroeste,mobilityFreight,2035,frtShip,frtShipRe,genLow,0
+noroeste,mobilityFreight,2040,frtShip,frtShipRe,genLow,0
+noroeste,mobilityFreight,2045,frtShip,frtShipRe,genLow,0
+noroeste,mobilityFreight,2050,frtShip,frtShipRe,genLow,175.2
 norte,mobilityFreight,2015,frtShip,frtShipRe,genLow,0
 norte,mobilityFreight,2020,frtShip,frtShipRe,genLow,0
 norte,mobilityFreight,2025,frtShip,frtShipRe,genLow,0
@@ -5951,14 +5951,14 @@ noreste,mobilityPassenger,2035,psngAir,psngAirFossil,genLow,1839.6
 noreste,mobilityPassenger,2040,psngAir,psngAirFossil,genLow,1927.2
 noreste,mobilityPassenger,2045,psngAir,psngAirFossil,genLow,2014.8
 noreste,mobilityPassenger,2050,psngAir,psngAirFossil,genLow,2014.8
-noroeste ,mobilityPassenger,2015,psngAir,psngAirFossil,genLow,1226.4
-noroeste ,mobilityPassenger,2020,psngAir,psngAirFossil,genLow,1314
-noroeste ,mobilityPassenger,2025,psngAir,psngAirFossil,genLow,1314
-noroeste ,mobilityPassenger,2030,psngAir,psngAirFossil,genLow,1401.6
-noroeste ,mobilityPassenger,2035,psngAir,psngAirFossil,genLow,1401.6
-noroeste ,mobilityPassenger,2040,psngAir,psngAirFossil,genLow,1489.2
-noroeste ,mobilityPassenger,2045,psngAir,psngAirFossil,genLow,1489.2
-noroeste ,mobilityPassenger,2050,psngAir,psngAirFossil,genLow,1489.2
+noroeste,mobilityPassenger,2015,psngAir,psngAirFossil,genLow,1226.4
+noroeste,mobilityPassenger,2020,psngAir,psngAirFossil,genLow,1314
+noroeste,mobilityPassenger,2025,psngAir,psngAirFossil,genLow,1314
+noroeste,mobilityPassenger,2030,psngAir,psngAirFossil,genLow,1401.6
+noroeste,mobilityPassenger,2035,psngAir,psngAirFossil,genLow,1401.6
+noroeste,mobilityPassenger,2040,psngAir,psngAirFossil,genLow,1489.2
+noroeste,mobilityPassenger,2045,psngAir,psngAirFossil,genLow,1489.2
+noroeste,mobilityPassenger,2050,psngAir,psngAirFossil,genLow,1489.2
 norte,mobilityPassenger,2015,psngAir,psngAirFossil,genLow,963.6
 norte,mobilityPassenger,2020,psngAir,psngAirFossil,genLow,963.6
 norte,mobilityPassenger,2025,psngAir,psngAirFossil,genLow,1051.2
@@ -6423,14 +6423,14 @@ noreste,mobilityPassenger,2035,psngAir,psngAirRe,genLow,0
 noreste,mobilityPassenger,2040,psngAir,psngAirRe,genLow,87.6
 noreste,mobilityPassenger,2045,psngAir,psngAirRe,genLow,350.4
 noreste,mobilityPassenger,2050,psngAir,psngAirRe,genLow,876
-noroeste ,mobilityPassenger,2015,psngAir,psngAirRe,genLow,0
-noroeste ,mobilityPassenger,2020,psngAir,psngAirRe,genLow,0
-noroeste ,mobilityPassenger,2025,psngAir,psngAirRe,genLow,0
-noroeste ,mobilityPassenger,2030,psngAir,psngAirRe,genLow,0
-noroeste ,mobilityPassenger,2035,psngAir,psngAirRe,genLow,0
-noroeste ,mobilityPassenger,2040,psngAir,psngAirRe,genLow,87.6
-noroeste ,mobilityPassenger,2045,psngAir,psngAirRe,genLow,262.8
-noroeste ,mobilityPassenger,2050,psngAir,psngAirRe,genLow,700.8
+noroeste,mobilityPassenger,2015,psngAir,psngAirRe,genLow,0
+noroeste,mobilityPassenger,2020,psngAir,psngAirRe,genLow,0
+noroeste,mobilityPassenger,2025,psngAir,psngAirRe,genLow,0
+noroeste,mobilityPassenger,2030,psngAir,psngAirRe,genLow,0
+noroeste,mobilityPassenger,2035,psngAir,psngAirRe,genLow,0
+noroeste,mobilityPassenger,2040,psngAir,psngAirRe,genLow,87.6
+noroeste,mobilityPassenger,2045,psngAir,psngAirRe,genLow,262.8
+noroeste,mobilityPassenger,2050,psngAir,psngAirRe,genLow,700.8
 norte,mobilityPassenger,2015,psngAir,psngAirRe,genLow,0
 norte,mobilityPassenger,2020,psngAir,psngAirRe,genLow,0
 norte,mobilityPassenger,2025,psngAir,psngAirRe,genLow,0
@@ -6895,14 +6895,14 @@ noreste,mobilityPassenger,2035,psngRail,psngRailFossil,genLow,0.00E+00
 noreste,mobilityPassenger,2040,psngRail,psngRailFossil,genLow,0
 noreste,mobilityPassenger,2045,psngRail,psngRailFossil,genLow,0
 noreste,mobilityPassenger,2050,psngRail,psngRailFossil,genLow,0
-noroeste ,mobilityPassenger,2015,psngRail,psngRailFossil,genLow,0
-noroeste ,mobilityPassenger,2020,psngRail,psngRailFossil,genLow,0
-noroeste ,mobilityPassenger,2025,psngRail,psngRailFossil,genLow,0
-noroeste ,mobilityPassenger,2030,psngRail,psngRailFossil,genLow,0
-noroeste ,mobilityPassenger,2035,psngRail,psngRailFossil,genLow,0
-noroeste ,mobilityPassenger,2040,psngRail,psngRailFossil,genLow,0
-noroeste ,mobilityPassenger,2045,psngRail,psngRailFossil,genLow,0
-noroeste ,mobilityPassenger,2050,psngRail,psngRailFossil,genLow,0
+noroeste,mobilityPassenger,2015,psngRail,psngRailFossil,genLow,0
+noroeste,mobilityPassenger,2020,psngRail,psngRailFossil,genLow,0
+noroeste,mobilityPassenger,2025,psngRail,psngRailFossil,genLow,0
+noroeste,mobilityPassenger,2030,psngRail,psngRailFossil,genLow,0
+noroeste,mobilityPassenger,2035,psngRail,psngRailFossil,genLow,0
+noroeste,mobilityPassenger,2040,psngRail,psngRailFossil,genLow,0
+noroeste,mobilityPassenger,2045,psngRail,psngRailFossil,genLow,0
+noroeste,mobilityPassenger,2050,psngRail,psngRailFossil,genLow,0
 norte,mobilityPassenger,2015,psngRail,psngRailFossil,genLow,0
 norte,mobilityPassenger,2020,psngRail,psngRailFossil,genLow,0
 norte,mobilityPassenger,2025,psngRail,psngRailFossil,genLow,0
@@ -7367,14 +7367,14 @@ noreste,mobilityPassenger,2035,psngRail,psngRailRe,genLow,0
 noreste,mobilityPassenger,2040,psngRail,psngRailRe,genLow,0
 noreste,mobilityPassenger,2045,psngRail,psngRailRe,genLow,0
 noreste,mobilityPassenger,2050,psngRail,psngRailRe,genLow,0
-noroeste ,mobilityPassenger,2015,psngRail,psngRailRe,genLow,0
-noroeste ,mobilityPassenger,2020,psngRail,psngRailRe,genLow,0
-noroeste ,mobilityPassenger,2025,psngRail,psngRailRe,genLow,0
-noroeste ,mobilityPassenger,2030,psngRail,psngRailRe,genLow,0
-noroeste ,mobilityPassenger,2035,psngRail,psngRailRe,genLow,0
-noroeste ,mobilityPassenger,2040,psngRail,psngRailRe,genLow,0
-noroeste ,mobilityPassenger,2045,psngRail,psngRailRe,genLow,0
-noroeste ,mobilityPassenger,2050,psngRail,psngRailRe,genLow,0
+noroeste,mobilityPassenger,2015,psngRail,psngRailRe,genLow,0
+noroeste,mobilityPassenger,2020,psngRail,psngRailRe,genLow,0
+noroeste,mobilityPassenger,2025,psngRail,psngRailRe,genLow,0
+noroeste,mobilityPassenger,2030,psngRail,psngRailRe,genLow,0
+noroeste,mobilityPassenger,2035,psngRail,psngRailRe,genLow,0
+noroeste,mobilityPassenger,2040,psngRail,psngRailRe,genLow,0
+noroeste,mobilityPassenger,2045,psngRail,psngRailRe,genLow,0
+noroeste,mobilityPassenger,2050,psngRail,psngRailRe,genLow,0
 norte,mobilityPassenger,2015,psngRail,psngRailRe,genLow,0
 norte,mobilityPassenger,2020,psngRail,psngRailRe,genLow,0
 norte,mobilityPassenger,2025,psngRail,psngRailRe,genLow,0
@@ -7839,14 +7839,14 @@ noreste,mobilityPassenger,2035,psngRoad,psngRoadFossil,genLow,4467.6
 noreste,mobilityPassenger,2040,psngRoad,psngRoadFossil,genLow,3766.8
 noreste,mobilityPassenger,2045,psngRoad,psngRoadFossil,genLow,2890.8
 noreste,mobilityPassenger,2050,psngRoad,psngRoadFossil,genLow,1752
-noroeste ,mobilityPassenger,2015,psngRoad,psngRoadFossil,genLow,4818
-noroeste ,mobilityPassenger,2020,psngRoad,psngRoadFossil,genLow,5431.2
-noroeste ,mobilityPassenger,2025,psngRoad,psngRoadFossil,genLow,5343.6
-noroeste ,mobilityPassenger,2030,psngRoad,psngRoadFossil,genLow,5168.4
-noroeste ,mobilityPassenger,2035,psngRoad,psngRoadFossil,genLow,4905.6
-noroeste ,mobilityPassenger,2040,psngRoad,psngRoadFossil,genLow,4117.2
-noroeste ,mobilityPassenger,2045,psngRoad,psngRoadFossil,genLow,3153.6
-noroeste ,mobilityPassenger,2050,psngRoad,psngRoadFossil,genLow,2014.8
+noroeste,mobilityPassenger,2015,psngRoad,psngRoadFossil,genLow,4818
+noroeste,mobilityPassenger,2020,psngRoad,psngRoadFossil,genLow,5431.2
+noroeste,mobilityPassenger,2025,psngRoad,psngRoadFossil,genLow,5343.6
+noroeste,mobilityPassenger,2030,psngRoad,psngRoadFossil,genLow,5168.4
+noroeste,mobilityPassenger,2035,psngRoad,psngRoadFossil,genLow,4905.6
+noroeste,mobilityPassenger,2040,psngRoad,psngRoadFossil,genLow,4117.2
+noroeste,mobilityPassenger,2045,psngRoad,psngRoadFossil,genLow,3153.6
+noroeste,mobilityPassenger,2050,psngRoad,psngRoadFossil,genLow,2014.8
 norte,mobilityPassenger,2015,psngRoad,psngRoadFossil,genLow,5606.4
 norte,mobilityPassenger,2020,psngRoad,psngRoadFossil,genLow,6307.2
 norte,mobilityPassenger,2025,psngRoad,psngRoadFossil,genLow,6219.6
@@ -8311,14 +8311,14 @@ noreste,mobilityPassenger,2035,psngRoad,psngRoadRe,genLow,963.6
 noreste,mobilityPassenger,2040,psngRoad,psngRoadRe,genLow,1489.2
 noreste,mobilityPassenger,2045,psngRoad,psngRoadRe,genLow,3328.8
 noreste,mobilityPassenger,2050,psngRoad,psngRoadRe,genLow,4555.2
-noroeste ,mobilityPassenger,2015,psngRoad,psngRoadRe,genLow,0
-noroeste ,mobilityPassenger,2020,psngRoad,psngRoadRe,genLow,0
-noroeste ,mobilityPassenger,2025,psngRoad,psngRoadRe,genLow,262.8
-noroeste ,mobilityPassenger,2030,psngRoad,psngRoadRe,genLow,613.2
-noroeste ,mobilityPassenger,2035,psngRoad,psngRoadRe,genLow,1051.2
-noroeste ,mobilityPassenger,2040,psngRoad,psngRoadRe,genLow,1664.4
-noroeste ,mobilityPassenger,2045,psngRoad,psngRoadRe,genLow,3679.2
-noroeste ,mobilityPassenger,2050,psngRoad,psngRoadRe,genLow,4993.2
+noroeste,mobilityPassenger,2015,psngRoad,psngRoadRe,genLow,0
+noroeste,mobilityPassenger,2020,psngRoad,psngRoadRe,genLow,0
+noroeste,mobilityPassenger,2025,psngRoad,psngRoadRe,genLow,262.8
+noroeste,mobilityPassenger,2030,psngRoad,psngRoadRe,genLow,613.2
+noroeste,mobilityPassenger,2035,psngRoad,psngRoadRe,genLow,1051.2
+noroeste,mobilityPassenger,2040,psngRoad,psngRoadRe,genLow,1664.4
+noroeste,mobilityPassenger,2045,psngRoad,psngRoadRe,genLow,3679.2
+noroeste,mobilityPassenger,2050,psngRoad,psngRoadRe,genLow,4993.2
 norte,mobilityPassenger,2015,psngRoad,psngRoadRe,genLow,0
 norte,mobilityPassenger,2020,psngRoad,psngRoadRe,genLow,0
 norte,mobilityPassenger,2025,psngRoad,psngRoadRe,genLow,350.4

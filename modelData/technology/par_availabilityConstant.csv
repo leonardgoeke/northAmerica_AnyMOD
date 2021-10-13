@@ -1,5 +1,5 @@
-technology_4,timestep_1,parameter,value
-chpBiomass,,avaConv,0.84
+technology_4,timestep_2,parameter,value
+chpBiomass_,,avaConv,0.84
 chpHardcoal,,avaConv,0.844
 chpLignite,,avaConv,0.844
 chpGas,,avaConv,0.87
@@ -36,7 +36,7 @@ hltGas,,avaConv,0.87
 hltGeothermal,,avaConv,0.92
 hltHeatpump,,avaConv,0.95
 hltOil,,avaConv,0.84
-pBiomass,,avaConv,0.84
+pBiomass_,,avaConv,0.84
 pHardcoal,,avaConv,0.844
 pLignite,,avaConv,0.844
 pGas,2015,avaConv,0.87

@@ -1,4 +1,4 @@
-region_2,carrier_1,timestep_1,parameter,value
+region_2,carrier_1,timestep_2,parameter,value
 bajaCalifornia,mobilityFreight,2015,dem,0.29
 bajaCalifornia,mobilityFreight,2020,dem,0.326
 bajaCalifornia,mobilityFreight,2025,dem,0.367
@@ -31,14 +31,14 @@ noreste,mobilityFreight,2035,dem,1.849
 noreste,mobilityFreight,2040,dem,2.085
 noreste,mobilityFreight,2045,dem,2.342
 noreste,mobilityFreight,2050,dem,2.643
-noroeste ,mobilityFreight,2015,dem,0.572
-noroeste ,mobilityFreight,2020,dem,0.646
-noroeste ,mobilityFreight,2025,dem,0.729
-noroeste ,mobilityFreight,2030,dem,0.823
-noroeste ,mobilityFreight,2035,dem,0.93
-noroeste ,mobilityFreight,2040,dem,1.05
-noroeste ,mobilityFreight,2045,dem,1.185
-noroeste ,mobilityFreight,2050,dem,1.339
+noroeste,mobilityFreight,2015,dem,0.572
+noroeste,mobilityFreight,2020,dem,0.646
+noroeste,mobilityFreight,2025,dem,0.729
+noroeste,mobilityFreight,2030,dem,0.823
+noroeste,mobilityFreight,2035,dem,0.93
+noroeste,mobilityFreight,2040,dem,1.05
+noroeste,mobilityFreight,2045,dem,1.185
+noroeste,mobilityFreight,2050,dem,1.339
 norte,mobilityFreight,2015,dem,0.713
 norte,mobilityFreight,2020,dem,0.804
 norte,mobilityFreight,2025,dem,0.906

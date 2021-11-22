@@ -1,0 +1,7 @@
+region_1,timestep_2,parameter,value
+canada,2030,emissionUp,181.8
+mexico,2030,emissionUp,91.2
+usa,2030,emissionUp,2878.2
+canada,2050,emissionUp,36.36
+mexico,2050,emissionUp,18.24
+usa,2050,emissionUp,575.64

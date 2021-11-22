@@ -21,10 +21,7 @@ set_optimizer_attribute(modelObj.optModel, "Crossover", 0); # disable crossover 
 optimize!(modelObj.optModel)
 
 # report results of solved model
-#plotEnergyFlow(:sankey,modelObj); # writes an html file containing several sankey plots
 reportResults(:summary,modelObj); # writes a pivot table summarizing key results
-#reportResults(:exchange,modelObj); # writes a pivot table with more detailed results on interconnection
-#reportResults(:costs,modelObj); # writes a pivot table with more detailed results on costs
 
 append!(emfFormat_df,reportEMF(modelObj))
 
@@ -36,8 +33,10 @@ for x in ["net0by2050","net0by2060","net0by2080"]
 
     # create all variables and equations of the model
     createOptModel!(modelObj)
+    
     # set the objective function
     setObjective!(:costs,modelObj)
+
     # solve model with gurobi 
     set_optimizer(modelObj.optModel,Gurobi.Optimizer)
     set_optimizer_attribute(modelObj.optModel, "Method", 2); # set method option of gurobi to use barrier algorithm
@@ -45,10 +44,8 @@ for x in ["net0by2050","net0by2060","net0by2080"]
     optimize!(modelObj.optModel)
 
     # report results of solved model
-    #plotEnergyFlow(:sankey,modelObj); # writes an html file containing several sankey plots
     reportResults(:summary,modelObj); #
     reportResults(:exchange,modelObj); #
-#reportResults(:costs,modelObj); #
 
     append!(emfFormat_df,reportEMF(modelObj))
 end

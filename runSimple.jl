@@ -21,4 +21,4 @@ optimize!(modelObj.optModel)
 plotEnergyFlow(:sankey,modelObj);
 reportResults(:summary,modelObj);
 reportResults(:exchange,modelObj);
-reportResults(:cost,modelObj); 
+reportResults(:costs,modelObj); 

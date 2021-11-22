@@ -1,15 +1,1151 @@
 
+sets:
+    timestep:
+        10th < 2015: "2015"
+        10th < 2020: "2020"
+        20th < 2025: "2025"
+        20th < 2030: "2030"
+        30th < 2035: "2035"
+        30th < 2040: "2040"
+        40th < 2045: "2045"
+        40th < 2050: "2050"
+        none: "none"
 
-vertices:
-    -   name: "a"   
-        label: "test"
-        color: (0.8,0.4,0.4)
-        position: (0.2,0.1)
+    region:
+        mexico < bajaCalifornia: "MEX"
+        mexico < bajaCaliforniaSur: "MEX"
+        mexico < peninsular: "MEX"
+        mexico < noreste: "MEX"
+        mexico < norte: "MEX"
+        mexico < noroeste: "MEX"
+        mexico < noreste: "MEX"
+        mexico < occidental: "MEX"
+        mexico < oriental: "MEX"
+        mexico < central: "MEX"
+        usa < california: "CA"
+        usa < alabama: "AL"
+        usa < arkansas: "AR"
+        usa < arizona: "AZ"
+        usa < colorado: "CO"
+        usa < connecticut: "CT"
+        usa < delaware: "DE"
+        usa < florida: "FL"
+        usa < georgia: "GA"
+        usa < iowa: "IA"
+        usa < idaho: "ID"
+        usa < illinois: "IL"
+        usa < indiana: "IN"
+        usa < kansas: "KS"
+        usa < kentucky: "KY"
+        usa < louisiana: "LA"
+        usa < massachusetts: "MA"
+        usa < maryland: "MD"
+        usa < maine: "ME"
+        usa < michigan: "MI"
+        usa < minnesota: "MN"
+        usa < missouri: "MO"
+        usa < mississippi: "MS"
+        usa < montana: "MT"
+        usa < northCarolina: "NC"
+        usa < northDakota: "ND"
+        usa < nebraska: "NE"
+        usa < newHampshire: "NH"
+        usa < newJersey: "NJ"
+        usa < newMexico: "NM"
+        usa < nevada: "NV"
+        usa < newYork: "NY"
+        usa < ohio: "OH"
+        usa < oklahoma: "OK"
+        usa < oregon: "OR"
+        usa < pennsylvania: "PA"
+        usa < rhodeIsland: "RI"
+        usa < southCarolina: "SC"
+        usa < southDakota: "SD"
+        usa < tennessee: "TN"
+        usa < texas: "TX"
+        usa < utah: "UT"
+        usa < virginia: "VA"
+        usa < vermont: "VT"
+        usa < washington: "WA"
+        usa < wisconsin: "WI"
+        usa < westVirginia: "WV"
+        usa < wyoming: "WY"
+        canada < canada_: "CAN"
+        usa < alaska: "AK"
+        none: "none"
 
-    -   name: "b"   
-        label: "test"
-        color: (0.8,0.4,0.4)
-        position: (0.2,0.1)
+variables:
 
-edges:
-    a: "b"
+    Capacity|Electricity|Biomass|w/ CCS:
+        -   file: "summary"
+            variable: "capaConv"
+            technology: "p < pBiomassCcs"
+            factor:  0.557
+
+        -   file: "summary"
+            variable: "capaConv"
+            technology: "d < chp < chpBiomassCcs"
+            factor:  0.2142
+
+    Capacity|Electricity|Biomass|w/o CCS:
+        -   file: "summary"
+            variable: "capaConv"
+            technology: "p < pBiomass"
+            factor:  0.6
+
+        -   file: "summary"
+            variable: "capaConv"
+            technology: "d < chp < chpBiomass"
+            factor:  0.231
+
+    Capacity|Electricity|Coal|w/o CCS:
+        -   file: "summary"
+            variable: "capaConv"
+            technology: "d < chp < chpHardcoal"
+            factor:  0.2856
+
+        -   file: "summary"
+            variable: "capaConv"
+            technology: "d < chp < chpLignite"
+            factor:  0.2856
+
+        -   file: "summary"
+            variable: "capaConv"
+            technology: "p < pHardcoal"
+            factor:  0.466
+
+        -   file: "summary"
+            variable: "capaConv"
+            technology: "p < pLignite"
+            factor:  0.466
+
+    Capacity|Electricity|Gas|w/o CCS:
+        -   file: "summary"
+            variable: "capaConv"
+            technology: "d < chp < chpGas"
+            factor:  0.4109
+
+        -   file: "summary"
+            variable: "capaConv"
+            technology: "p < pGas"
+            factor:  0.596
+
+    Capacity|Electricity|Geothermal:
+        -   file: "summary"
+            variable: "capaConv"
+            technology: "res < resGeothermal"
+            factor:  1.0
+
+    Capacity|Electricity|Hydro:
+        -   file: "summary"
+            variable: "capaConv"
+            technology: "res < resHydroLarge"
+            factor:  1.0
+
+        -   file: "summary"
+            variable: "capaConv"
+            technology: "res < resHydroSmall"
+            factor:  1.0
+
+    Capacity|Electricity|Nuclear:
+        -   file: "summary"
+            variable: "capaConv"
+            technology: "d < chp < chpNuclear"
+            factor:  0.266
+
+        -   file: "summary"
+            variable: "capaConv"
+            technology: "p < pNuclear"
+            factor:  0.38
+
+    Capacity|Electricity|Oil|w/o CCS:
+        -   file: "summary"
+            variable: "capaConv"
+            technology: "d < chp < chpOil"
+            factor:  0.273
+
+        -   file: "summary"
+            variable: "capaConv"
+            technology: "p < pOil"
+            factor:  0.39
+
+    Capacity|Electricity|Solar|CSP:
+        -   file: "summary"
+            variable: "capaConv"
+            technology: "res < solar < resCsp"
+            factor:  1.0
+
+    Capacity|Electricity|Solar|PV:
+        -   file: "summary"
+            variable: "capaConv"
+            technology: "res < solar < rooftopCommercial < resPvRooftopCommercial"
+            factor:  1.0
+
+        -   file: "summary"
+            variable: "capaConv"
+            technology: "res < solar < rooftopResidental < resPvRooftopResidential"
+            factor:  1.0
+
+        -   file: "summary"
+            variable: "capaConv"
+            technology: "res < solar < resPvUtilityAvg"
+            factor:  1.0
+
+        -   file: "summary"
+            variable: "capaConv"
+            technology: "res < solar < resPvUtilityInf"
+            factor:  1.0
+
+        -   file: "summary"
+            variable: "capaConv"
+            technology: "res < solar < resPvUtilityOpt"
+            factor:  1.0
+
+    Capacity|Electricity|Storage Capacity|Battery:
+        -   file: "summary"
+            variable: "capaStOut"
+            technology: "d < dBatteryLi-ion"
+            factor:  1.0
+
+        -   file: "summary"
+            variable: "capaStOut"
+            technology: "d < dBatteryRedox"
+            factor:  1.0
+
+    Capacity|Electricity|Storage Capacity|Other:
+        -   file: "summary"
+            variable: "capaStOut"
+            technology: "d < dCaes"
+            factor:  1.0
+
+    Capacity|Electricity|Storage Capacity|PSH:
+        -   file: "summary"
+            variable: "capaStOut"
+            technology: "d < dPhs"
+            factor:  1.0
+
+    Capacity|Electricity|Storage Energy|Battery:
+        -   file: "summary"
+            variable: "capaStSize"
+            technology: "d < dBatteryLi-ion"
+            factor:  1.0
+
+        -   file: "summary"
+            variable: "capaStSize"
+            technology: "d < dBatteryRedox"
+            factor:  1.0
+
+    Capacity|Electricity|Storage Energy|Other:
+        -   file: "summary"
+            variable: "capaStSize"
+            technology: "d < dCaes"
+            factor:  1.0
+
+    Capacity|Electricity|Storage Energy|PSH:
+        -   file: "summary"
+            variable: "capaStSize"
+            technology: "d < dPhs"
+            factor:  1.0
+
+    Capacity|Electricity|Wind|Offshore:
+        -   file: "summary"
+            variable: "capaConv"
+            technology: "res < wind < resWindOffshoreDeep"
+            factor:  1.0
+
+        -   file: "summary"
+            variable: "capaConv"
+            technology: "res < wind < resWindOffshoreShallow"
+            factor:  1.0
+
+        -   file: "summary"
+            variable: "capaConv"
+            technology: "res < wind < resWindOffshoreTransitional"
+            factor:  1.0
+
+    Capacity|Electricity|Wind|Onshore:
+
+        -   file: "summary"
+            variable: "capaConv"
+            technology: "res < wind < resWindOnshoreAvg"
+            factor:  1.0
+
+        -   file: "summary"
+            variable: "capaConv"
+            technology: "res < wind < resWindOnshoreOpt"
+            factor:  1.
+
+        -   file: "summary"
+            variable: "capaConv"
+            technology: "res < wind < resWindOnshoreInf"
+            factor:  1.0
+
+    Carbon Sequestration|CCS|Biomass|Energy:
+        -   file: "summary"
+            variable: "emission"
+            technology: "p < pBiomassCcs"
+            factor:  1.0
+
+        -   file: "summary"
+            variable: "emission"
+            technology: "d < chp < chpBiomassCcs"
+            factor:  1.0
+
+    Emissions|CO2|Energy:
+        -   file: "summary"
+            variable: "emission"
+            carrier: "hardcoal"
+            factor:  1.0
+
+        -   file: "summary"
+            variable: "emission"
+            carrier: "lignite"
+            factor:  1.0
+
+        -   file: "summary"
+            variable: "emission"
+            carrier: "gasNatural"
+            factor:  1.0
+
+        -   file: "summary"
+            variable: "emission"
+            carrier: "oil"
+            factor:  1.0
+
+    Emissions|CO2|Energy|Coal:
+        -   file: "summary"
+            variable: "emission"
+            carrier: "hardcoal"
+            factor:  1.0
+
+        -   file: "summary"
+            variable: "emission"
+            carrier: "lignite"
+            factor:  1.0
+
+    Emissions|CO2|Energy|Gas:
+        -   file: "summary"
+            variable: "emission"
+            carrier: "gasNatural"
+            factor:  1.0
+
+    Emissions|CO2|Energy|Oil:
+        -   file: "summary"
+            variable: "emission"
+            carrier: "oil"
+            factor:  1.0
+
+    Emissions|CO2|Energy|Supply|Electricity:
+        -   file: "summary"
+            variable: "emission"
+            technology: "d <"
+            factor:  1.0
+
+        -   file: "summary"
+            variable: "emission"
+            technology: "p <"
+            factor:  1.0
+
+    Emissions|CO2|Energy|Supply|Heat:
+        -   file: "summary"
+            variable: "emission"
+            technology: "hht <"
+            factor:  1.0
+
+        -   file: "summary"
+            variable: "emission"
+            technology: "hlt <"
+            factor:  1.0
+
+    Emisssions|CO2|Energy|Demand|Buildings:
+        -   file: "summary"
+            variable: "emission"
+            technology: "hlt <"
+            factor:  1.0
+
+    Emisssions|CO2|Energy|Demand|Industry:
+        -   file: "summary"
+            variable: "emission"
+            technology: "hht <"
+            factor:  1.0
+
+    Emisssions|CO2|Energy|Demand|Transportation:
+        -   file: "summary"
+            variable: "emission"
+            technology: "frtRail <"
+            factor:  1.0
+
+        -   file: "summary"
+            variable: "emission"
+            technology: "frtRoad <"
+            factor:  1.0
+
+        -   file: "summary"
+            variable: "emission"
+            technology: "frtShip <"
+            factor:  1.0
+
+        -   file: "summary"
+            variable: "emission"
+            technology: "psngAir <"
+            factor:  1.0
+
+        -   file: "summary"
+            variable: "emission"
+            technology: "psngRail <"
+            factor:  1.0
+
+        -   file: "summary"
+            variable: "emission"
+            technology: "psngRoad <"
+            factor:  1.0
+
+    Final Energy:
+        -   file: "summary"
+            variable: "use"
+            technology: "hlt <"
+            factor:  -0.00361
+
+        -   file: "summary"
+            variable: "use"
+            technology: "hht <"
+            factor:  -0.00361
+
+        -   file: "summary"
+            variable: "use"
+            technology: "frtRail <"
+            factor:  -0.00361
+
+        -   file: "summary"
+            variable: "use"
+            technology: "frtRoad <"
+            factor:  -0.00361
+
+        -   file: "summary"
+            variable: "use"
+            technology: "frtShip <"
+            factor:  -0.00361
+
+        -   file: "summary"
+            variable: "use"
+            technology: "psngAir <"
+            factor:  -0.00361
+
+        -   file: "summary"
+            variable: "use"
+            technology: "psngRail <"
+            factor:  -0.00361
+
+        -   file: "summary"
+            variable: "use"
+            technology: "psngRoad <"
+            factor: -0.00361
+
+        -   file: "summary"
+            variable: "demand"
+            carrier: "power"
+            factor:  -0.00361
+
+    Final Energy|Buildings|Biogas:
+        -   file: "summary"
+            variable: "use"
+            technology: "hlt <"
+            carrier: "biomass"
+            factor:  -0.00361
+
+    Final Energy|Buildings|Electricity:
+        -   file: "summary"
+            variable: "use"
+            technology: "hlt <"
+            carrier: "power"
+            factor:  -0.00361
+
+        -   file: "summary"
+            variable: "demand"
+            carrier: "power"
+            factor:  -0.0026714
+
+    Final Energy|Buildings|Gas:
+        -   file: "summary"
+            variable: "use"
+            technology: "hlt <"
+            carrier: "gas"
+            factor:  -0.00361
+
+    Final Energy|Buildings|Oil:
+        -   file: "summary"
+            variable: "use"
+            technology: "hlt <"
+            carrier: "oil"
+            factor:  -0.00361
+
+    Final Energy|Biogas:
+        -   file: "summary"
+            variable: "use"
+            technology: "x <"
+            carrier: "biomass"
+            factor:  -0.00361
+
+        -   file: "summary"
+            variable: "use"
+            technology: "hlt <"
+            carrier: "biomass"
+            factor:  -0.00361
+
+        -   file: "summary"
+            variable: "use"
+            technology: "hht <"
+            carrier: "biomass"
+            factor:  -0.00361
+
+        -   file: "summary"
+            variable: "use"
+            technology: "frtRoad <"
+            carrier: "biomass"
+            factor:  -0.00361     
+
+        -   file: "summary"
+            variable: "use"
+            technology: "frtShip <"
+            carrier: "biomass"
+            factor:  -0.00361     
+
+        -   file: "summary"
+            variable: "use"
+            technology: "psngAir <"
+            carrier: "biomass"
+            factor:  -0.00361     
+
+        -   file: "summary"
+            variable: "use"
+            technology: "psngRoad <"
+            carrier: "biomass"
+            factor:  -0.00361     
+
+    Final Energy|Coal:
+        -   file: "summary"
+            variable: "use"
+            technology: "hlt <"
+            carrier: "lignite"
+            factor:  -0.00361
+
+        -   file: "summary"
+            variable: "use"
+            technology: "hlt <"
+            carrier: "hardcoal"
+            factor:  -0.00361
+
+        -   file: "summary"
+            variable: "use"
+            technology: "hht <"
+            carrier: "lignite"
+            factor:  -0.00361
+
+        -   file: "summary"
+            variable: "use"
+            technology: "hht <"
+            carrier: "hardcoal"
+            factor:  -0.00361
+
+    Final Energy|Electricity:
+        -   file: "summary"
+            variable: "demand"
+            carrier: "power"
+            factor:  -0.00361
+
+        -   file: "summary"
+            variable: "use"
+            technology: "hlt <"
+            carrier: "power"
+            factor:  -0.00361
+
+        -   file: "summary"
+            variable: "use"
+            technology: "hht <"
+            carrier: "power"
+            factor:  -0.00361
+
+        -   file: "summary"
+            variable: "use"
+            technology: "x < xElectrolysis"
+            carrier: "power"
+            factor:  -0.00361
+
+        -   file: "summary"
+            variable: "use"
+            technology: "frtRail <"
+            carrier: "power"
+            factor:  -0.00361
+
+        -   file: "summary"
+            variable: "use"
+            technology: "frtRoad <"
+            carrier: "power"
+            factor:  -0.00361
+
+        -   file: "summary"
+            variable: "use"
+            technology: "psngRail <"
+            carrier: "power"
+            factor:  -0.00361
+
+        -   file: "summary"
+            variable: "use"
+            technology: "psngRoad <"
+            carrier: "power"
+            factor:  -0.00361
+
+    Final Energy|Gas:
+        -   file: "summary"
+            variable: "use"
+            technology: "hlt <"
+            carrier: "gas"
+            factor:  -0.00361
+
+        -   file: "summary"
+            variable: "use"
+            technology: "hht <"
+            carrier: "gas"
+            factor:  -0.00361
+
+    Final Energy|Hydrogen:
+        -   file: "summary"
+            variable: "use"
+            technology: "x <"
+            carrier: "hydrogen"
+            factor:  -0.00361
+
+        -   file: "summary"
+            variable: "use"
+            technology: "hht <"
+            carrier: "hydrogen"
+            factor:  -0.00361
+
+        -   file: "summary"
+            variable: "use"
+            technology: "frtRoad <"
+            carrier: "hydrogen"
+            factor:  -0.00361
+
+        -   file: "summary"
+            variable: "use"
+            technology: "psngRoad <"
+            carrier: "hydrogen"
+            factor:  -0.00361
+
+        -   file: "summary"
+            variable: "use"
+            technology: "psngAir <"
+            carrier: "hydrogen"
+            factor:  -0.00361
+
+    Final Energy|Industry|Biogas:
+        -   file: "summary"
+            variable: "use"
+            technology: "hht <"
+            carrier: "biomass"
+            factor:  -0.00361
+
+    Final Energy|Industry|Coal:
+        -   file: "summary"
+            variable: "use"
+            technology: "hht <"
+            carrier: "lignite"
+            factor:  -0.00361
+
+        -   file: "summary"
+            variable: "use"
+            technology: "hht <"
+            carrier: "hardcoal"
+            factor:  -0.00361
+
+    Final Energy|Industry|Electricity:
+        -   file: "summary"
+            variable: "use"
+            technology: "hht <"
+            carrier: "power"
+            factor:  -0.00361
+
+        -   file: "summary"
+            variable: "demand"
+            carrier: "power"
+            factor:  -0.0009386
+
+    Final Energy|Industry|Gas:
+        -   file: "summary"
+            variable: "use"
+            technology: "hht <"
+            carrier: "gas"
+            factor:  -0.00361
+
+    Final Energy|Industry|Hydrogen:
+        -   file: "summary"
+            variable: "use"
+            technology: "hht <"
+            carrier: "hydrogen"
+            factor:  -0.00361
+
+    Final Energy|Industry|Oil:
+        -   file: "summary"
+            variable: "use"
+            technology: "hht <"
+            carrier: "oil"
+            factor:  -0.00361
+
+    Final Energy|Transportation|Biogas:
+        -   file: "summary"
+            variable: "use"
+            technology: "frtRoad <"
+            carrier: "biomass"
+            factor:  -0.00361     
+
+        -   file: "summary"
+            variable: "use"
+            technology: "frtShip <"
+            carrier: "biomass"
+            factor:  -0.00361     
+
+        -   file: "summary"
+            variable: "use"
+            technology: "psngAir <"
+            carrier: "biomass"
+            factor:  -0.00361     
+
+        -   file: "summary"
+            variable: "use"
+            technology: "psngRoad <"
+            carrier: "biomass"
+            factor:  -0.00361
+
+    Final Energy|Transportation|Electricity:
+        -   file: "summary"
+            variable: "use"
+            technology: "frtRail <"
+            carrier: "power"
+            factor:  -0.00361
+
+        -   file: "summary"
+            variable: "use"
+            technology: "frtRoad <"
+            carrier: "power"
+            factor:  -0.00361
+
+        -   file: "summary"
+            variable: "use"
+            technology: "psngRail <"
+            carrier: "power"
+            factor:  -0.00361
+
+        -   file: "summary"
+            variable: "use"
+            technology: "psngRoad <"
+            carrier: "power"
+            factor:  -0.00361
+
+    Final Energy|Transportation|Hydrogen:
+        -   file: "summary"
+            variable: "use"
+            technology: "frtRoad <"
+            carrier: "hydrogen"
+            factor:  -0.00361
+
+        -   file: "summary"
+            variable: "use"
+            technology: "psngRoad <"
+            carrier: "hydrogen"
+            factor:  -0.00361
+
+        -   file: "summary"
+            variable: "use"
+            technology: "psngAir <"
+            carrier: "hydrogen"
+            factor:  -0.00361
+
+    Final Energy|Transportation|Oil:
+        -   file: "summary"
+            variable: "use"
+            technology: "frtRail <"
+            carrier: "oil"
+            factor:  -0.00361
+
+        -   file: "summary"
+            variable: "use"
+            technology: "frtRoad <"
+            carrier: "oil"
+            factor:  -0.00361
+
+        -   file: "summary"
+            variable: "use"
+            technology: "frtShip <"
+            carrier: "oil"
+            factor:  -0.00361
+
+        -   file: "summary"
+            variable: "use"
+            technology: "psngAir <"
+            carrier: "oil"
+            factor:  -0.00361
+
+        -   file: "summary"
+            variable: "use"
+            technology: "psngRail <"
+            carrier: "oil"
+            factor:  -0.00361
+
+        -   file: "summary"
+            variable: "use"
+            technology: "psngRoad <"
+            carrier: "oil"
+            factor:  -0.00361
+
+    Primary Energy:
+        -   file: "summary"
+            variable: "use"
+            technology: "p < "
+            factor:  -0.00361
+
+        -   file: "summary"
+            variable: "use"
+            technology: "chp < "
+            factor:  -0.00361
+
+
+    Primary Energy|Biomass|Electricity|w/ CCS:
+        -   file: "summary"
+            variable: "use"
+            technology: "p < pBiomassCcs"
+            factor:  -0.00361
+
+        -   file: "summary"
+            variable: "use"
+            technology: "d < chp < chpBiomassCcs"
+            factor:  -0.00361
+
+    Primary Energy|Biomass|Electricity|w/o CCS:
+        -   file: "summary"
+            variable: "use"
+            technology: "p < pBiomass"
+            factor:  -0.00361
+
+        -   file: "summary"
+            variable: "use"
+            technology: "d < chp < chpBiomass"
+            factor:  -0.00361
+
+    Primary Energy|Coal|Electricity|w/o CCS:        
+        -   file: "summary"
+            variable: "use"
+            technology: "d < chp < chpHardcoal"
+            factor:  -0.00361
+
+        -   file: "summary"
+            variable: "use"
+            technology: "d < chp < chpLignite"
+            factor:  -0.00361
+
+        -   file: "summary"
+            variable: "use"
+            technology: "p < pHardcoal"
+            factor:  -0.00361
+
+        -   file: "summary"
+            variable: "use"
+            technology: "p < pLignite"
+            factor:  -0.00361
+
+    Primary Energy|Fossil|w/o CCS:
+        -   file: "summary"
+            variable: "use"
+            technology: "d < chp < chpHardcoal"
+            factor:  -0.00361
+
+        -   file: "summary"
+            variable: "use"
+            technology: "d < chp < chpLignite"
+            factor:  -0.00361
+
+        -   file: "summary"
+            variable: "use"
+            technology: "p < pHardcoal"
+            factor:  -0.00361
+
+        -   file: "summary"
+            variable: "use"
+            technology: "p < pLignite"
+            factor:  -0.00361
+
+        -   file: "summary"
+            variable: "use"
+            technology: "d < chp < chpGas"
+            carrier: "gasNatural"
+            factor:  -0.00361
+
+        -   file: "summary"
+            variable: "use"
+            technology: "p < pGas"
+            carrier: "gasNatural"
+            factor:  -0.00361
+
+        -   file: "summary"
+            variable: "use"
+            technology: "d < chp < chpOil"
+            factor:  -0.00361
+
+        -   file: "summary"
+            variable: "use"
+            technology: "p < pOil"
+            factor:  -0.00361
+
+    Primary Energy|Gas|Electricity|w/o CCS:
+        -   file: "summary"
+            variable: "use"
+            technology: "d < chp < chpGas"
+            factor:  -0.00361
+
+        -   file: "summary"
+            variable: "use"
+            technology: "p < pGas"
+            factor:  -0.00361
+
+    Secondary Energy|Electricity:
+        -   file: "summary"
+            variable: "gen"
+            carrier: "power"
+            factor:  0.00361
+
+    Secondary Energy|Electricity|Biomass|w/ CCS:
+        -   file: "summary"
+            variable: "gen"
+            technology: "p < pBiomassCcs"
+            factor:  0.00361
+
+        -   file: "summary"
+            variable: "gen"
+            carrier: "power"
+            technology: "d < chp < chpBiomassCcs"
+            factor:  0.00361
+
+    Secondary Energy|Electricity|Biomass|w/o CCS:
+        -   file: "summary"
+            variable: "gen"
+            technology: "p < pBiomass"
+            factor:  0.00361
+
+        -   file: "summary"
+            variable: "gen"
+            carrier: "power"
+            technology: "d < chp < chpBiomass"
+            factor:  0.00361
+
+    Secondary Energy|Electricity|Coal|w/o CCS:
+        -   file: "summary"
+            variable: "gen"
+            carrier: "power"
+            technology: "d < chp < chpHardcoal"
+            factor:  0.00361
+
+        -   file: "summary"
+            variable: "gen"
+            carrier: "power"
+            technology: "d < chp < chpLignite"
+            factor:  0.00361
+
+        -   file: "summary"
+            variable: "gen"
+            technology: "p < pHardcoal"
+            factor:  0.00361
+
+        -   file: "summary"
+            variable: "gen"
+            technology: "p < pLignite"
+            factor:  0.00361
+
+    Secondary Energy|Electricity|Gas|w/o CCS:
+        -   file: "summary"
+            variable: "gen"
+            carrier: "power"
+            technology: "d < chp < chpGas"
+            factor:  0.00361
+
+        -   file: "summary"
+            variable: "gen"
+            technology: "p < pGas"
+            factor:  0.00361
+
+    Secondary Energy|Electricity|Geothermal:
+        -   file: "summary"
+            variable: "gen"
+            technology: "res < resGeothermal"
+            factor:  0.00361
+
+    Secondary Energy|Electricity|Hydro:
+        -   file: "summary"
+            variable: "gen"
+            technology: "res < resHydroLarge"
+            factor:  0.00361
+
+        -   file: "summary"
+            variable: "gen"
+            technology: "res < resHydroSmall"
+            factor:  0.00361
+
+    Secondary Energy|Electricity|Imports:
+        -   file: "summary"
+            variable: "export"
+            carrier: "power"
+            factor:  0.00361
+
+        -   file: "summary"
+            variable: "import"
+            carrier: "power"
+            factor:  0.00361
+
+    Secondary Energy|Electricity|Nuclear:
+        -   file: "summary"
+            variable: "gen"
+            carrier: "power"
+            technology: "d < chp < chpNuclear"
+            factor:  0.00361
+
+        -   file: "summary"
+            variable: "gen"
+            technology: "p < pNuclear"
+            factor:  0.00361
+
+    Secondary Energy|Electricity|Oil|w/o CCS:
+        -   file: "summary"
+            variable: "gen"
+            carrier: "power"
+            technology: "d < chp < chpOil"
+            factor:  0.00361
+
+        -   file: "summary"
+            variable: "gen"
+            technology: "p < pOil"
+            factor:  0.00361
+
+
+    Secondary Energy|Electricity|Solar|CSP:
+        -   file: "summary"
+            variable: "gen"
+            technology: "res < solar < resCsp"
+            factor:  0.00361
+
+
+    Secondary Energy|Electricity|Solar|PV:
+        -   file: "summary"
+            variable: "gen"
+            technology: "res < solar < rooftopCommercial < resPvRooftopCommercial"
+            factor:  0.00361
+
+        -   file: "summary"
+            variable: "gen"
+            technology: "res < solar < rooftopResidental < resPvRooftopResidential"
+            factor:  0.00361
+
+        -   file: "summary"
+            variable: "gen"
+            technology: "res < solar < resPvUtilityAvg"
+            factor:  0.00361
+
+        -   file: "summary"
+            variable: "gen"
+            technology: "res < solar < resPvUtilityInf"
+            factor:  0.00361
+
+        -   file: "summary"
+            variable: "gen"
+            technology: "res < solar < resPvUtilityOpt"
+            factor:  0.00361
+
+    Secondary Energy|Electricity|Wind|Offshore:
+        -   file: "summary"
+            variable: "gen"
+            technology: "res < wind < resWindOffshoreDeep"
+            factor:  0.00361
+
+        -   file: "summary"
+            variable: "gen"
+            technology: "res < wind < resWindOffshoreShallow"
+            factor:  0.00361
+
+        -   file: "summary"
+            variable: "gen"
+            technology: "res < wind < resWindOffshoreTransitional"
+            factor:  0.00361
+
+    Secondary Energy|Electricity|Wind|Onshore:
+        -   file: "summary"
+            variable: "gen"
+            technology: "res < wind < resWindOnshoreAvg"
+            factor:  0.00361
+
+        -   file: "summary"
+            variable: "gen"
+            technology: "res < wind < resWindOnshoreOpt"
+            factor:  0.00361
+
+        -   file: "summary"
+            variable: "gen"
+            technology: "res < wind < resWindOnshoreInf"
+            factor:  0.00361
+
+    Secondary Energy|Electricity|Storage|Battery:
+        -   file: "summary"
+            variable: "stOut"
+            technology: "d < dBatteryLi-ion"
+            factor:  0.00361
+
+        -   file: "summary"
+            variable: "stOut"
+            technology: "d < dBatteryRedox"
+            factor:  0.00361
+
+    Secondary Energy|Electricity|Storage|Other:
+        -   file: "summary"
+            variable: "stOut"
+            technology: "d < dCaes"
+            factor:  0.00361
+
+    Secondary Energy|Electricity|Storage|PSH:
+        -   file: "summary"
+            variable: "stOut"
+            technology: "d < dPhs"
+            factor:  0.00361
+
+    Secondary Energy|Hydrogen|Electricity:
+        -   file: "summary"
+            variable: "gen"
+            technology: "x < xElectrolysis"
+            factor:  0.00361
+
+aggregations:
+    -   "Capacity|Electricity"
+    -   "Capacity|Electricity|Biomass"
+    -   "Capacity|Electricity|Coal"
+    -   "Capacity|Electricity|Gas"
+    -   "Capacity|Electricity|Oil"
+    -   "Capacity|Electricity|Solar"
+    -   "Capacity|Electricity|Storage Capacity"
+    -   "Capacity|Electricity|Storage Energy"
+    -   "Capacity|Electricity|Wind"
+    -   "Carbon Sequestration|CCS"
+    -   "Emissions|CO2|Energy|Supply"
+    -   "Final Energy|Buildings"
+    -   "Final Energy|Industry"
+    -   "Final Energy|Transportation"
+    -   "Primary Energy|Biomass"
+    -   "Primary Energy|Biomass|Electricity"
+    -   "Primary Energy|Coal"
+    -   "Primary Energy|Coal|Electricity"
+    -   "Primary Energy|Fossil"
+    -   "Primary Energy|Gas"
+    -   "Primary Energy|Gas|Electricity"
+    -   "Secondary Energy|Electricity|Biomass"
+    -   "Secondary Energy|Electricity|Coal"
+    -   "Secondary Energy|Electricity|Gas"
+    -   "Secondary Energy|Electricity|Oil"
+    -   "Secondary Energy|Electricity|Solar"
+    -   "Secondary Energy|Electricity|Wind"
+    -   "Secondary Energy|Electricity|Storage"
+    -   "Secondary Energy|Hydrogen"

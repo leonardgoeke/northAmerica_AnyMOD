@@ -25,7 +25,6 @@ append!(emfFormat_df,reportEMF(modelObj))
 
 #plotEnergyFlow(:sankey,modelObj, dropDown = (:timestep,))
 
-x = "net0by2080"
 for x in ["net0by2050","net0by2060","net0by2080"]
     modelObj = anyModel(["modelData",x],"results", objName = x, shortExp = 5, supTsLvl = 2, decomm = :none)
 

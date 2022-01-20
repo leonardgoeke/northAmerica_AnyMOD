@@ -63,6 +63,7 @@ function reportEMF(anyM::anyModel)
 
         # add variable column
         reportVar_df[!,:variable] .= reportVar
+        if isempty(reportVar_df) continue end
         append!(allVar_df,reportVar_df)
     end
     noAggVar_df = copy(allVar_df)

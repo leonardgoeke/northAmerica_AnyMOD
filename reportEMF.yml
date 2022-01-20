@@ -280,7 +280,7 @@ variables:
             technology: "res < wind < resWindOnshoreInf"
             factor:  1.0
 
-    Carbon Sequestration|CCS|Biomass|Energy:
+    CO2 capture|Electricity|Biomass|New builds:
         -   file: "summary"
             variable: "emission"
             technology: "p < pBiomassCcs"
@@ -446,7 +446,7 @@ variables:
             carrier: "power"
             factor:  -0.00361
 
-    Final Energy|Buildings|Biogas:
+    Final Energy|Buildings|Biomass solids:
         -   file: "summary"
             variable: "use"
             technology: "hlt <"
@@ -639,7 +639,7 @@ variables:
             carrier: "hydrogen"
             factor:  -0.00361
 
-    Final Energy|Industry|Biogas:
+    Final Energy|Industry|Biomass solids:
         -   file: "summary"
             variable: "use"
             technology: "hht <"
@@ -798,6 +798,18 @@ variables:
             carrier: "oil"
             factor:  -0.00361
 
+    Final Energy|Oil:
+        -   file: "summary"
+            variable: "use"
+            carrier: "oil"
+            factor:  -0.00361
+
+    Final Energy|Oil:
+        -   file: "summary"
+            variable: "use"
+            carrier: "gasSynth"
+            factor:  -0.00361
+
     Primary Energy:
         -   file: "summary"
             variable: "use"
@@ -912,6 +924,13 @@ variables:
             variable: "gen"
             carrier: "power"
             factor:  0.00361
+
+    Secondary Energy|Biogas:
+        -   file: "summary"
+            variable: "gen"
+            technology: "x < xMethanation"
+            factor:  0.00361
+
 
     Secondary Energy|Electricity|Biomass|w/ CCS:
         -   file: "summary"
@@ -1090,6 +1109,12 @@ variables:
             technology: "res < wind < resWindOnshoreInf"
             factor:  0.00361
 
+    Secondary Energy|Electricity|Hydrogen:
+        -   file: "summary"
+            variable: "gen"
+            technology: "p < pHydrogen"
+            factor:  0.00361
+
     Secondary Energy|Electricity|Storage|Battery:
         -   file: "summary"
             variable: "stOut"
@@ -1119,6 +1144,158 @@ variables:
             technology: "x < xElectrolysis"
             factor:  0.00361
 
+    Secondary Energy|Synthetic gas:
+        -   file: "summary"
+            variable: "gen"
+            technology: "x < xMethanation"
+            factor:  0.00361
+
+    Cost|Capital|Electricity|Biomass|w/ CCS:
+        -   file: "costs"
+            variable: "costExpConv"
+            technology: "p < pBiomassCcs"
+            factor:  1.0
+
+        -   file: "costs"
+            variable: "costExpConv"
+            technology: "d < chp < chpBiomassCcs"
+            factor:  1.0
+
+    Cost|Capital|Electricity|Biomass|w/o CCS:
+        -   file: "costs"
+            variable: "costExpConv"
+            technology: "p < pBiomass"
+            factor:  1.0
+
+        -   file: "costs"
+            variable: "costExpConv"
+            technology: "d < chp < chpBiomass"
+            factor:  1.0
+
+    Cost|Capital|Electricity|Coal|w/o CCS:
+        -   file: "costs"
+            variable: "costExpConv"
+            technology: "d < chp < chpHardcoal"
+            factor:  1.0
+
+        -   file: "costs"
+            variable: "costExpConv"
+            technology: "d < chp < chpLignite"
+            factor:  1.0
+
+        -   file: "costs"
+            variable: "costExpConv"
+            technology: "p < pHardcoal"
+            factor:  1.0
+
+        -   file: "costs"
+            variable: "costExpConv"
+            technology: "p < pLignite"
+            factor:  1.0
+
+    Cost|Capital|Electricity|Gas|w/o CCS:
+        -   file: "costs"
+            variable: "costExpConv"
+            technology: "d < chp < chpGas"
+            factor:  1.0
+
+        -   file: "costs"
+            variable: "costExpConv"
+            technology: "p < pGas"
+            factor:  1.0
+
+    Cost|Capital|Electricity|Geothermal:
+        -   file: "costs"
+            variable: "costExpConv"
+            technology: "res < resGeothermal"
+            factor:  1.0
+
+    Cost|Capital|Electricity|Hydro:
+        -   file: "costs"
+            variable: "costExpConv"
+            technology: "res < resHydroLarge"
+            factor:  1.0
+
+        -   file: "costs"
+            variable: "costExpConv"
+            technology: "res < resHydroSmall"
+            factor:  1.0
+
+    Cost|Capital|Electricity|Nuclear:
+        -   file: "costs"
+            variable: "costExpConv"
+            technology: "d < chp < chpNuclear"
+            factor:  1.0
+
+        -   file: "costs"
+            variable: "costExpConv"
+            technology: "p < pNuclear"
+            factor:  1.0
+
+    Cost|Capital|Electricity|Solar|CSP:
+        -   file: "costs"
+            variable: "costExpConv"
+            technology: "res < solar < resCsp"
+            factor:  1.0
+
+    Cost|Capital|Electricity|Solar|PV:
+        -   file: "costs"
+            variable: "costExpConv"
+            technology: "res < solar < rooftopCommercial < resPvRooftopCommercial"
+            factor:  1.0
+
+        -   file: "costs"
+            variable: "costExpConv"
+            technology: "res < solar < rooftopResidental < resPvRooftopResidential"
+            factor:  1.0
+
+        -   file: "costs"
+            variable: "costExpConv"
+            technology: "res < solar < resPvUtilityAvg"
+            factor:  1.0
+
+        -   file: "costs"
+            variable: "costExpConv"
+            technology: "res < solar < resPvUtilityInf"
+            factor:  1.0
+
+        -   file: "costs"
+            variable: "costExpConv"
+            technology: "res < solar < resPvUtilityOpt"
+            factor:  1.0
+
+    Cost|Capital|Electricity|Wind|Offshore:
+        -   file: "costs"
+            variable: "costExpConv"
+            technology: "res < wind < resWindOffshoreDeep"
+            factor:  1.0
+
+        -   file: "costs"
+            variable: "costExpConv"
+            technology: "res < wind < resWindOffshoreShallow"
+            factor:  1.0
+
+        -   file: "costs"
+            variable: "costExpConv"
+            technology: "res < wind < resWindOffshoreTransitional"
+            factor:  1.0
+
+    Cost|Capital|Electricity|Wind|Onshore:
+        -   file: "costs"
+            variable: "costExpConv"
+            technology: "res < wind < resWindOnshoreAvg"
+            factor:  1.0
+
+        -   file: "costs"
+            variable: "costExpConv"
+            technology: "res < wind < resWindOnshoreOpt"
+            factor:  1.
+
+        -   file: "costs"
+            variable: "costExpConv"
+            technology: "res < wind < resWindOnshoreInf"
+            factor:  1.0
+
 aggregations:
     -   "Capacity|Electricity"
     -   "Capacity|Electricity|Biomass"
@@ -1129,7 +1306,8 @@ aggregations:
     -   "Capacity|Electricity|Storage Capacity"
     -   "Capacity|Electricity|Storage Energy"
     -   "Capacity|Electricity|Wind"
-    -   "Carbon Sequestration|CCS"
+    -   "CO2 capture|Electricity|Biomass"
+    -   "CO2 capture|Electricity"
     -   "Emissions|CO2|Energy|Supply"
     -   "Final Energy|Buildings"
     -   "Final Energy|Industry"

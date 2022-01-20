@@ -8,7 +8,6 @@ mexico,norte
 mexico,occidental
 mexico,oriental
 mexico,peninsular
-canada,canada_
 usa,alabama
 usa,alaska
 usa,arizona
@@ -58,3 +57,16 @@ usa,washington
 usa,westVirginia
 usa,wisconsin
 usa,wyoming
+canada,ontario
+canada,quebec
+canada,novaScotia
+canada,newBrunswick
+canada,britishColumbia
+canada,princeEdwardIsland
+canada,saskatchewan
+canada,alberta
+canada,newfoundlandandLabrador
+canada,northwestTerritories
+canada,yukon
+canada,nunavut
+canada,manitoba

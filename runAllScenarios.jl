@@ -6,7 +6,7 @@ emfFormat_df = DataFrame(timestep = String[], region = String[], variable = Stri
 
 # initialize a model object, first two arguments are the input and output directory
 # (objName specifies a model name, shortExp specifies the distance of years (e.g. 2015, 2020 ...), decomm = :none deactivates endogenous decommissioning) 
-modelObj = anyModel("modelData","results", objName = "reference", shortExp = 5, supTsLvl = 2, decomm = :none)
+modelObj = anyModel("modelData","results", objName = "NT.Ref", shortExp = 5, supTsLvl = 2, decomm = :none)
 
 # create all variables and equations of the model
 createOptModel!(modelObj)
@@ -25,8 +25,10 @@ append!(emfFormat_df,reportEMF(modelObj))
 
 #plotEnergyFlow(:sankey,modelObj, dropDown = (:timestep,))
 
+scrName_dic = Dict("net0by2050" => "0by50.Ref", "net0by2060" => "0by60.Ref", "net0by2080" => "0by80.Ref")
+
 for x in ["net0by2050","net0by2060","net0by2080"]
-    modelObj = anyModel(["modelData",x],"results", objName = x, shortExp = 5, supTsLvl = 2, decomm = :none)
+    modelObj = anyModel(["modelData",x],"results", objName = scrName_dic[x], shortExp = 5, supTsLvl = 2, decomm = :none)
 
     # create all variables and equations of the model
     createOptModel!(modelObj)

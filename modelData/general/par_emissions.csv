@@ -5,3 +5,4 @@ gasNatural,,emissionFac,202.53
 oil,,emissionFac,264.62
 biomass,pBiomassCcs,emissionFac,-277.977
 biomass,chpBiomassCcs,emissionFac,-277.977
+power,xDac,emissionFac,-2857

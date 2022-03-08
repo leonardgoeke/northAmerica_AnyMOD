@@ -1,0 +1,79 @@
+technology_1,technology_2,technology_3,technology_4,carrier_conversion_in,carrier_conversion_out,carrier_stored_in,carrier_stored_out,mode,technology_type
+res,solar,rooftopCommercial,resPvRooftopCommercial,,power,,,,mature
+res,solar,rooftopCommercial,hltPvRooftopCommercial,,heatLow,,,,mature
+res,solar,rooftopResidental,resPvRooftopResidential,,power,,,,mature
+res,solar,rooftopResidental,hltPvRooftopResidential,,heatLow,,,,mature
+d,chp,,chpBiomass_,biomass,power; heatLow,,,,mature
+d,chp,,chpBiomassCcs,biomass,power; heatLow,,,,stock
+d,chp,,chpGas,gasNatural; gasBio; gasSynth,power; heatLow,,,,mature
+d,chp,,chpHardcoal,hardcoal,power; heatLow,,,,mature
+d,chp,,chpLignite,lignite,power; heatLow,,,,mature
+d,chp,,chpNuclear,nuclear,power; heatLow,,,,mature
+d,chp,,chpOil,oil,power; heatLow,,,,mature
+d,,,dBatteryLi-ion,,,power,power,,mature
+d,,,dBatteryRedox,,,power,power,,mature
+d,,,dCaes,,,power,power,,mature
+d,,,dGasH2,,,hydrogen,hydrogen,,mature
+d,,,dGasMethane,,,gasNatural,gasNatural,,mature
+d,,,dHeat,,,heatLow,heatLow,,mature
+d,,,dPhs,,,power,power,,mature
+frtRail,frtRailFossil,,frtRailConv,oil,mobilityFreight,,,,mature
+frtRail,frtRailRe,frtRailElec,frtRailElectric,power,mobilityFreight,,,,mature
+frtRoad,frtRoadRe,frtRoadElec,frtRoadBev,power,mobilityFreight,,,,mature
+frtRoad,frtRoadRe,,frtRoadH2,hydrogen,mobilityFreight,,,,mature
+frtRoad,frtRoadFossil,,frtRoadIce,biomass; oil,mobilityFreight,,,useOil; useBiomass,mature
+frtRoad,frtRoadRe,frtRoadElec,frtRoadOh,power,mobilityFreight,,,,mature
+frtRoad,frtRoadFossil,,frtRoadPhev,power; oil; biomass,mobilityFreight,,,useOil; useBiomass,mature
+frtShip,frtShipRe,,frtShipBio,biomass,mobilityFreight,,,,mature
+frtShip,frtShipFossil,,frtShipConv,oil,mobilityFreight,,,,mature
+hht,,,hhtBiomass,biomass,heatHigh,,,,mature
+hht,,hhtElec,hhtElectricFurnace,power,heatHigh,,,,mature
+hht,,,hhtGas,gasNatural; gasBio; gasSynth,heatHigh,,,,mature
+hht,,hhtElec,hhtGeothermal,power,heatHigh,,,,mature
+hht,,,hhtH2,hydrogen,heatHigh,,,,mature
+hht,,,hhtHardcoal,hardcoal,heatHigh,,,,mature
+hht,,,hhtLignite,lignite,heatHigh,,,,mature
+hht,,,hhtOil,oil,heatHigh,,,,mature
+hlt,,,hltBiomass,biomass,heatLow,,,,mature
+hlt,,,hltHardcoal,hardcoal,heatLow,,,,mature
+hlt,,,hltLignite,lignite,heatLow,,,,mature
+hlt,,hltElec,hltElectricFurnace,power,heatLow,,,,mature
+hlt,,,hltGas,gasNatural; gasBio; gasSynth,heatLow,,,,mature
+hlt,,hltElec,hltGeothermal,power,heatLow,,,,mature
+hlt,,hltElec,hltHeatpump,power,heatLow,,,,mature
+hlt,,,hltOil,oil,heatLow,,,,mature
+p,,,pBiomass_,biomass,power,,,,mature
+p,,,pBiomassCcs,biomass,power,,,,stock
+p,,,pGas,gasNatural; gasBio; gasSynth,power,,,,mature
+p,,,pHardcoal,hardcoal,power,,,,mature
+p,,,pLignite,lignite,power,,,,mature
+p,,,pNuclear,nuclear,power,,,,mature
+p,,,pOil,oil,power,,,,mature
+p,,,pHydrogen,hydrogen,power,,,,mature
+psngAir,psngAirRe,,psngAirBio,biomass,mobilityPassenger,,,,mature
+psngAir,psngAirFossil,,psngAirConv,oil,mobilityPassenger,,,,mature
+psngAir,psngAirRe,,psngAirH2,hydrogen,mobilityPassenger,,,,mature
+psngRail,psngRailFossil,,psngRailConv,oil,mobilityPassenger,,,,mature
+psngRail,psngRailRe,psngRailElec,psngRailElectric,power,mobilityPassenger,,,,mature
+psngRoad,psngRoadRe,psngRoadElec,psngRoadBev,power,mobilityPassenger,,,,mature
+psngRoad,psngRoadRe,,psngRoadH2,hydrogen,mobilityPassenger,,,,mature
+psngRoad,psngRoadFossil,,psngRoadIce,oil; biomass,mobilityPassenger,,,useOil; useBiomass,mature
+psngRoad,psngRoadFossil,,psngRoadPhev,power; oil; biomass,mobilityPassenger,,,useOil; useBiomass,mature
+res,solar,,resCsp,,power,,,,mature
+res,,,resGeothermal,,power,,,,stock
+res,,,resHydroLarge,,power,,,,stock
+res,,,resHydroSmall,,power,,,,stock
+res,,,resOcean,,power,,,,mature
+res,solar,,resPvUtilityAvg,,power,,,,mature
+res,solar,,resPvUtilityInf,,power,,,,stock
+res,solar,,resPvUtilityOpt,,power,,,,stock
+res,wind,,resWindOffshoreDeep,,power,,,,mature
+res,wind,,resWindOffshoreShallow,,power,,,,mature
+res,wind,,resWindOffshoreTransitional,,power,,,,mature
+res,wind,,resWindOnshoreAvg,,power,,,,mature
+res,wind,,resWindOnshoreInf,,power,,,,stock
+res,wind,,resWindOnshoreOpt,,power,,,,stock
+x,,,xElectrolysis,power,hydrogen,,,,mature
+x,,,xFuelCell,hydrogen,power; heatLow,,,onlyPower; someHeat,mature
+x,,,xMethanation,hydrogen; biomass,gasSynth; gasBio,,,useBiomass; useHydrogen,mature
+x,,,xDac,power,,,,,stock

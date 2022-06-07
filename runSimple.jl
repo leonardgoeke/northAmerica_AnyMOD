@@ -3,7 +3,7 @@ using AnyMOD, Gurobi
 
 # initialize a model object, first two arguments are the input and output directory
 # (objName specifies a model name, shortExp specifies the distance of years (e.g. 2015, 2020 ...), decomm = :none deactivates endogenous decommissioning) 
-modelObj = anyModel(["modelData","net0by2050"],"results", objName = "net0by2050", shortExp = 5, supTsLvl = 2, decomm = :none)
+modelObj = anyModel(["modelData","Ref"],"results", objName = "net0by2050", shortExp = 5, supTsLvl = 2, decomm = :none)
 
 # create all variables and equations of the model
 createOptModel!(modelObj)
@@ -18,7 +18,7 @@ set_optimizer_attribute(modelObj.optModel, "Crossover", 0); # disable crossover 
 optimize!(modelObj.optModel)
 
 # report results of solved model
-plotEnergyFlow(:sankey,modelObj);
+#plotEnergyFlow(:sankey,modelObj);
 reportResults(:summary,modelObj);
 reportResults(:exchange,modelObj);
 reportResults(:costs,modelObj); 

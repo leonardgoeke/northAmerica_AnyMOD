@@ -30,8 +30,6 @@ append!(emfFormat_df,reportEMF(modelObj))
 techName_dic = Dict("Ref" => "Ref", "NoDacCCS" => "CMSG.1", "AdvCCS" => "CMSG.2","AdvH2" => "CMSG.3","AdvDac" => "CMSG.4","AdvAll" => "Adv")
 scrName_dic = Dict("net0by2050" => "0by50", "net0by2060" => "0by60", "net0by2080" => "0by80")
 
-techName_dic = Dict("Ref" => "Ref", "AdvCCS" => "CMSG.2","AdvAll" => "Adv")
-
 
 for y in keys(techName_dic)
     println(y)
@@ -51,21 +49,22 @@ for y in keys(techName_dic)
         set_optimizer_attribute(modelObj.optModel, "Crossover", 0); # disable crossover part of barrier algorithm
         optimize!(modelObj.optModel)
 
-        # report results of solved model
-        reportResults(:summary,modelObj); #
-        reportResults(:exchange,modelObj); #
+        try
+            # report results of solved model
+            reportResults(:summary,modelObj); #
+            reportResults(:exchange,modelObj); #
 
-        append!(emfFormat_df,reportEMF(modelObj))
+            append!(emfFormat_df,reportEMF(modelObj))#
+        catch
+        end
     end
 end
+
+
 CSV.write("results/emfFormat.csv", emfFormat_df)
 
 
-bla = copy(emfFormat_df)
-
-bla[!,:value] = map(x -> x < 1e-5 ? 0.0 : x, emfFormat_df[!,:value])
-
-
-bla = unstack(bla, :timestep, :value)
-
-CSV.write("results/emfFormat2.csv", bla)
+emfFormatFlt_df = copy(emfFormat_df)
+emfFormatFlt_df[!,:value] = map(x -> abs(x) < 1e-5 ? 0.0 : x, emfFormat_df[!,:value])
+emfFormatFlt_df = unstack(emfFormatFlt_df, :timestep, :value)
+CSV.write("results/emfFormat_fltStack.csv", emfFormatFlt_df)

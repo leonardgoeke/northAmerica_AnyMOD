@@ -1,12 +1,12 @@
 carrier_1,timestep_2,parameter,value
-hardcoal,2015,trdBuyPrc,7.20
-hardcoal,2020,trdBuyPrc,7.20
-hardcoal,2025,trdBuyPrc,7.20
-hardcoal,2030,trdBuyPrc,7.20
-hardcoal,2035,trdBuyPrc,7.20
-hardcoal,2040,trdBuyPrc,7.20
-hardcoal,2045,trdBuyPrc,7.20
-hardcoal,2050,trdBuyPrc,7.20
+hardcoal,2015,trdBuyPrc,7.2
+hardcoal,2020,trdBuyPrc,7.2
+hardcoal,2025,trdBuyPrc,7.2
+hardcoal,2030,trdBuyPrc,7.2
+hardcoal,2035,trdBuyPrc,7.2
+hardcoal,2040,trdBuyPrc,7.2
+hardcoal,2045,trdBuyPrc,7.2
+hardcoal,2050,trdBuyPrc,7.2
 lignite,2015,trdBuyPrc,2.59
 lignite,2020,trdBuyPrc,2.65
 lignite,2025,trdBuyPrc,2.61
@@ -32,4 +32,4 @@ oil,2035,trdBuyPrc,44.67
 oil,2040,trdBuyPrc,44.67
 oil,2045,trdBuyPrc,44.67
 oil,2050,trdBuyPrc,44.67
-biomass,,trdBuyPrc,0.20
+biomass,,trdBuyPrc,0.2

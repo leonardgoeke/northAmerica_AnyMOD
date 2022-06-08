@@ -51,7 +51,7 @@ psngRoadIce,useOil,effConv,0.785
 psngRoadIce,useBiomass,effConv,0.765
 psngRoadPhev,useOil,effConv,1.436
 psngRoadPhev,useBiomass,effConv,1.293
-xElectrolysis,,effConv,0.67
+xElectrolysis,,effConv,0.85
 xFuelCell,onlyPower,effConv,0.5
 xFuelCell,someHeat,effConv,0.39
 xMethanation,useBiomass,effConv,0.663

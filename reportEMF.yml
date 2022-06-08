@@ -233,11 +233,43 @@ variables:
     Emissions|CO2:
         -   file: "summary"
             variable: "emission"
+            carrier: "hardcoal"
+            factor:  1.0
+
+        -   file: "summary"
+            variable: "emission"
+            carrier: "lignite"
+            factor:  1.0
+
+        -   file: "summary"
+            variable: "gasNatural"
+            carrier: "hardcoal"
+            factor:  1.0
+
+        -   file: "summary"
+            variable: "emission"
+            carrier: "oil"
             factor:  1.0
     
     Emissions|CO2|Energy:
         -   file: "summary"
             variable: "emission"
+            carrier: "hardcoal"
+            factor:  1.0
+
+        -   file: "summary"
+            variable: "emission"
+            carrier: "lignite"
+            factor:  1.0
+
+        -   file: "summary"
+            variable: "gasNatural"
+            carrier: "hardcoal"
+            factor:  1.0
+
+        -   file: "summary"
+            variable: "emission"
+            carrier: "oil"
             factor:  1.0
 
     Capacity Additions|Electricity|Biomass|w/ CCS:
@@ -1562,9 +1594,9 @@ variables:
 
     Secondary Energy|Hydrogen|Input|Electricity:
         -   file: "summary"
-            variable: "gen"
+            variable: "use"
             technology: "x < xElectrolysis"
-            factor:  0.00361
+            factor:  -0.00361
 
     Secondary Energy|Synthetic Gas:
         -   file: "summary"
@@ -1643,6 +1675,18 @@ variables:
             technology: "p < pOil"
             factor:  -0.00361
  
+    Trade|Secondary Energy|Hydrogen|Volume:
+        -   file: "summary"
+            variable: "import"
+            carrier: "hydrogen"
+            factor:  -0.00361
+
+        -   file: "summary"
+            variable: "export"
+            carrier: "hydrogen"
+            factor:  -0.00361
+
+
 
 aggregations:
         - "Carbon Sequestration|CCS"

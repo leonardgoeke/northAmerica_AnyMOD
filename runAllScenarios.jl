@@ -48,7 +48,6 @@ for y in keys(techName_dic)
         set_optimizer_attribute(modelObj.optModel, "Method", 2); # set method option of gurobi to use barrier algorithm
         set_optimizer_attribute(modelObj.optModel, "Crossover", 0); # disable crossover part of barrier algorithm
         optimize!(modelObj.optModel)
-
         try
             # report results of solved model
             reportResults(:summary,modelObj); #

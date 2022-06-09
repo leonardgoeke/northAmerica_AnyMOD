@@ -263,8 +263,13 @@ variables:
             factor:  1.0
 
         -   file: "summary"
-            variable: "gasNatural"
+            variable: "emission"
             carrier: "hardcoal"
+            factor:  1.0
+
+        -   file: "summary"
+            variable: "emission"
+            carrier: "gasNatural"
             factor:  1.0
 
         -   file: "summary"

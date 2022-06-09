@@ -242,8 +242,8 @@ variables:
             factor:  1.0
 
         -   file: "summary"
-            variable: "gasNatural"
-            carrier: "hardcoal"
+            variable: "emission"
+            carrier: "gasNatural"
             factor:  1.0
 
         -   file: "summary"
@@ -260,11 +260,6 @@ variables:
         -   file: "summary"
             variable: "emission"
             carrier: "lignite"
-            factor:  1.0
-
-        -   file: "summary"
-            variable: "emission"
-            carrier: "hardcoal"
             factor:  1.0
 
         -   file: "summary"

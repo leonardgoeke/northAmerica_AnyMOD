@@ -134,6 +134,62 @@ variables:
             technology: "hht <"
             factor:  1.0
 
+    Emissions|CO2|Energy|Demand|Transportation|Aviation:
+        -   file: "summary"
+            variable: "emission"
+            technology: "psngAir <"
+            factor:  1.0
+
+
+    Emissions|CO2|Energy|Demand|Transportation|Rail:
+        -   file: "summary"
+            variable: "emission"
+            technology: "frtRail <"
+            factor:  1.0
+
+        -   file: "summary"
+            variable: "emission"
+            technology: "psngRail <"
+            factor:  1.0
+
+    Emissions|CO2|Energy|Demand|Transportation:
+        -   file: "summary"
+            variable: "emission"
+            technology: "frtRail <"
+            factor:  1.0
+
+        -   file: "summary"
+            variable: "emission"
+            technology: "frtRoad <"
+            factor:  1.0
+
+        -   file: "summary"
+            variable: "emission"
+            technology: "frtShip <"
+            factor:  1.0
+
+        -   file: "summary"
+            variable: "emission"
+            technology: "psngAir <"
+            factor:  1.0
+
+        -   file: "summary"
+            variable: "emission"
+            technology: "psngRail <"
+            factor:  1.0
+
+        -   file: "summary"
+            variable: "emission"
+            technology: "psngRoad <"
+            factor:  1.0
+
+    Emissions|CO2|Energy|Demand|Transportation|Freight|Shipping:
+        -   file: "summary"
+            variable: "emission"
+            technology: "frtShip <"
+            factor:  1.0
+
+
     Emissions|CO2|Energy|Demand|Transportation|Freight:
         -   file: "summary"
             variable: "emission"
@@ -1693,7 +1749,6 @@ aggregations:
         - "Carbon Sequestration|CCS|Biomass|Energy"
         - "Emissions|CO2|Energy|Supply"
         - "Emissions|CO2|Energy|Supply|Electricity"
-        - "Emissions|CO2|Energy|Demand|Transportation"
         - "Capacity Additions|Electricity|Biomass"
         - "Capacity Additions|Electricity|Coal"
         - "Capacity Additions|Electricity|Gas"

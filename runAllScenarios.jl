@@ -1,8 +1,8 @@
 
-using AnyMOD, Gurobi, YAML, CSV
+using AnyMOD, Gurobi, YAML, CSV, DataFrames
 include("changeFormat.jl")
 
-round = "R1"
+round = "R2"
 
 emfFormat_df = DataFrame(timestep = String[], region = String[], variable = String[], scenario = String[], value = Float64[])
 
@@ -59,11 +59,9 @@ for y in keys(techName_dic)
     end
 end
 
-
 CSV.write("results/emfFormat.csv", emfFormat_df)
-
 
 emfFormatFlt_df = copy(emfFormat_df)
 emfFormatFlt_df[!,:value] = map(x -> abs(x) < 1e-5 ? 0.0 : x, emfFormat_df[!,:value])
-emfFormatFlt_df = unstack(emfFormatFlt_df, :timestep, :value)
+emfFormatFlt_df = unstack(emfFormatFlt_df, :timestep, :value,allowduplicates=true)
 CSV.write("results/emfFormat_fltStack.csv", emfFormatFlt_df)

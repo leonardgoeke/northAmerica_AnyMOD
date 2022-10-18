@@ -27,7 +27,7 @@ append!(emfFormat_df,reportEMF(modelObj))
 
 #plotEnergyFlow(:sankey,modelObj, dropDown = (:timestep,))
 
-techName_dic = Dict("Ref" => "Ref", "NoDacCCS" => "CMSG.1", "AdvCCS" => "CMSG.2","AdvH2" => "CMSG.3","AdvDac" => "CMSG.4","AdvAll" => "Adv")
+techName_dic = Dict("Ref" => "Ref", "NoDacCCS" => "CMSG.1", "AdvCCS" => "CMSG.2","AdvH2" => "CMSG.3","AdvDac" => "CMSG.4","AdvAll" => "CMSG.Adv")
 scrName_dic = Dict("net0by2050" => "0by50", "net0by2060" => "0by60", "net0by2080" => "0by80")
 
 

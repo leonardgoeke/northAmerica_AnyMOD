@@ -4,7 +4,6 @@ timestep_2,technology_4,parameter_1,value_1,parameter_2,value_2
 ,dGasMethane,effStIn,0.99,effStOut,0.99
 ,dHeat,effStIn,1,effStOut,1
 ,dPhs,effStIn,0.866,effStOut,0.866
-2015,dBatteryRedox,effStIn,0.866,effStOut,0.866
 2020,dBatteryRedox,effStIn,0.866,effStOut,0.866
 2025,dBatteryRedox,effStIn,0.894,effStOut,0.894
 2030,dBatteryRedox,effStIn,0.894,effStOut,0.894
@@ -12,7 +11,6 @@ timestep_2,technology_4,parameter_1,value_1,parameter_2,value_2
 2040,dBatteryRedox,effStIn,0.894,effStOut,0.894
 2045,dBatteryRedox,effStIn,0.922,effStOut,0.922
 2050,dBatteryRedox,effStIn,0.922,effStOut,0.922
-2015,dCaes,effStIn,0.735,effStOut,0.735
 2020,dCaes,effStIn,0.735,effStOut,0.735
 2025,dCaes,effStIn,0.837,effStOut,0.837
 2030,dCaes,effStIn,0.837,effStOut,0.837

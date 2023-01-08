@@ -1,3 +1,6 @@
-technology_1,technology_4,timestep_2,parameter,value
-,psngRoadPhev,2015,expConvUp,0
-hlt,,2015,expConvUp,0
+technology_4,timestep_2,parameter,value
+all,2020,expConvFix,0
+all,2020,expStInFix,0
+all,2020,expStOutFix,0
+all,2020,expStSizeFix,0
+all,2020,expExcFix,0

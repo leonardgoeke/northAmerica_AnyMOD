@@ -7,7 +7,6 @@ chpNuclear,,avaConv,0.837
 frtRailConv,,avaConv,0.95
 frtRailElectric,,avaConv,0.95
 frtRoadOh,,avaConv,0.95
-frtRoadBev,2015,avaConv,0.872
 frtRoadBev,2020,avaConv,0.917
 frtRoadBev,2025,avaConv,0.933
 frtRoadBev,2030,avaConv,0.936
@@ -39,7 +38,6 @@ hltOil,,avaConv,0.84
 pBiomass_,,avaConv,0.84
 pHardcoal,,avaConv,0.844
 pLignite,,avaConv,0.844
-pGas,2015,avaConv,0.87
 pGas,2020,avaConv,0.881
 pGas,2025,avaConv,0.893
 pGas,2030,avaConv,0.904
@@ -54,7 +52,6 @@ psngAirConv,,avaConv,0.95
 psngAirH2,,avaConv,0.95
 psngRailConv,,avaConv,0.95
 psngRailElectric,,avaConv,0.95
-psngRoadBev,2015,avaConv,0.872
 psngRoadBev,2020,avaConv,0.917
 psngRoadBev,2025,avaConv,0.933
 psngRoadBev,2030,avaConv,0.936
@@ -66,7 +63,6 @@ psngRoadH2,,avaConv,0.95
 psngRoadIce,,avaConv,0.95
 psngRoadPhev,,avaConv,0.95
 resGeothermal,,avaConv,0.92
-resOcean,2015,avaConv,0.36
 resOcean,2020,avaConv,0.45
 resOcean,2025,avaConv,0.46
 resOcean,2030,avaConv,0.47

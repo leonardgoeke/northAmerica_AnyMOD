@@ -10,8 +10,8 @@ frtRailConv,,effConv,5.656
 frtRailElectric,,effConv,11.476
 frtRoadBev,,effConv,1.691
 frtRoadH2,,effConv,1.695
-frtRoadIce,useOil,effConv,1.622
-frtRoadIce,useBiomass,effConv,1.352
+frtRoadIce,useOil,effConv,1.368251534
+frtRoadIce,useBiomass,effConv,1.140490798
 frtRoadOh,,effConv,10.447
 frtRoadPhev,useOil,effConv,1.528
 frtRoadPhev,useBiomass,effConv,1.376
@@ -19,12 +19,12 @@ frtShipBio,,effConv,10.101
 frtShipConv,,effConv,8.783
 hhtBiomass,,effConv,0.84
 hhtElectricFurnace,,effConv,0.98
-hhtGas,,effConv,0.865
+hhtGas,,effConv,0.965
 hhtGeothermal,,effConv,3.7
 hhtH2,,effConv,0.5
 hhtHardcoal,,effConv,0.728
 hhtLignite,,effConv,0.728
-hhtOil,,effConv,0.85
+hhtOil,,effConv,0.95
 hltBiomass,,effConv,0.84
 hltHardcoal,,effConv,0.728
 hltLignite,,effConv,0.728
@@ -35,7 +35,7 @@ hltHeatpump,,effConv,3.3
 hltOil,,effConv,0.85
 pBiomass_,,effConv,0.6
 pBiomassCcs,,effConv,0.557
-pGas,,effConv,0.596
+pGas,,effConv,0.54
 pHardcoal,,effConv,0.466
 pLignite,,effConv,0.456
 pNuclear,,effConv,0.38
@@ -47,8 +47,8 @@ psngRailConv,,effConv,1.378
 psngRailElectric,,effConv,2.872
 psngRoadBev,,effConv,3.141
 psngRoadH2,,effConv,2.58
-psngRoadIce,useOil,effConv,0.785
-psngRoadIce,useBiomass,effConv,0.765
+psngRoadIce,useOil,effConv,0.662193252
+psngRoadIce,useBiomass,effConv,0.645322085
 psngRoadPhev,useOil,effConv,1.436
 psngRoadPhev,useBiomass,effConv,1.293
 xElectrolysis,,effConv,0.85

@@ -32,8 +32,8 @@ hht,,,hhtGas,gasNatural; gasBio; gasSynth,heatHigh,,,,mature
 hht,,hhtElec,hhtGeothermal,power,heatHigh,,,,mature
 hht,,,hhtH2,hydrogen,heatHigh,,,,mature
 hht,,,hhtHardcoal,hardcoal,heatHigh,,,,mature
-hht,,,hhtLignite,lignite,heatHigh,,,,stock
-hht,,,hhtOil,oil,heatHigh,,,,stock
+hht,,,hhtLignite,lignite,heatHigh,,,,mature
+hht,,,hhtOil,oil,heatHigh,,,,mature
 hlt,,,hltBiomass,biomass,heatLow,,,,mature
 hlt,,,hltHardcoal,hardcoal,heatLow,,,,mature
 hlt,,,hltLignite,lignite,heatLow,,,,stock

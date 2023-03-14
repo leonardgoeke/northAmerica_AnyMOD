@@ -1,5 +1,4 @@
 region_1,region_2,carrier_1,timestep_2,parameter,value
-mexico,bajaCalifornia,mobilityFreight,2015,dem,0.29
 mexico,bajaCalifornia,mobilityFreight,2020,dem,0.326
 mexico,bajaCalifornia,mobilityFreight,2025,dem,0.367
 mexico,bajaCalifornia,mobilityFreight,2030,dem,0.413
@@ -7,7 +6,6 @@ mexico,bajaCalifornia,mobilityFreight,2035,dem,0.465
 mexico,bajaCalifornia,mobilityFreight,2040,dem,0.524
 mexico,bajaCalifornia,mobilityFreight,2045,dem,0.591
 mexico,bajaCalifornia,mobilityFreight,2050,dem,0.666
-mexico,bajaCaliforniaSur,mobilityFreight,2015,dem,0.027
 mexico,bajaCaliforniaSur,mobilityFreight,2020,dem,0.03
 mexico,bajaCaliforniaSur,mobilityFreight,2025,dem,0.032
 mexico,bajaCaliforniaSur,mobilityFreight,2030,dem,0.035
@@ -15,7 +13,6 @@ mexico,bajaCaliforniaSur,mobilityFreight,2035,dem,0.038
 mexico,bajaCaliforniaSur,mobilityFreight,2040,dem,0.042
 mexico,bajaCaliforniaSur,mobilityFreight,2045,dem,0.046
 mexico,bajaCaliforniaSur,mobilityFreight,2050,dem,0.051
-mexico,central,mobilityFreight,2015,dem,3.083
 mexico,central,mobilityFreight,2020,dem,3.481
 mexico,central,mobilityFreight,2025,dem,3.949
 mexico,central,mobilityFreight,2030,dem,4.465
@@ -23,7 +20,6 @@ mexico,central,mobilityFreight,2035,dem,5.027
 mexico,central,mobilityFreight,2040,dem,5.683
 mexico,central,mobilityFreight,2045,dem,6.422
 mexico,central,mobilityFreight,2050,dem,7.265
-mexico,noreste,mobilityFreight,2015,dem,1.135
 mexico,noreste,mobilityFreight,2020,dem,1.28
 mexico,noreste,mobilityFreight,2025,dem,1.444
 mexico,noreste,mobilityFreight,2030,dem,1.63
@@ -31,7 +27,6 @@ mexico,noreste,mobilityFreight,2035,dem,1.849
 mexico,noreste,mobilityFreight,2040,dem,2.085
 mexico,noreste,mobilityFreight,2045,dem,2.342
 mexico,noreste,mobilityFreight,2050,dem,2.643
-mexico,noroeste,mobilityFreight,2015,dem,0.572
 mexico,noroeste,mobilityFreight,2020,dem,0.646
 mexico,noroeste,mobilityFreight,2025,dem,0.729
 mexico,noroeste,mobilityFreight,2030,dem,0.823
@@ -39,7 +34,6 @@ mexico,noroeste,mobilityFreight,2035,dem,0.93
 mexico,noroeste,mobilityFreight,2040,dem,1.05
 mexico,noroeste,mobilityFreight,2045,dem,1.185
 mexico,noroeste,mobilityFreight,2050,dem,1.339
-mexico,norte,mobilityFreight,2015,dem,0.713
 mexico,norte,mobilityFreight,2020,dem,0.804
 mexico,norte,mobilityFreight,2025,dem,0.906
 mexico,norte,mobilityFreight,2030,dem,1.022
@@ -47,7 +41,6 @@ mexico,norte,mobilityFreight,2035,dem,1.153
 mexico,norte,mobilityFreight,2040,dem,1.301
 mexico,norte,mobilityFreight,2045,dem,1.467
 mexico,norte,mobilityFreight,2050,dem,1.656
-mexico,occidental,mobilityFreight,2015,dem,2.283
 mexico,occidental,mobilityFreight,2020,dem,2.577
 mexico,occidental,mobilityFreight,2025,dem,2.909
 mexico,occidental,mobilityFreight,2030,dem,3.283
@@ -55,7 +48,6 @@ mexico,occidental,mobilityFreight,2035,dem,3.726
 mexico,occidental,mobilityFreight,2040,dem,4.203
 mexico,occidental,mobilityFreight,2045,dem,4.763
 mexico,occidental,mobilityFreight,2050,dem,5.342
-mexico,oriental,mobilityFreight,2015,dem,1.317
 mexico,oriental,mobilityFreight,2020,dem,1.486
 mexico,oriental,mobilityFreight,2025,dem,1.677
 mexico,oriental,mobilityFreight,2030,dem,1.892
@@ -63,7 +55,6 @@ mexico,oriental,mobilityFreight,2035,dem,2.135
 mexico,oriental,mobilityFreight,2040,dem,2.41
 mexico,oriental,mobilityFreight,2045,dem,2.72
 mexico,oriental,mobilityFreight,2050,dem,3.09
-mexico,peninsular,mobilityFreight,2015,dem,0.137
 mexico,peninsular,mobilityFreight,2020,dem,0.154
 mexico,peninsular,mobilityFreight,2025,dem,0.172
 mexico,peninsular,mobilityFreight,2030,dem,0.193
@@ -120,7 +111,6 @@ usa,washington,mobilityFreight,all,dem,5.903
 usa,westVirginia,mobilityFreight,all,dem,3.823
 usa,wisconsin,mobilityFreight,all,dem,6.73
 usa,wyoming,mobilityFreight,all,dem,24.565
-canada,canada_,mobilityFreight,2015,dem,23.989
 canada,canada_,mobilityFreight,2020,dem,26.346
 canada,canada_,mobilityFreight,2025,dem,28.943
 canada,canada_,mobilityFreight,2030,dem,31.803

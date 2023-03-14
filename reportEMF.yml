@@ -235,54 +235,54 @@ variables:
             carrier: "biomass"
             factor:  1.0
 
-    Emissions|CO2|Energy|Supply|Electricity|Biomass:
+    Emissions|CO2|Energy|Supply|Electricity|Coal:
         -   file: "summary"
             variable: "emission"
-            technology: "d <"
+            technology: "d < chp < chpHardcoal"
             carrier: "hardcoal"
             factor:  1.0
 
         -   file: "summary"
             variable: "emission"
-            technology: "p <"
+            technology: "p < pHardcoal"
             carrier: "hardcoal"
             factor:  1.0
 
         -   file: "summary"
             variable: "emission"
-            technology: "d <"
+            technology: "d < chp < chpLignite"
             carrier: "lignite"
             factor:  1.0
 
         -   file: "summary"
             variable: "emission"
-            technology: "p <"
+            technology: "p < pLignite"
             carrier: "lignite"
             factor:  1.0
 
-    Emissions|CO2|Energy|Supply|Electricity|Biomass:
+    Emissions|CO2|Energy|Supply|Electricity|Gas:
         -   file: "summary"
             variable: "emission"
-            technology: "d <"
+            technology: "d < chp < chpGas"
             carrier: "gasNatural"
             factor:  1.0
 
         -   file: "summary"
             variable: "emission"
-            technology: "p <"
+            technology: "p < pGas"
             carrier: "gasNatural"
             factor:  1.0
 
-    Emissions|CO2|Energy|Supply|Electricity|Biomass:
+    Emissions|CO2|Energy|Supply|Electricity|Oil:
         -   file: "summary"
             variable: "emission"
-            technology: "d <"
+            technology: "d < chp < chpOil"
             carrier: "oil"
             factor:  1.0
 
         -   file: "summary"
             variable: "emission"
-            technology: "p <"
+            technology: "p < pOil"
             carrier: "oil"
             factor:  1.0
 

@@ -22,6 +22,7 @@ optimize!(modelObj.optModel)
 
 # report results of solved model
 reportResults(:summary,modelObj); # writes a pivot table summarizing key results
+reportResults(:exchange,modelObj);
 
 append!(emfFormat_df,reportEMF(modelObj))
 
@@ -29,7 +30,6 @@ append!(emfFormat_df,reportEMF(modelObj))
 
 techName_dic = Dict("Ref" => "Ref", "NoDacCCS" => "CMSG.1", "AdvCCS" => "CMSG.2","AdvH2" => "CMSG.3","AdvDac" => "CMSG.4","AdvAll" => "CMSG.Adv")
 scrName_dic = Dict("net0by2050" => "0by50", "net0by2060" => "0by60", "net0by2080" => "0by80")
-
 
 for y in keys(techName_dic)
     println(y)

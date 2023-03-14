@@ -21,7 +21,7 @@ frtRail,frtRailFossil,,frtRailConv,oil,mobilityFreight,,,,mature
 frtRail,frtRailRe,frtRailElec,frtRailElectric,power,mobilityFreight,,,,mature
 frtRoad,frtRoadRe,frtRoadElec,frtRoadBev,power,mobilityFreight,,,,mature
 frtRoad,frtRoadRe,,frtRoadH2,hydrogen,mobilityFreight,,,,mature
-frtRoad,frtRoadFossil,,frtRoadIce,oil,mobilityFreight,,,useOil; useBiomass,mature
+frtRoad,frtRoadFossil,,frtRoadIce,oil; biomass,mobilityFreight,,,useOil; useBiomass,mature
 frtRoad,frtRoadRe,frtRoadElec,frtRoadOh,power,mobilityFreight,,,,mature
 frtRoad,frtRoadFossil,,frtRoadPhev,power; oil; biomass,mobilityFreight,,,useOil; useBiomass,stock
 frtShip,frtShipRe,,frtShipBio,biomass,mobilityFreight,,,,mature

@@ -746,24 +746,7 @@ variables:
             carrier: "power"
             factor:  -0.00361
 
-    Final Energy|Biogas:
-        -   file: "summary"
-            variable: "use"
-            technology: "x <"
-            carrier: "biomass"
-            factor:  -0.00361
-
-        -   file: "summary"
-            variable: "use"
-            technology: "hlt <"
-            carrier: "biomass"
-            factor:  -0.00361
-
-        -   file: "summary"
-            variable: "use"
-            technology: "hht <"
-            carrier: "biomass"
-            factor:  -0.00361
+    Final Energy|Biomass Liquids:
 
         -   file: "summary"
             variable: "use"
@@ -787,7 +770,21 @@ variables:
             variable: "use"
             technology: "psngRoad <"
             carrier: "biomass"
-            factor:  -0.00361     
+            factor:  -0.00361
+
+    Final Energy|Biomass Solids:
+
+        -   file: "summary"
+            variable: "use"
+            technology: "hlt <"
+            carrier: "biomass"
+            factor:  -0.00361
+
+        -   file: "summary"
+            variable: "use"
+            technology: "hht <"
+            carrier: "biomass"
+            factor:  -0.00361
 
     Final Energy|Coal:
         -   file: "summary"
@@ -1060,7 +1057,7 @@ variables:
             technology: "psngRoad <"
             factor:  -0.00361
 
-    Final Energy|Transportation|Biogas:
+    Final Energy|Transportation|Biomass Liquids:
         -   file: "summary"
             variable: "use"
             technology: "frtRoad <"
@@ -1166,7 +1163,7 @@ variables:
             carrier: "oil"
             factor:  -0.00361
 
-    Final Energy|Transportation|Freight|Biogas:
+    Final Energy|Transportation|Freight|Biomass Liquids:
         -   file: "summary"
             variable: "use"
             technology: "frtRoad <"
@@ -1218,7 +1215,7 @@ variables:
             carrier: "oil"
             factor:  -0.00361
 
-    Final Energy|Transportation|Passenger|Biogas:
+    Final Energy|Transportation|Passenger|Biomass Liquids:
         -   file: "summary"
             variable: "use"
             technology: "psngAir <"
@@ -1764,7 +1761,6 @@ aggregations:
         - "Capacity|Electricity|Storage Capacity"
         - "Capacity|Electricity|Storage Energy"
         - "Capacity|Electricity|Wind"
-        - "Final Energy"
         - "Final Energy|Buildings"
         - "Final Energy|Direct Air Capture"
         - "Final Energy|Industry"

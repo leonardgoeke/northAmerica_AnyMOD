@@ -1,0 +1,10 @@
+errStatus,section,location,message
+green,timestep mapping,,superordinate dispatch level provided via options was used
+yellow,technology mapping,carrier,technology xDac has no output
+green,parameter read-in,validity check,non-unique entries discovered for capaExcResi
+yellow,parameter assignment,expExcFix,"parameter data was specified for technology set, but it is not defined to depend on this set"
+green,parameter read-in,validity check,non-unique entries discovered for costExpExc
+yellow,limit,use,"upper or lower limit of zero detected, please consider to use fix or omit limit instead"
+yellow,limit,capaStIn,"upper or lower limit of zero detected, please consider to use fix or omit limit instead"
+yellow,limit,capaConv,"upper or lower limit of zero detected, please consider to use fix or omit limit instead"
+yellow,limit,gen,"upper or lower limit of zero detected, please consider to use fix or omit limit instead"

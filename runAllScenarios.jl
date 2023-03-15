@@ -63,5 +63,5 @@ CSV.write("results/emfFormat.csv", emfFormat_df)
 
 emfFormatFlt_df = copy(emfFormat_df)
 emfFormatFlt_df[!,:value] = map(x -> abs(x) < 1e-5 ? 0.0 : x, emfFormat_df[!,:value])
-emfFormatFlt_df = unstack(emfFormatFlt_df, :timestep, :value,allowduplicates=true)
+emfFormatFlt_df = unstack(emfFormatFlt_df, :timestep, :value)
 CSV.write("results/emfFormat_fltStack.csv", emfFormatFlt_df)

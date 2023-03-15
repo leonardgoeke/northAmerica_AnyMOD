@@ -222,19 +222,6 @@ variables:
             technology: "psngRoad <"
             factor:  1.0
 
-    Emissions|CO2|Energy|Supply|Electricity|Biomass:
-        -   file: "summary"
-            variable: "emission"
-            technology: "d <"
-            carrier: "biomass"
-            factor:  1.0
-
-        -   file: "summary"
-            variable: "emission"
-            technology: "p <"
-            carrier: "biomass"
-            factor:  1.0
-
     Emissions|CO2|Energy|Supply|Electricity|Coal:
         -   file: "summary"
             variable: "emission"

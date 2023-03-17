@@ -319,147 +319,147 @@ variables:
         -   file: "summary"
             variable: "expConv"
             technology: "p < pBiomassCcs"
-            factor:  0.557
+            factor:  0.1114
 
         -   file: "summary"
             variable: "expConv"
             technology: "d < chp < chpBiomassCcs"
-            factor:  0.2142
+            factor:  0.04284
 
     Capacity Additions|Electricity|Biomass|w/o CCS:
         -   file: "summary"
             variable: "expConv"
             technology: "p < pBiomass_"
-            factor:  0.6
+            factor:  0.12
 
         -   file: "summary"
             variable: "expConv"
             technology: "d < chp < chpBiomass_"
-            factor:  0.231
+            factor:  0.0462
 
 
     Capacity Additions|Electricity|Coal|w/o CCS:
         -   file: "summary"
             variable: "expConv"
             technology: "d < chp < chpHardcoal"
-            factor:  0.2856
+            factor:  0.05712
 
         -   file: "summary"
             variable: "expConv"
             technology: "d < chp < chpLignite"
-            factor:  0.2856
+            factor:  0.05712
 
         -   file: "summary"
             variable: "expConv"
             technology: "p < pHardcoal"
-            factor:  0.466
+            factor:  0.0932
 
         -   file: "summary"
             variable: "expConv"
             technology: "p < pLignite"
-            factor:  0.466
+            factor:  0.0932
 
     Capacity Additions|Electricity|Gas|w/o CCS:
         -   file: "summary"
             variable: "expConv"
             technology: "d < chp < chpGas"
-            factor:  0.4109
+            factor:  0.08218
 
         -   file: "summary"
             variable: "expConv"
             technology: "p < pGas"
-            factor:  0.596
+            factor:  0.1192
 
     Capacity Additions|Electricity|Nuclear:
         -   file: "summary"
             variable: "expConv"
             technology: "d < chp < chpNuclear"
-            factor:  0.266
+            factor:  0.0532
 
         -   file: "summary"
             variable: "expConv"
             technology: "p < pNuclear"
-            factor:  0.38
+            factor:  0.076
 
     Capacity Additions|Electricity|Oil|w/o CCS:
         -   file: "summary"
             variable: "expConv"
             technology: "d < chp < chpOil"
-            factor:  0.273
+            factor:  0.0546
 
         -   file: "summary"
             variable: "expConv"
             technology: "p < pOil"
-            factor:  0.39
+            factor:  0.078
 
     Capacity Additions|Electricity|Solar|CSP:
         -   file: "summary"
             variable: "expConv"
             technology: "res < solar < resCsp"
-            factor:  1.0
+            factor:  0.2
 
     Capacity Additions|Electricity|Solar|PV:
         -   file: "summary"
             variable: "expConv"
             technology: "res < solar < rooftopCommercial < resPvRooftopCommercial"
-            factor:  1.0
+            factor:  0.2
 
         -   file: "summary"
             variable: "expConv"
             technology: "res < solar < rooftopResidental < resPvRooftopResidential"
-            factor:  1.0
+            factor:  0.2
 
         -   file: "summary"
             variable: "expConv"
             technology: "res < solar < resPvUtilityAvg"
-            factor:  1.0
+            factor:  0.2
 
         -   file: "summary"
             variable: "expConv"
             technology: "res < solar < resPvUtilityInf"
-            factor:  1.0
+            factor:  0.2
 
         -   file: "summary"
             variable: "expConv"
             technology: "res < solar < resPvUtilityOpt"
-            factor:  1.0
+            factor:  0.2
 
     Capacity Additions|Electricity|Storage Capacity:
         -   file: "summary"
             variable: "expStOut"
-            factor:  1.0
+            factor:  0.2
 
     Capacity Additions|Electricity|Wind|Offshore:
         -   file: "summary"
             variable: "expConv"
             technology: "res < wind < resWindOffshoreDeep"
-            factor:  1.0
+            factor:  0.2
 
         -   file: "summary"
             variable: "expConv"
             technology: "res < wind < resWindOffshoreShallow"
-            factor:  1.0
+            factor:  0.2
 
         -   file: "summary"
             variable: "expConv"
             technology: "res < wind < resWindOffshoreTransitional"
-            factor:  1.0
+            factor:  0.2
 
     Capacity Additions|Electricity|Wind|Onshore:
         -   file: "summary"
             variable: "expConv"
             technology: "res < wind < resWindOnshoreAvg"
-            factor:  1.0
+            factor:  0.2
 
         -   file: "summary"
             variable: "expConv"
             technology: "res < wind < resWindOnshoreOpt"
-            factor:  1.
+            factor:  0.2
 
         -   file: "summary"
             variable: "expConv"
             technology: "res < wind < resWindOnshoreInf"
-            factor:  1.0
+            factor:  0.2
 
     Capacity|Electricity|Biomass|w/ CCS:
         -   file: "summary"
